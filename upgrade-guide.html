@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>交行定制版 · 版本更新指南</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/upgrade-guide.css">
+</head>
+<body>
+
+<div class="hero hero-dark">
+  <h1>版本更新指南</h1>
+  <p class="subtitle">云枢企业AI平台 · 交行定制版 — 前后端版本升级操作手册</p>
+  <a href="index.html" class="back-link">&larr; 返回发版说明</a>
+</div>
+
+<div class="container container-narrow">
+
+<div class="section-nav">
+  <a href="#section-frontend">
+    <div class="nav-icon" style="background: var(--accent-light); color: var(--accent);">FE</div>
+    前端更新
+  </a>
+  <a href="#section-backend">
+    <div class="nav-icon" style="background: var(--green-light); color: var(--green);">BE</div>
+    后端更新
+  </a>
+  <a href="#section-release-log">
+    <div class="nav-icon" style="background: var(--rose-light); color: var(--rose);">LOG</div>
+    发布记录
+  </a>
+</div>
+
+<!-- Overview -->
+<div class="guide-step">
+  <div class="guide-step-header">
+    <div class="guide-step-num" style="background: var(--text-secondary);">!</div>
+    <div class="guide-step-header-text">
+      <h2>更新机制总览</h2>
+      <p>先理解项目结构和两种升级场景</p>
+    </div>
+  </div>
+  <div class="guide-step-body">
+    <p>交行定制版基于云枢产品主线（8.7.x）二次开发。前端项目中有两类包，升级方式完全不同：</p>
+
+    <table class="version-table">
+      <thead>
+        <tr>
+          <th>类型</th>
+          <th>包含哪些</th>
+          <th>升级方式</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="badge badge-product">项目工程包</span></td>
+          <td>admin、portal、mobile、extension-template、cloudpivot-form-extend</td>
+          <td>从 FTP 拉取新代码 → <strong>Git 合并</strong>二开代码</td>
+        </tr>
+        <tr>
+          <td><span class="badge badge-custom">定制依赖包</span></td>
+          <td>cloudpivot、cloudpivot-admin-core、cloudpivot-designer、cloudpivot-form、cloudpivot-list、extension-bankcomm</td>
+          <td>只需修改 <code>resolutions</code> <strong>版本号</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout callout-info">
+      <span class="callout-icon">i</span>
+      <div><strong>核心区别：</strong>项目工程包是你直接修改过的代码，需要 Git 合并来同步产品更新；定制依赖包是通过版本号引用的，升级时改个数字就行。后端同理，二开工程只需修改产品依赖版本号即可。</div>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider" id="section-frontend">
+  <span><span class="section-badge" style="background: var(--accent-light); color: var(--accent);">FRONTEND</span> 前端更新指南</span>
+</div>
+
+<div class="guide-step" style="border-left: 3px solid var(--amber);">
+  <div class="guide-step-header">
+    <div class="guide-step-num" style="background: var(--amber);">A</div>
+    <div class="guide-step-header-text">
+      <h2>场景 A：升级项目工程包（需要 Git 合并）</h2>
+      <p>产品发版时 FTP 上会放新的工程代码，需要把你的二开代码合并进去</p>
+    </div>
+  </div>
+  <div class="guide-step-body">
+    <p>FTP 上发布的是产品的<strong>项目工程代码</strong>（不是依赖包）。浏览器打开 FTP 地址，选择最新日期的目录下载：</p>
+
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="filename">FTP 地址</span>
+      </div>
+      <pre><a href="https://packages.cloudpivot.cn/beta/" style="color: var(--code-keyword); text-decoration: none;">https://packages.cloudpivot.cn/beta/</a></pre>
+    </div>
+
+    <p>目录命名规则：<code>{分支名}-{日期YYYYMMDD}</code>，下载后包含以下目录：</p>
+
+    <div class="ftp-tree">
+      <span class="dir">/beta/feature-8.7.x-bankcomm-YYYYMMDD/</span><br>
+      &nbsp;&nbsp;└── <span class="dir">packages/</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">admin/</span> <span class="note">&larr; 管理后台</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">cloudpivot-form-extend/</span> <span class="note">&larr; 表单扩展</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">extension-template/</span> <span class="note">&larr; 扩展模板</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <span class="dir">mobile/</span> <span class="note">&larr; 移动端</span><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <span class="dir">portal/</span> <span class="note">&larr; 用户门户</span>
+    </div>
+
+    <p>拿到后，你需要将自己的<strong>二开代码</strong>合并进去。推荐使用 Git 操作：</p>
+
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="filename">Terminal — 首次升级 / 后续补丁升级</span>
+        <button class="copy-btn" type="button">复制</button>
+      </div>
+      <pre><span class="cm"># 1. 确保当前二开代码已全部提交</span>
+<span class="kw">git add -A &amp;&amp; git commit -m</span> <span class="str">"chore: 升级前保存二开代码"</span>
+
+<span class="cm"># 2. 创建一个临时分支，将 FTP 的产品代码放进来</span>
+<span class="kw">git checkout -b</span> <span class="str">upgrade/bankcomm-YYYYMMDD</span>
+
+<span class="cm"># 3. 将 FTP 下载的 packages 目录覆盖到对应位置</span>
+<span class="kw">cp -r</span> /path/to/ftp/packages/admin ./packages/admin
+<span class="kw">cp -r</span> /path/to/ftp/packages/mobile ./packages/mobile
+<span class="kw">cp -r</span> /path/to/ftp/packages/portal ./packages/portal
+
+<span class="cm"># 4. 提交产品新代码</span>
+<span class="kw">git add -A &amp;&amp; git commit -m</span> <span class="str">"chore: 导入产品包 bankcomm-YYYYMMDD"</span>
+
+<span class="cm"># 5. 切回开发分支，合并产品代码</span>
+<span class="kw">git checkout</span> <span class="str">feature-8.7.x-bankcomm</span>
+<span class="kw">git merge</span> <span class="str">upgrade/bankcomm-YYYYMMDD</span>
+
+<span class="cm"># 6. 解决冲突后提交</span>
+<span class="kw">git add -A &amp;&amp; git commit</span></pre>
+    </div>
+
+    <div class="callout callout-warn">
+      <span class="callout-icon">!</span>
+      <div><strong>合并冲突处理：</strong>产品代码更新与你的二开代码修改了同一文件时会产生冲突。需要逐个检查冲突文件，保留二开逻辑的同时接受产品的修复和新功能。</div>
+    </div>
+  </div>
+</div>
+
+<div class="guide-step" style="border-left: 3px solid var(--green);">
+  <div class="guide-step-header">
+    <div class="guide-step-num" style="background: var(--green);">B</div>
+    <div class="guide-step-header-text">
+      <h2>场景 B：升级定制依赖包（只改版本号）</h2>
+      <p>如果只更新 cloudpivot 系列依赖包，无需合并代码</p>
+    </div>
+  </div>
+  <div class="guide-step-body">
+    <p>定制依赖包通过 <code>resolutions</code> 引用，升级时<strong>只需要修改版本号</strong>。</p>
+
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="filename">package.json — resolutions</span>
+        <button class="copy-btn" type="button">复制</button>
+      </div>
+      <pre><span class="kw">"resolutions"</span>: {
+  <span class="kw">"cloudpivot"</span>:            <span class="str">"1.1.7-ai-platform-bankcomm-X.Y"</span>,
+  <span class="kw">"cloudpivot-admin-core"</span>: <span class="str">"1.1.7-ai-platform-bankcomm-X.Y"</span>,
+  <span class="kw">"extension-bankcomm"</span>:   <span class="str">"1.1.0-ai-platform-bankcomm-X.Y"</span>
+}</pre>
+    </div>
+
+    <div class="callout callout-success">
+      <span class="callout-icon">✓</span>
+      <div><strong>自动同步：</strong>项目内置 <code>sync-local-versions.js</code>（<code>preinstall</code> 钩子），<code>yarn install</code> 时会自动对齐 <code>resolutions</code> 版本。</div>
+    </div>
+  </div>
+</div>
+
+<div class="guide-step">
+  <div class="guide-step-header">
+    <div class="guide-step-num">!</div>
+    <div class="guide-step-header-text">
+      <h2>安装依赖并构建</h2>
+      <p>无论哪种场景，最后都需要执行</p>
+    </div>
+  </div>
+  <div class="guide-step-body">
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="filename">Terminal</span>
+        <button class="copy-btn" type="button">复制</button>
+      </div>
+      <pre><span class="kw">yarn install</span>
+<span class="kw">yarn build:all</span>
+<span class="cm"># 或 yarn build:portal / build:admin / build:mobile</span></pre>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider" id="section-backend">
+  <span><span class="section-badge" style="background: var(--green-light); color: var(--green);">BACKEND</span> 后端更新指南</span>
+</div>
+
+<div class="guide-step">
+  <div class="guide-step-header">
+    <div class="guide-step-num" style="background: var(--green);">1</div>
+    <div class="guide-step-header-text">
+      <h2>修改二开工程依赖版本号</h2>
+      <p>后端升级只需修改版本号，无需替换代码</p>
+    </div>
+  </div>
+  <div class="guide-step-body">
+    <p>在二开工程的 <code>pom.xml</code> 或 <code>build.gradle</code> 中更新云枢产品包版本号，构建时会自动拉取最新包。</p>
+    <div class="callout callout-warn">
+      <span class="callout-icon">!</span>
+      <div><strong>注意：</strong>修改前请确认产品团队已将新版本发布到私有 Maven 仓库。</div>
+    </div>
+  </div>
+</div>
+
+<div class="guide-step">
+  <div class="guide-step-header">
+    <div class="guide-step-num" style="background: var(--green);">2</div>
+    <div class="guide-step-header-text">
+      <h2>重新构建部署</h2>
+      <p>拉取新依赖并打包</p>
+    </div>
+  </div>
+  <div class="guide-step-body">
+    <div class="code-block">
+      <div class="code-block-header">
+        <span class="filename">Terminal</span>
+        <button class="copy-btn" type="button">复制</button>
+      </div>
+      <pre><span class="kw">mvn clean package</span> -DskipTests
+<span class="cm"># 或 gradle clean build -x test</span></pre>
+    </div>
+  </div>
+</div>
+
+<div class="section-divider" id="section-release-log">
+  <span><span class="section-badge" style="background: var(--rose-light); color: var(--rose);">LOG</span> 发布记录</span>
+</div>
+
+<p style="font-size:14px;color:var(--text-secondary);margin-bottom:20px;">
+  最新 npm 包发布记录见 <a href="index.html#packages">发版说明 · 定制包版本表</a>，以下为 v1.1.0 基线发布历史。
+</p>
+
+<div id="release-log-placeholder"></div>
+
+</div>
+
+<footer>
+  云枢企业AI平台 · 交行定制版 · 版本更新指南
+</footer>
+
+<script src="assets/js/upgrade-guide.js"></script>
+</body>
+</html>

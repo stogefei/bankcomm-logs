@@ -1,0 +1,9 @@
+{
+  "name": "bankcomm-logs",
+  "private": true,
+  "description": "交行定制版发版说明 · GitHub Pages",
+  "scripts": {
+    "generate": "node scripts/generate-changelog.js",
+    "serve": "npx --yes serve . -p 4173"
+  }
+}

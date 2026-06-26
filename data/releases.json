@@ -1,0 +1,5000 @@
+{
+  "generatedAt": "2026-06-26T08:17:18.597Z",
+  "frontendVersion": "AI-Platform-v1.1.7-bankcomm.4",
+  "branch": "feature-8.7.x-bankcomm",
+  "resolutions": {
+    "cloudpivot": "1.1.7-ai-platform-bankcomm-2.7",
+    "cloudpivot-admin-core": "1.1.7-ai-platform-bankcomm-2.15",
+    "cloudpivot-designer": "1.1.7-ai-platform-bankcomm-2.5",
+    "cloudpivot-form": "1.1.7-ai-platform-bankcomm-2.7",
+    "cloudpivot-list": "1.1.7-ai-platform-bankcomm-2.14",
+    "cloudpivot-locale": "1.1.7-ai-platform-bankcomm-2.2",
+    "cloudpivot-locale-images": "1.1.7-ai-platform-bankcomm-2.0",
+    "cloudpivot-page": "1.1.7-ai-platform-bankcomm-2.4",
+    "cloudpivot-page-designer": "1.1.5-ai-platform-bankcomm-2.0",
+    "cloudpivot-platform": "1.1.5-ai-platform-bankcomm-2.5",
+    "cloudpivot-portal-designer": "1.1.6-ai-platform-bankcomm-2.2",
+    "cloudpivot-utils": "1.1.7-ai-platform-bankcomm-2.3",
+    "extension-bankcomm": "1.1.0-ai-platform-bankcomm-2.27",
+    "extension-template": "1.1.5-ai-platform-bankcomm-2.4"
+  },
+  "releases": [
+    {
+      "version": "8.7.bocom-2.1",
+      "date": "2026-04-30",
+      "markerCommit": "e455d1b97bd",
+      "markerMessage": "docs: 更新版本",
+      "stats": {
+        "total": 17,
+        "custom": 4,
+        "fix": 13
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "合并8.7.x",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "086e7a8f8e5fb0417fa743c87131762883e8fbc4",
+              "hash": "086e7a8f8e5",
+              "date": "2026-04-30",
+              "message": "docs: 合并8.7.x",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "接入权限控制",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "3f814e2d9b4f44e7835b57ed34ba638702bd602d",
+              "hash": "3f814e2d9b4",
+              "date": "2026-04-30",
+              "message": "docs: 接入权限控制",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "业务规则新增SQL执行节点下拉报错修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "aeba9e1d891fe7b2f4900dd5e1732c3098611086",
+              "hash": "aeba9e1d891",
+              "date": "2026-04-30",
+              "message": "test: 交行定制：业务规则新增SQL执行节点下拉报错修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "接入权限管理",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "c07df553a7f61a8fd4c2377d1c8aa558f007acfb",
+              "hash": "c07df553a7f",
+              "date": "2026-04-29",
+              "message": "docs: 接入权限管理",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "25d14799f8a1da19942af59e10d5831abe82b2b3",
+          "hash": "25d14799f8a",
+          "date": "2026-04-30",
+          "message": "fix: #201658 【绿色通道】 子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4723bd38e8953d2296519cd78eaf9067e7a81b60",
+          "hash": "4723bd38e89",
+          "date": "2026-04-30",
+          "message": "fix: #201658 【绿色通道】 子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "2529f78052df6fa9145a8199d74f353272c71173",
+          "hash": "2529f78052d",
+          "date": "2026-04-30",
+          "message": "fix: #201658 【绿色通道】 子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "96cfacee71e9e30b24c2a70903e12a8abca9a09f",
+          "hash": "96cfacee71e",
+          "date": "2026-04-30",
+          "message": "fix: #201658 【绿色通道】  子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "cba3a3fa84b88681e167560efda4adcd787bf26a",
+          "hash": "cba3a3fa84b",
+          "date": "2026-04-30",
+          "message": "fix: #201658 【绿色通道】  子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "3f1c4f2e187fbfa054890de503ac624e5faf8ac2",
+          "hash": "3f1c4f2e187",
+          "date": "2026-04-30",
+          "message": "fix: #201658 【绿色通道】  子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dde78b8d9e05a7b4ad59424e3d368da218ec8cc8",
+          "hash": "dde78b8d9e0",
+          "date": "2026-04-30",
+          "message": "fix: #201554 2026-04-30 在流程审批节点，使用appendRow([])添加子表数据，提交后子表数据未提交-补充2",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "102db7ca9dcdecc0880e3551594efcee057d73aa",
+          "hash": "102db7ca9dc",
+          "date": "2026-04-30",
+          "message": "fix: #201554 2026-04-30 在流程审批节点，使用appendRow([])添加子表数据，提交后子表数据未提交-补充2",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4697f45d08d591d95bcfa1cf0f3eee487932da06",
+          "hash": "4697f45d08d",
+          "date": "2026-04-30",
+          "message": "fix: #201554 2026-04-30 在流程审批节点，使用appendRow([])添加子表数据，提交后子表数据未提交-补充2",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "84462370df45f8cc2fbf4d7d7b444ae5425fffcc",
+          "hash": "84462370df4",
+          "date": "2026-04-30",
+          "message": "fix: #201685 【内部提单】2026-04-30 客服服务平台的url需要更换 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6LIvYkSuuX",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "1d86641320364c7daf01d7d4acc5b8a87fe42867",
+          "hash": "1d866413203",
+          "date": "2026-04-30",
+          "message": "fix: #201685 【内部提单】2026-04-30 客服服务平台的url需要更换 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6LIvYkSuuX",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "225d69d601da9dc5341d67b2eb84238e6abf3755",
+          "hash": "225d69d601d",
+          "date": "2026-04-30",
+          "message": "fix: #201685 【内部提单】2026-04-30 客服服务平台的url需要更换 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6LIvYkSuuX",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6db3b72effbf93afa4250ab4197c6c1c3f98c417",
+          "hash": "6db3b72effb",
+          "date": "2026-04-29",
+          "message": "fix: #201128 修复内容样式的对齐方式调整后在预览效果显示中无法生效",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": []
+    },
+    {
+      "version": "8.5.39",
+      "date": "2026-04-30",
+      "markerCommit": "18bda8eac55",
+      "markerMessage": "build: 主工程版本号更新=>8.5.39",
+      "stats": {
+        "total": 5,
+        "custom": 3,
+        "fix": 0
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "去掉测试代码",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "2d384acfbdab64b07b33bd2e1e15eca8f4f45c04",
+              "hash": "2d384acfbda",
+              "date": "2026-04-30",
+              "message": "docs: 去掉测试代码",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "添加测试代码",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "9d3b49b8bada4769269e520110937588e1cc16af",
+              "hash": "9d3b49b8bad",
+              "date": "2026-04-30",
+              "message": "docs: 添加测试代码",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "合并代码 更新版本",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "2860f1b0a1c3a2034279c886392218678212b50a",
+              "hash": "2860f1b0a1c",
+              "date": "2026-04-30",
+              "message": "docs: 合并代码 更新版本",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [],
+      "others": [
+        {
+          "full": "7c90984d02ad83936cf551f74de31b53366c3d12",
+          "hash": "7c90984d02a",
+          "date": "2026-04-30",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "28942c2de5aa94bc663c2efbf1ff1246def119ee",
+          "hash": "28942c2de5a",
+          "date": "2026-04-30",
+          "message": "perf: 升级报表版本至6.3.1-alpha.47",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "8.6.19",
+      "date": "2026-04-30",
+      "markerCommit": "f3a4307cd2c",
+      "markerMessage": "build: 主工程版本号更新=>8.6.19",
+      "stats": {
+        "total": 2,
+        "custom": 0,
+        "fix": 0
+      },
+      "features": [],
+      "fixes": [],
+      "others": [
+        {
+          "full": "856cffe86d2fdcdcc0ae7ea23cdcb4bdc120392e",
+          "hash": "856cffe86d2",
+          "date": "2026-04-30",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "a7be43afcaf2c84248c1ae32ecb8a2879bd6ecc3",
+          "hash": "a7be43afcaf",
+          "date": "2026-04-30",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "8.7.bocom-2.1",
+      "date": "2026-05-08",
+      "markerCommit": "1f9ac64faee",
+      "markerMessage": "docs: 更新版本号【交行】",
+      "stats": {
+        "total": 49,
+        "custom": 15,
+        "fix": 21
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "更新应用权限控制",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0dbd45e69c435875dd735e14e56058d3795b6172",
+              "hash": "0dbd45e69c4",
+              "date": "2026-05-08",
+              "message": "docs: 更新应用权限控制",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "更新企业管理员",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "14f578e10359216799670223851327292c834163",
+              "hash": "14f578e1035",
+              "date": "2026-05-07",
+              "message": "docs: 更新企业管理员",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "业务规则新增SQL执行节点下拉数据问题修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "b1ac9576ac2dfcaf93e304998be4ae2f70e7a123",
+              "hash": "b1ac9576ac2",
+              "date": "2026-05-07",
+              "message": "test: 交行定制：业务规则新增SQL执行节点下拉数据问题修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "指定的自定义按钮弹出指定内容预览（代码来源张星）",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "c5bc531e115e93a54ceeac15376de9f447ad13cf",
+              "hash": "c5bc531e115",
+              "date": "2026-05-07",
+              "message": "test: 交行二开：指定的自定义按钮弹出指定内容预览（代码来源张星）",
+              "type": "custom",
+              "label": "定制"
+            },
+            {
+              "full": "082af5af04d5bf858582b8366baf2c6e63a600d5",
+              "hash": "082af5af04d",
+              "date": "2026-05-07",
+              "message": "test: 交行二开：指定的自定义按钮弹出指定内容预览（代码来源张星）",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "部门单选支持全路径显示",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "59c616d3ed8ec9f0ec5b9b54576cecc6df3f4487",
+              "hash": "59c616d3ed8",
+              "date": "2026-05-07",
+              "message": "test: 交行定制-部门单选支持全路径显示",
+              "type": "custom",
+              "label": "定制"
+            },
+            {
+              "full": "73a5ec197d9328f758a0ceba38f3bc365d93519d",
+              "hash": "73a5ec197d9",
+              "date": "2026-05-06",
+              "message": "test: 交行定制-部门单选支持全路径显示",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-6",
+          "title": "运行态内置数据及应用导出时可选业务数据一并导出",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ea30e438d631a98d598dc43e7827ecafd004a4c5",
+              "hash": "ea30e438d63",
+              "date": "2026-05-07",
+              "message": "test: 交行定制-运行态内置数据及应用导出时可选业务数据一并导出",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-7",
+          "title": "业务标题、关联查询、子表标题栏添加icon",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "3a1a8dc074b393c45018a1dfd9c231779fb3cc89",
+              "hash": "3a1a8dc074b",
+              "date": "2026-05-07",
+              "message": "test: 交行二开：业务标题、关联查询、子表标题栏添加icon",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-8",
+          "title": "视图参数支持业务ID选择和参数转换过滤条件传递到视图筛选",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "a176a547d2fad4fa06dc2d34f7587162d263fbb1",
+              "hash": "a176a547d2f",
+              "date": "2026-05-07",
+              "message": "test: 交行定制-视图参数支持业务ID选择和参数转换过滤条件传递到视图筛选",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-9",
+          "title": "sql节点报错修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "6e4f2192b1437e2919ed09c744984f52e73cc6a7",
+              "hash": "6e4f2192b14",
+              "date": "2026-05-07",
+              "message": "test: 交行定制-sql节点报错修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-10",
+          "title": "表单设计支持拖入特定控件之后执行脚本添加其他控件，并且添加的其他控件可以执行默认options",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "2afcd336efb380ecca9253c8e797d96c9e06a715",
+              "hash": "2afcd336efb",
+              "date": "2026-05-06",
+              "message": "test: 交行定制：表单设计支持拖入特定控件之后执行脚本添加其他控件，并且添加的其他控件可以执行默认options",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-11",
+          "title": "更新数据模型权限",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "b294d6e61d1da1f8a65014ae708a38e8eabde67a",
+              "hash": "b294d6e61d1",
+              "date": "2026-05-06",
+              "message": "docs: 更新数据模型权限",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-12",
+          "title": "表单的关闭方法(postReloadMessage)挂载到h3form上面",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "c1a00557575db4857371943865b64186cdf9f724",
+              "hash": "c1a00557575",
+              "date": "2026-05-06",
+              "message": "test: 交行定制：表单的关闭方法(postReloadMessage)挂载到h3form上面",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-13",
+          "title": "企业管理员权限调整",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "623d64f892c277d895dfd66af5d11be800ba63fd",
+              "hash": "623d64f892c",
+              "date": "2026-05-06",
+              "message": "docs: 企业管理员权限调整",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "67cf2bca8845908f5a57850e871b4093c2b93aa9",
+          "hash": "67cf2bca884",
+          "date": "2026-04-28",
+          "message": "fix: #201366 2026-04-30  8.6 日期字段设置函数ADDMINUTE函数，前台没有计算 - 8.7",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6384a172c4392f0eb57b090d24ba2d10fbcb7ffb",
+          "hash": "6384a172c43",
+          "date": "2026-05-07",
+          "message": "fix: #201833 表单性能优化自测问题清单-长鑫存储优化分支",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c4eacd6dffd690e3ff9e1fa0bc90988f96b8ae21",
+          "hash": "c4eacd6dffd",
+          "date": "2026-05-07",
+          "message": "fix: #201877 【绿色通道】  企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "2d17fd112a545ae8a21baac603a6436066de1599",
+          "hash": "2d17fd112a5",
+          "date": "2026-05-07",
+          "message": "fix: #201877 【绿色通道】  企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c367736012f50ff36e18cce19ce91b0f3cf0a1ed",
+          "hash": "c367736012f",
+          "date": "2026-05-07",
+          "message": "fix: #201660 【内部提单】2026-05-08 表单提交并继续创建点击多次后会置灰报错 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6LFrBa9bpf",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6689cbb0e90f4596ffe447011dd95d76509027f8",
+          "hash": "6689cbb0e90",
+          "date": "2026-05-07",
+          "message": "fix: #201660 【内部提单】2026-05-08 表单提交并继续创建点击多次后会置灰报错 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6LFrBa9bpf",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "bb5d778f8c72b762fedec4f9dbac528758c09812",
+          "hash": "bb5d778f8c7",
+          "date": "2026-05-07",
+          "message": "fix: #201877 【绿色通道】  企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4bf0f0cca2b0900fce4f35ca10b61cef313922a6",
+          "hash": "4bf0f0cca2b",
+          "date": "2026-05-07",
+          "message": "fix: #199500 【develop】工作流技能中的语音转文本节点，节点属性空白。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zgJ1bAuZn",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9eecc4ae880ed182a149170a0a8601b16dba61cf",
+          "hash": "9eecc4ae880",
+          "date": "2026-05-07",
+          "message": "fix: #199469 【develop】语音服务的必填没有校验。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zQuC5bKHj",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "92306be2b13d99044a94aa0984edfe05e5eb15ac",
+          "hash": "92306be2b13",
+          "date": "2026-05-07",
+          "message": "fix: #201134 2026-04 30       Q33\tRWD 沒有處理好，筆電解析度時看不到最下面的編輯按鈕",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "030ea7d489552b46e33d38065322cd4bbe4b04b0",
+          "hash": "030ea7d4895",
+          "date": "2026-05-07",
+          "message": "fix: #199480 【8.7.x】从知识库切换到MCP，然后点击浏览器的后退。界面显示的知识库列表，但是标签选中的mcp https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zP9I9hKZa",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9b8e4326ff575f940a2bbab2f80df4bc6970a23f",
+          "hash": "9b8e4326ff5",
+          "date": "2026-05-07",
+          "message": "fix: #200427 【AI】AI内容配置-直接调用大模型，模型列表缺少Rerank模型标签 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/Ls77LTVkPKymgMNl",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7db44c05fd889692dcaece448647aac1a90628c0",
+          "hash": "7db44c05fd8",
+          "date": "2026-05-07",
+          "message": "fix: #201532 【迭代102-特性测试】AI控件配置了自动触发，运行时没有自动触发。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9z1HjJivGP",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "eb000446f6fa0a3ac442c3e49b6e1a0101544b9b",
+          "hash": "eb000446f6f",
+          "date": "2026-05-07",
+          "message": "fix: #201635 2026-05-08 【缺陷】表单设计-AI控件配置配置计算规则显示失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6048a666",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4a1ab30e34e9af67f8b2d0717c67445b5b58d5a6",
+          "hash": "4a1ab30e34e",
+          "date": "2026-05-07",
+          "message": "fix: #201635 2026-05-08 【缺陷】表单设计-AI控件配置配置计算规则显示失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6048a666",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7c791756f4edc566164bd83cf4bd265d0c4251ab",
+          "hash": "7c791756f4e",
+          "date": "2026-05-07",
+          "message": "fix: #201635 2026-05-08 【缺陷】表单设计-AI控件配置配置计算规则显示失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6048a666",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b0772df04f9a071a140c882aaedc58815418612c",
+          "hash": "b0772df04f9",
+          "date": "2026-05-07",
+          "message": "fix: #201119 2026-05-08  8.5/8.6表单配置显示条件，表单预览不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVza3d121bb",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "935f4454b3dd4604fabcacb094f13af893ff6ba3",
+          "hash": "935f4454b3d",
+          "date": "2026-05-07",
+          "message": "fix: #201119 2026-05-08  8.5/8.6表单配置显示条件，表单预览不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVza3d121bb",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "966f5f39e4deaf13c6902763a67ef12a02337b84",
+          "hash": "966f5f39e4d",
+          "date": "2026-05-06",
+          "message": "fix: #201650 2026-05-09 计算规则SUM函数在表单打开时不会触发计算",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6310730c0f2aaae5de0b41264b0989f388446d4f",
+          "hash": "6310730c0f2",
+          "date": "2026-05-06",
+          "message": "fix: #201650 2026-05-09 计算规则SUM函数在表单打开时不会触发计算",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9479cd999f3f13b0c19266cf68e4e9b9850463f6",
+          "hash": "9479cd999f3",
+          "date": "2026-05-06",
+          "message": "fix: #201650 2026-05-09 计算规则SUM函数在表单打开时不会触发计算",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "c327d3113faa888ec6d582fe24f1b3c28d9ee491",
+          "hash": "c327d3113fa",
+          "date": "2026-05-08",
+          "message": "test: 子表开启了纯净模式后，查看态时子表有值但是不渲染",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "3df29056b5364f124dd6ac72ff750247aada2e7c",
+          "hash": "3df29056b53",
+          "date": "2026-05-08",
+          "message": "test: 子表开启了纯净模式后，查看态时子表有值但是不渲染",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "7b58bf26048cb8f76d628d5c465e7388a023b87e",
+          "hash": "7b58bf26048",
+          "date": "2026-05-08",
+          "message": "test: 子表开启了纯净模式后，查看态时子表有值但是不渲染",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "1ffafecb9b80539b2aead0df76a814c30f95e8d2",
+          "hash": "1ffafecb9b8",
+          "date": "2026-05-07",
+          "message": "perf: 优化十二：合并多个/user/public/system/config的缓存key；新增/public/getSystemLangPack接口缓存；",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "871758e801cc13b1f91dcef01db0b34f8be2f6ce",
+          "hash": "871758e801c",
+          "date": "2026-05-07",
+          "message": "feat: #201471 前端 - 国际化默认语言类型初始化逻辑优化 - 自测问题处理 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BAua2GmLEnjbuHE8",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "990a787c7008bd6dda1e23a878464505143d82cb",
+          "hash": "990a787c700",
+          "date": "2026-05-07",
+          "message": "perf: 优化十一：关联单选/关联多选不再默认调用关联数据模型",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "efc983208a590cbe4fccdbf1e9d530cb8e7d0eb8",
+          "hash": "efc983208a5",
+          "date": "2026-04-27",
+          "message": "feat: #201471 前端 - 国际化默认语言类型初始化逻辑优化 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BAua2GmLEnjbuHE8",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "fc7578dbbc424159ae59e6e9a7de77cc2cbdce6a",
+          "hash": "fc7578dbbc4",
+          "date": "2026-05-07",
+          "message": "Revert \"feat:  #194433 云枢平台内可实时查看在线用户\"",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "7fb350d3bd80fdf9df6bc6e6b9b69caf4d1818ae",
+          "hash": "7fb350d3bd8",
+          "date": "2026-03-16",
+          "message": "feat:  #194433 云枢平台内可实时查看在线用户",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "f95a97b6d5742c8586fcd00112fb23779c5d4f85",
+          "hash": "f95a97b6d57",
+          "date": "2026-05-06",
+          "message": "perf: 优化十：接口缓存优化，只在/form/detail生效；新增6个接口缓存",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "852cb79d8f0b750cf4bb390816b79301e4bacc9d",
+          "hash": "852cb79d8f0",
+          "date": "2026-05-06",
+          "message": "perf: 优化九：处理pc-form-renderer的render函数内的setTimeout和$set",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "1ebf7170c4b14be9b5b69c38d711145a57218dbb",
+          "hash": "1ebf7170c4b",
+          "date": "2026-04-28",
+          "message": "perf: 优化八：处理单行文本/长文本内autoSize高度计算引发的重排",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "5f1f02e71932c5def637e890d6fee2449c048f17",
+          "hash": "5f1f02e7193",
+          "date": "2026-04-28",
+          "message": "perf: 优化七：处理子表内频繁调用offsetWidth引发重排",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.4",
+      "date": "2026-05-09",
+      "markerCommit": "7cce2fcaa72",
+      "markerMessage": "build: 主工程版本号修改=> AI-Platform-v1.1.4",
+      "stats": {
+        "total": 38,
+        "custom": 12,
+        "fix": 22
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "优化权限显示【交行】",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "1614097d1bcf76617dccea2479cf9641ecfd7a1d",
+              "hash": "1614097d1bc",
+              "date": "2026-05-09",
+              "message": "docs: 优化权限显示【交行】",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "协同办公",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "e7178a5087f10eb26bbd0700617fc7af4674acbb",
+              "hash": "e7178a5087f",
+              "date": "2026-05-09",
+              "message": "test: 交行定制-协同办公",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "过滤参数短文本值转换",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0d84d0090b332fd7c482333879c982b272353076",
+              "hash": "0d84d0090b3",
+              "date": "2026-05-09",
+              "message": "test: 交行定制-过滤参数短文本值转换",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "设计态二维码按钮配置",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "04a7672d8de2e56cd9849d78a429d40e44b1195b",
+              "hash": "04a7672d8de",
+              "date": "2026-05-09",
+              "message": "test: 交行定制-设计态二维码按钮配置",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "docs: 合并权限功能【定制】",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "99dce44492b3f51add95ab1ffda45bcc4093b819",
+              "hash": "99dce44492b",
+              "date": "2026-05-09",
+              "message": "docs: docs: 合并权限功能【定制】",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-6",
+          "title": "修改版本号跟产品保持一致",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ba1766215c49c4876898bb0b9d33a56d01875772",
+              "hash": "ba1766215c4",
+              "date": "2026-05-09",
+              "message": "docs: 修改版本号跟产品保持一致",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-7",
+          "title": "优化依赖安装脚本【交行】",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "dba9ff918b14a59e963cb4acbc689211d8ad20fc",
+              "hash": "dba9ff918b1",
+              "date": "2026-05-09",
+              "message": "docs: 优化依赖安装脚本【交行】",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-8",
+          "title": "优化企业权限【交行】",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "5a8814e4d3f5988cedd6e6db8016e7a590a56598",
+              "hash": "5a8814e4d3f",
+              "date": "2026-05-08",
+              "message": "docs: 优化企业权限【交行】",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-9",
+          "title": "，修改依赖包版本号",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "55f3d229427f10d8738e4d03c2bfd391e46fa46e",
+              "hash": "55f3d229427",
+              "date": "2026-05-08",
+              "message": "test: 交行定制，修改依赖包版本号",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-10",
+          "title": "独立cloudpivot-platform为交行包",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "c364b4c667500fc19708915be0e83234e1ed0aec",
+              "hash": "c364b4c6675",
+              "date": "2026-05-08",
+              "message": "test: 交行定制：独立cloudpivot-platform为交行包",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-11",
+          "title": "更新报表版本号【交行】",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "efe8c4cc9d8a7f0548d3992a1c42874fd60bf4de",
+              "hash": "efe8c4cc9d8",
+              "date": "2026-05-08",
+              "message": "docs: 更新报表版本号【交行】",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-12",
+          "title": "带交行bankcommToken参数，实现免登",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0c2ba7c81df5334bf367cc0825635ba389a0311b",
+              "hash": "0c2ba7c81df",
+              "date": "2026-05-08",
+              "message": "test: 交行定制：带交行bankcommToken参数，实现免登",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "ea6901ddd7deb017c6667a6d56529e8a006ef37e",
+          "hash": "ea6901ddd7d",
+          "date": "2026-05-09",
+          "message": "fix: #202150 【自动化测试】下拉单选框的筛选，从等于切换到等于任意一个，内容显示错误。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9ziunZKnwi",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "1093b2b19a34452829d75ed0925f4b52924d46c9",
+          "hash": "1093b2b19a3",
+          "date": "2026-05-09",
+          "message": "fix: #202146 【绿色通道】【西钻升级】【研发环境复现】开启子表纯净编辑模式，切换子表分页后，发现有关联单选从有值变成了显示空",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "06ae2827c112f3190ab90526b10379dd5435bc80",
+          "hash": "06ae2827c11",
+          "date": "2026-05-09",
+          "message": "fix: #202140 【8.7.x】【自动化测试】【内部提单】表单人员字段必填规则校验失效了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnMt9KjEtL",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4e257d0746919747dd6c0892c8429950d59ff677",
+          "hash": "4e257d07469",
+          "date": "2026-05-09",
+          "message": "fix: #202140 【8.7.x】【自动化测试】【内部提单】表单人员字段必填规则校验失效了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnMt9KjEtL",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c9e1c7af77ed504a33c724f5ee872336bddbe732",
+          "hash": "c9e1c7af77e",
+          "date": "2026-05-09",
+          "message": "fix: #202140 【8.7.x】【自动化测试】【内部提单】表单人员字段必填规则校验失效了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnMt9KjEtL",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "300cdf2e97be9c9eac34dcc16c39cd33b07140a5",
+          "hash": "300cdf2e97b",
+          "date": "2026-05-09",
+          "message": "fix: #202140 【8.7.x】【自动化测试】【内部提单】表单人员字段必填规则校验失效了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnMt9KjEtL",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "24f63d4672754a42732393cfe3431018da9c1db5",
+          "hash": "24f63d46727",
+          "date": "2026-05-09",
+          "message": "fix: #202130 【自动化测试】视图列表使用下拉多选筛选选项一时，切换运算符，再勾选选项二后，参数错误。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9z5XetDzuE",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7affb92372c26a61432c2ef845dfd7080b9ddcdc",
+          "hash": "7affb92372c",
+          "date": "2026-05-09",
+          "message": "fix: #202129 【自动化测试】视图列表使用人员单选筛选时，切换运算符，重新选择人员后，筛选时使用的还是旧的人员 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zR6We5Vu6",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "0c64b836c5f45213f7fec813508176aa71e3bb3b",
+          "hash": "0c64b836c5f",
+          "date": "2026-05-09",
+          "message": "fix: #202128 【自动化测试】视图列表使用人员单选筛选时，切换运算符，人员图标变成了部门图标。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zmBmgmeGa",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a7ee1d9fc56f616e95370489fcb0e51c37b4707f",
+          "hash": "a7ee1d9fc56",
+          "date": "2026-05-09",
+          "message": "fix: #202104 【长鑫性能】主表关联单选第二次选值后，就不会触发关联映射了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnKKoQcDPH",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b21245dbe01ff7727a053822b071d4e0065bd976",
+          "hash": "b21245dbe01",
+          "date": "2026-05-09",
+          "message": "fix: #202104 【长鑫性能】主表关联单选第二次选值后，就不会触发关联映射了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnKKoQcDPH",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a1e7de03cfae1bf1dc834054f26c1eece49c4074",
+          "hash": "a1e7de03cfa",
+          "date": "2026-05-09",
+          "message": "fix: #202104 【长鑫性能】主表关联单选第二次选值后，就不会触发关联映射了 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/rtsMFkQnKKoQcDPH",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "21e054eb2700f349d97954021319215f1c66471a",
+          "hash": "21e054eb270",
+          "date": "2026-05-08",
+          "message": "fix: #202087 【长鑫性能】子表关联单选 映射人员，再触发人员映射：关联单选多次选同一个值后，人员映射部分属性不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "d622b28e86707fe284bb6b34f1dd864bc9938597",
+          "hash": "d622b28e867",
+          "date": "2026-05-08",
+          "message": "fix: #202039 【长鑫性能】子表字段的联动的条件改变后，没有将子表所有行的字段都联动赋值",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "71986cc3a4a3e1376a0d58a4898539f36afe9cf0",
+          "hash": "71986cc3a4a",
+          "date": "2026-05-08",
+          "message": "fix: #202033 【内部提单】2026-05-09 执行日志界面的返回按钮被遮挡",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "de2064b9c1f6492651d66956dbf4b4987873637e",
+          "hash": "de2064b9c1f",
+          "date": "2026-05-08",
+          "message": "fix: #202079 【长鑫性能】 后台默认语言是英文   无痕模式下访问还是中文 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyYc8RPsRj",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a20d6fb583134ca8b90afb1c7b3587c5cde6ec0e",
+          "hash": "a20d6fb5831",
+          "date": "2026-05-08",
+          "message": "fix: #202050 【长鑫性能】编辑表单详情，关联单选字段清空之后重选，提交表单报错，地址传值有误",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a853ba1ec99b8d13c97933ea42e9795deddbc3eb",
+          "hash": "a853ba1ec99",
+          "date": "2026-05-08",
+          "message": "fix: #202035 【长鑫性能】子表关联单选映射单行文本后，没有触发另一个字段的数据联动",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f2db3e02ab58595c80cf5db7fd41eb5b13d3c3ec",
+          "hash": "f2db3e02ab5",
+          "date": "2026-05-08",
+          "message": "fix: #201067 2026-04-30 视图列表点击新增，页面卡死 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz57d96bc8",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a6006d4359818cb262d72d0664e7f014feb568a7",
+          "hash": "a6006d43598",
+          "date": "2026-05-08",
+          "message": "fix: #201067 2026-04-30 视图列表点击新增，页面卡死 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz57d96bc8",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a92713c32205c58f49a2d764eaf07664faeaec5b",
+          "hash": "a92713c3220",
+          "date": "2026-05-08",
+          "message": "fix: #201067 2026-04-30 视图列表点击新增，页面卡死 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz57d96bc8",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c04007729257c96d15a83be74f9836ed019c0fd4",
+          "hash": "c0400772925",
+          "date": "2026-05-08",
+          "message": "fix: #201067 2026-04-30 视图列表点击新增，页面卡死 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz57d96bc8",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "2b03e5a243a9d1708c652233bdbe772d19fcf6d0",
+          "hash": "2b03e5a243a",
+          "date": "2026-05-09",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "578ea90baeff7f9690a082abb4d78135f5f78dd7",
+          "hash": "578ea90baef",
+          "date": "2026-05-09",
+          "message": "perf: formDetailUseLocalCache工具函数转移至cloudpivot-utils",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "d7825d33f186e1765bd9384f31af9755358de1a7",
+          "hash": "d7825d33f18",
+          "date": "2026-05-08",
+          "message": "perf: 去除子表分片渲染，子表在映射大数据量时不分片反而更快loading体验更好",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "12f05dcece9bf02fdfc2d9c12a2ad77a80605288",
+          "hash": "12f05dcece9",
+          "date": "2026-05-08",
+          "message": "test: 移动端视图列表点击表单报错问题修改",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "8.6.20",
+      "date": "2026-05-09",
+      "markerCommit": "c0c37da03bb",
+      "markerMessage": "build: 主工程版本号修改=> 8.6.20",
+      "stats": {
+        "total": 1,
+        "custom": 0,
+        "fix": 0
+      },
+      "features": [],
+      "fixes": [],
+      "others": [
+        {
+          "full": "d6d6d46651f4d5de5626022e9daeffa74953e3e4",
+          "hash": "d6d6d46651f",
+          "date": "2026-05-09",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "8.5.40",
+      "date": "2026-05-09",
+      "markerCommit": "16cd9059911",
+      "markerMessage": "build: 主工程版本号修改=> 8.5.40",
+      "stats": {
+        "total": 1,
+        "custom": 0,
+        "fix": 0
+      },
+      "features": [],
+      "fixes": [],
+      "others": [
+        {
+          "full": "9a77e1a10e3cc85f992308b2bb90186dce3492d9",
+          "hash": "9a77e1a10e3",
+          "date": "2026-05-09",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "8.5.41",
+      "date": "2026-05-14",
+      "markerCommit": "5a16a54b37e",
+      "markerMessage": "build: 主工程版本号修改=> 8.5.41",
+      "stats": {
+        "total": 102,
+        "custom": 9,
+        "fix": 62
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "打开当前页url未带域名判断为路由执行",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "effdecfd9993875517fd1b70e686c58ef71d414b",
+              "hash": "effdecfd999",
+              "date": "2026-05-14",
+              "message": "test: 交行定制-打开当前页url未带域名判断为路由执行",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "调整忽略文件",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7da60a02c3418242ff1480b10216ba8e4418e273",
+              "hash": "7da60a02c34",
+              "date": "2026-05-14",
+              "message": "docs: 调整忽略文件",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "运行态内置数据支持业务数据选择模型导出参数传值修改",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "fafb6563ebb234d323140422da5b1a39d8e59751",
+              "hash": "fafb6563ebb",
+              "date": "2026-05-13",
+              "message": "test: 交行定制-运行态内置数据支持业务数据选择模型导出参数传值修改",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "员工管理入职二维码功能",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "475b596b4d34c415a852f009fb215713d1627ebf",
+              "hash": "475b596b4d3",
+              "date": "2026-05-13",
+              "message": "test: 交行定制-员工管理入职二维码功能",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "视图动态列配置参数名修改为非必填及运行态内置数据支持业务数据选择模型导出",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ff064b62abe5d3cf3a661a834b7ddb352d7a8da7",
+              "hash": "ff064b62abe",
+              "date": "2026-05-12",
+              "message": "test: 交行定制-视图动态列配置参数名修改为非必填及运行态内置数据支持业务数据选择模型导出",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-6",
+          "title": "新增打印编辑数据功能",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "bfc787f70f563b946ef5bce2bb70a8a88d7d11f3",
+              "hash": "bfc787f70f5",
+              "date": "2026-05-11",
+              "message": "docs: 新增打印编辑数据功能",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-7",
+          "title": "安装应用模板时，import接口传入appId参数",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ae0b0bfb982b372cdf87437a4c0dd2f85c1e598b",
+              "hash": "ae0b0bfb982",
+              "date": "2026-05-11",
+              "message": "test: 交行定制：安装应用模板时，import接口传入appId参数",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-8",
+          "title": "docs: 修改版本",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "e209d66038096723a9b47d518d09c979129ece49",
+              "hash": "e209d660380",
+              "date": "2026-05-09",
+              "message": "docs: docs: 修改版本",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-9",
+          "title": "修改版本",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "f3fb51af853df823e8c81c56fc641c56723a7c7b",
+              "hash": "f3fb51af853",
+              "date": "2026-05-09",
+              "message": "docs: 修改版本",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "0c5e5f7cc5c55678825ca3a2c02f65e61de67e27",
+          "hash": "0c5e5f7cc5c",
+          "date": "2026-05-14",
+          "message": "fix: #202531 【绿色通道】【西钻升级】【产研代码调试也有此问题】表单下拉框选项的展示不全 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze358e4a5",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "18ecfd2fb0d3d0b6c7645bd3b9a7ac2beadbc885",
+          "hash": "18ecfd2fb0d",
+          "date": "2026-05-14",
+          "message": "fix: #202531 【绿色通道】【西钻升级】【产研代码调试也有此问题】表单下拉框选项的展示不全 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze358e4a5",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c027049117526bbfb0a918c1f2e8500d72d57194",
+          "hash": "c0270491175",
+          "date": "2026-05-14",
+          "message": "fix: #202513 【绿色通道】8.5人员单选必填和映射逻辑冲突 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd66569d5",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "223a5f96e1a603c192f86c0978d9b108f61c0221",
+          "hash": "223a5f96e1a",
+          "date": "2026-05-14",
+          "message": "fix: #202513 【绿色通道】8.5人员单选必填和映射逻辑冲突 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd66569d5",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9e475ee47f0ab45e27dce3775541dd7db4d5bca7",
+          "hash": "9e475ee47f0",
+          "date": "2026-05-14",
+          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "5f8e0e2c004ba88dc2e124bb949cc07e0ec518e4",
+          "hash": "5f8e0e2c004",
+          "date": "2026-05-14",
+          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "45af2d599f91da65e99b42ad9f2b697e6200b155",
+          "hash": "45af2d599f9",
+          "date": "2026-05-14",
+          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ee60af39e4c67901a27c5eab80ea925365cdf918",
+          "hash": "ee60af39e4c",
+          "date": "2026-05-14",
+          "message": "fix: #202178 【内部提单】2026-05-14 电子签章组件界面问题",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "699773834d7673f70d5db76995eb29474c485bec",
+          "hash": "699773834d7",
+          "date": "2026-05-14",
+          "message": "fix: #202369 在审批意见输入中过滤emoji表情，防止特殊字符导致数据异常",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f8de6b1e0a40cf96a7af26afd5380157c7bfaf54",
+          "hash": "f8de6b1e0a4",
+          "date": "2026-05-14",
+          "message": "fix: #202369 在审批意见输入中过滤emoji表情，防止特殊字符导致数据异常",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b1e6f191d2b61bcbbf9c621f0265c8a530b502c4",
+          "hash": "b1e6f191d2b",
+          "date": "2026-05-14",
+          "message": "fix: #202369 在审批意见输入中过滤emoji表情，防止特殊字符导致数据异常",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b1412867de2ef36b5410160d339b060fb85e66b0",
+          "hash": "b1412867de2",
+          "date": "2026-05-14",
+          "message": "fix: #202101 2026-05-14  手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "124430a0eec40c2261f805b47bc078898388aae0",
+          "hash": "124430a0eec",
+          "date": "2026-05-14",
+          "message": "fix: #202101 2026-05-14  手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "87b23d265710a53bb770051c04fcce64ac5e1c4b",
+          "hash": "87b23d26571",
+          "date": "2026-05-14",
+          "message": "fix: #202101 2026-05-14  手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "5517cde3132da3c81f6946593a37a06a6dc4fa9f",
+          "hash": "5517cde3132",
+          "date": "2026-05-14",
+          "message": "fix: #201825 2026-05-14   子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7367890e3288ddb07eacd95c950910892cc1e005",
+          "hash": "7367890e328",
+          "date": "2026-05-14",
+          "message": "fix: #201825 2026-05-14   子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "3ce4121e9482024a6f74d62bbd9a6fbfe951f7cf",
+          "hash": "3ce4121e948",
+          "date": "2026-05-14",
+          "message": "fix: #201825 2026-05-14   子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "d1a3132549080b59599131acbc5a8ff09523d2a6",
+          "hash": "d1a31325490",
+          "date": "2026-04-14",
+          "message": "fix: #200553 【8.7.x】在bot中发起一个指令。找到了助理但是没找到改助理可执行指令相关技能时2个问题；1、没有唤起助理；2、此时应该使用助理的兜底，目前显示了bot的兜底。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zncPP1Oq3",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "529ed417ccac37116ffd56e8a910fc479115f5d3",
+          "hash": "529ed417cca",
+          "date": "2026-05-13",
+          "message": "fix: #202391 表单快捷键与文本输入冲突优化 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/FxdVBL2p2Sc9CVBg",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "59d6ad8fc49347918481f12089566a7a4be3bdc4",
+          "hash": "59d6ad8fc49",
+          "date": "2026-05-13",
+          "message": "fix: #202391 表单快捷键与文本输入冲突优化 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/FxdVBL2p2Sc9CVBg",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "1a26181e4d8d5097d4452c5b387ba5c51a9be53d",
+          "hash": "1a26181e4d8",
+          "date": "2026-05-13",
+          "message": "fix: #202391 表单快捷键与文本输入冲突优化 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/FxdVBL2p2Sc9CVBg",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "586d524adfb502376b23365d9d62396fd0fdb510",
+          "hash": "586d524adfb",
+          "date": "2026-05-13",
+          "message": "fix: #202335 【绿色通道】8.5 流程设计-节点，基础属性、高级属性中都有节点通过后、节点驳回后事件，功能重复-自动化",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "39986aaebc87eb78b6424fa581b8abea7a965f24",
+          "hash": "39986aaebc8",
+          "date": "2026-05-13",
+          "message": "fix: #202335 【绿色通道】8.5 流程设计-节点，基础属性、高级属性中都有节点通过后、节点驳回后事件，功能重复-自动化",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6d2c29b3fcc0802285a7d22fd6894eb75d73f8b4",
+          "hash": "6d2c29b3fcc",
+          "date": "2026-05-13",
+          "message": "fix: #202317 【导入后端计算逻辑优化】人员单选数据联动别的模型的人员单选，选择本人无法联动 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L8v9oNBbsvnEhv8L",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "e79c201418ef6047cbe88efd2f64cc6165e96d7a",
+          "hash": "e79c201418e",
+          "date": "2026-05-13",
+          "message": "fix: #202317 【导入后端计算逻辑优化】人员单选数据联动别的模型的人员单选，选择本人无法联动 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L8v9oNBbsvnEhv8L",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "5c5cdf2f4925a3eb8699a10ca560122f778d0590",
+          "hash": "5c5cdf2f492",
+          "date": "2026-05-13",
+          "message": "fix: #202335 【绿色通道】8.5 流程设计-节点，基础属性、高级属性中都有节点通过后、节点驳回后事件，功能重复-自动化",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8b3b239b52253a8bd5df7633562dc6d71c315316",
+          "hash": "8b3b239b522",
+          "date": "2026-05-13",
+          "message": "fix: #202317 【导入后端计算逻辑优化】人员单选数据联动别的模型的人员单选，选择本人无法联动 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L8v9oNBbsvnEhv8L",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ecafe5d424e78255987cf61235718a1b78599bbd",
+          "hash": "ecafe5d424e",
+          "date": "2026-05-13",
+          "message": "fix: #202303 【8.7.x】计算规则STRING表达式在运行时报错。",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dfce64a675548d15af3692a4441ac0e775915183",
+          "hash": "dfce64a6755",
+          "date": "2026-05-13",
+          "message": "fix: #202138 【自动化测试】表单填写关联数据时，会出现加载不出数据的问题。多试几次必现",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "101507bf72c57bd166cd3b606e061599bcee58f0",
+          "hash": "101507bf72c",
+          "date": "2026-05-13",
+          "message": "fix: #201159 【自动化测试】访问移动端页面时，如果是未登录的状态，跳转到登录页面的过程中，刷新了2次页面。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9z1CpEynCt",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "48063072e2167d688e44caed463099a98f080b4e",
+          "hash": "48063072e21",
+          "date": "2026-05-13",
+          "message": "fix: #202212 2026-05-14 【内部提单】权限组保存/编辑 添加防抖 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyGe5SFd9R",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "5de189bc7620895e2a0092f06d5d77eff535ec01",
+          "hash": "5de189bc762",
+          "date": "2026-05-13",
+          "message": "fix: #202212 2026-05-14 【内部提单】权限组保存/编辑 添加防抖 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyGe5SFd9R",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dadd8782960fbe5cab6b775b95f1f550be473ba9",
+          "hash": "dadd8782960",
+          "date": "2026-05-13",
+          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "73ae240ed3d8dcab92c4c59c30c80d79ae106383",
+          "hash": "73ae240ed3d",
+          "date": "2026-05-13",
+          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "bd6fc8bc038b1902014adba192cc0ea010d67b4e",
+          "hash": "bd6fc8bc038",
+          "date": "2026-05-13",
+          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "e3d46f56dbfae1fe677f62254cb200d40afbba3c",
+          "hash": "e3d46f56dbf",
+          "date": "2026-05-13",
+          "message": "fix: #201978 2026-05-14  应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a71aae544bd6b8c1a42fc4cd0279448a07c0d06e",
+          "hash": "a71aae544bd",
+          "date": "2026-05-13",
+          "message": "fix: #201978 2026-05-14  应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "0de6c929a8fc59b7c60a10e1dda9c3e684527c50",
+          "hash": "0de6c929a8f",
+          "date": "2026-05-13",
+          "message": "fix: #201978 2026-05-14  应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "207eba66fde6a2876b7b75a4af0844136f8e65ed",
+          "hash": "207eba66fde",
+          "date": "2026-03-12",
+          "message": "fix: #198065 2026-03-12 【西钻升级】树形筛选的“含子数据”功能打开了，但是在前台，点击父节点数据，不显示关联子节点的数据。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/kqTrms7VLf8BpMBl",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "52bc937648816d2399179fa2aeb3f666b3870e06",
+          "hash": "52bc9376488",
+          "date": "2026-05-12",
+          "message": "fix: #201967 【自动化测试】计算规则在表单中运行时报错，子表里的字段使用子表内其他字段计算时不需要使用聚合函数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ecb2d9de7523d3ce88391b6d4bcff379e67194e2",
+          "hash": "ecb2d9de752",
+          "date": "2026-05-12",
+          "message": "fix: #202200 将审批意见列表的加载时机从弹窗可见改为组件挂载时触发",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dbe77b60ea5a5e6643b50d8889722586533501dd",
+          "hash": "dbe77b60ea5",
+          "date": "2026-05-12",
+          "message": "fix: #202291 【内部提单】2026-5-12 选人控件本部门点击下级，页面没显示人员列表",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c1cc5bdf258334bef656e9380bdea3bf0d62f2d7",
+          "hash": "c1cc5bdf258",
+          "date": "2026-05-12",
+          "message": "fix: #202291 【内部提单】2026-5-12 选人控件本部门点击下级，页面没显示人员列表",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8b01d963bdcfa566c82644fea2ad397e0f53709c",
+          "hash": "8b01d963bdc",
+          "date": "2026-05-12",
+          "message": "fix: #202291 【内部提单】2026-5-12 选人控件本部门点击下级，页面没显示人员列表",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "84a15999952e2ff1aeb7bdb8acc8f4cabf3fb176",
+          "hash": "84a15999952",
+          "date": "2026-05-12",
+          "message": "fix: #201967 【自动化测试】计算规则在表单中运行时报错，子表里的字段使用子表内其他字段计算时不需要使用聚合函数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "72c9f51896b0655494f97b11996ca262a2d9ea62",
+          "hash": "72c9f51896b",
+          "date": "2026-05-12",
+          "message": "fix: #201967 【自动化测试】计算规则在表单中运行时报错，子表里的字段使用子表内其他字段计算时不需要使用聚合函数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "231fd92d2f0abe49a43891f0741e7181777699a7",
+          "hash": "231fd92d2f0",
+          "date": "2026-05-12",
+          "message": "fix: #201967 【自动化测试】计算规则在表单中运行时报错，子表里的字段使用子表内其他字段计算时不需要使用聚合函数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "18e03367d6f0364970d21dc1ff607beb1e7e5e8d",
+          "hash": "18e03367d6f",
+          "date": "2026-05-12",
+          "message": "fix: #202178 【内部提单】2026-05-14 电子签章组件界面问题",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "65b6ee4a5c2b682563ab1b9babe37b712fcebc74",
+          "hash": "65b6ee4a5c2",
+          "date": "2026-05-12",
+          "message": "fix: #200837 2026-04-23 【产品环境可复现】源视图隐藏的情况下，自定义视图左上角没有显示菜单名称",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b5edefdc5b04d608acf82fecdd2979eddb522558",
+          "hash": "b5edefdc5b0",
+          "date": "2026-05-11",
+          "message": "fix: #202181 2026-05-14 点击某个单据的打印模板再取消预览，此时在评论区编辑内容，无法正常使用键盘上的【backspace】删除内容",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "601b6a80260182826a01d77420e3ee082105fe84",
+          "hash": "601b6a80260",
+          "date": "2026-05-11",
+          "message": "fix: #202181 2026-05-14 点击某个单据的打印模板再取消预览，此时在评论区编辑内容，无法正常使用键盘上的【backspace】删除内容",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f260e76e96b93e25e0dcdb1b09b33c7ea46c4b68",
+          "hash": "f260e76e96b",
+          "date": "2026-05-11",
+          "message": "fix: #202181 2026-05-14 点击某个单据的打印模板再取消预览，此时在评论区编辑内容，无法正常使用键盘上的【backspace】删除内容",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b597d8416c4b642ab46df66097bf923f06f7e647",
+          "hash": "b597d8416c4",
+          "date": "2026-05-11",
+          "message": "fix: #202222 2026-05-14 云6在线编辑httpRes返回undefined https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz3303b20d",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "bd7b04408bbfd14636504ee305534c6e68b5ba72",
+          "hash": "bd7b04408bb",
+          "date": "2026-05-11",
+          "message": "fix: #202222 2026-05-14 云6在线编辑httpRes返回undefined https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz3303b20d",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4e99b0d68e340ec9a774d2188365bcd7a7750f38",
+          "hash": "4e99b0d68e3",
+          "date": "2026-05-11",
+          "message": "fix: #202222 2026-05-14 云6在线编辑httpRes返回undefined https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz3303b20d",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c3681982502535a3951afb0af9c18f8eb82613cc",
+          "hash": "c3681982502",
+          "date": "2026-05-11",
+          "message": "fix: #202208 【绿色通道】产品配置视图的自定义行按钮绑定了业务规则  用户多次点击会出现同时执行多次的情况 应该改为点一次 按钮先置灰等第一次有返回 才能点击第二次 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz59db0884",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "2f84f2bfbeaad611f4ed63465f50f2b43db4fb77",
+          "hash": "2f84f2bfbea",
+          "date": "2026-05-11",
+          "message": "fix: #201913 2026-05-14   【8.7产品环境可复现】从6.14将应用导入8.7之后表单中分组标题没有显示（应用包见附件） https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze9890d76",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8258647ee73bbcaea44504c9b821ac5a5003773b",
+          "hash": "8258647ee73",
+          "date": "2026-05-11",
+          "message": "fix: #201913 2026-05-14   【8.7产品环境可复现】从6.14将应用导入8.7之后表单中分组标题没有显示（应用包见附件） https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze9890d76",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b88e8736bbf8fa65875f278b8b8670d1a984e943",
+          "hash": "b88e8736bbf",
+          "date": "2026-05-11",
+          "message": "fix: #201538 【自动化测试】填写人员单选触发人员映射，人员所属机构的值没有映射出来 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zQTINLMxH",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f10e242ad511e38111961efde28d5521f703408f",
+          "hash": "f10e242ad51",
+          "date": "2026-05-10",
+          "message": "fix: #198329 【8.7】表单填写，年份组件需要屏蔽掉月份的选择",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c850499c46e7ddf17aa5ebad237d7a44c3622b0b",
+          "hash": "c850499c46e",
+          "date": "2026-05-09",
+          "message": "fix: #202152 【8.7.x】从组织机构切换到组织角色时报错，看不到角色列表了。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zZ6xgt7qq",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "40fc1f678a4a2faa4cdcc9c9a019dd716cbc0f24",
+          "hash": "40fc1f678a4",
+          "date": "2026-05-09",
+          "message": "fix: #202152 【8.7.x】从组织机构切换到组织角色时报错，看不到角色列表了。 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zZ6xgt7qq",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "0c64da0ff45e8cf6268e7574fbcb79e33963d824",
+          "hash": "0c64da0ff45",
+          "date": "2026-05-14",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "05117575f92a512e7014e3184244d664752acc61",
+          "hash": "05117575f92",
+          "date": "2026-05-14",
+          "message": "Revert \"perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口\"",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "98858a4966f46c0da935bd1cce711046ef9f08c6",
+          "hash": "98858a4966f",
+          "date": "2026-05-14",
+          "message": "Revert \"perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口\"",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "d1fe4292b4efd0650986809009c134691bb78121",
+          "hash": "d1fe4292b4e",
+          "date": "2026-05-14",
+          "message": "Revert \"perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口\"",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "44734450c30e198e9fd565d9c9434532b367dff7",
+          "hash": "44734450c30",
+          "date": "2026-05-12",
+          "message": "perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "ac9c27fd9593bf33da00023131c0bd6eb31fbb11",
+          "hash": "ac9c27fd959",
+          "date": "2026-05-12",
+          "message": "perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "d9bbf29447616fdc9281ca517182df82f49c8c3f",
+          "hash": "d9bbf294476",
+          "date": "2026-05-14",
+          "message": "feat: #202442 【绿色通道】自定义菜单流程提示条数不对",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "4444320a5db55fa9e9cdeee39b1e08997a0ffad4",
+          "hash": "4444320a5db",
+          "date": "2026-05-14",
+          "message": "feat: #202442 【绿色通道】自定义菜单流程提示条数不对",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "ec28d815a597477f8da88a1e87f146cab1af78a7",
+          "hash": "ec28d815a59",
+          "date": "2026-05-14",
+          "message": "feat: #202442 【绿色通道】自定义菜单流程提示条数不对",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "663e3de75259f1f65422ba77fcc2c57ecf4d2dea",
+          "hash": "663e3de7525",
+          "date": "2026-05-13",
+          "message": "perf: 合并几个chunk减少总加载时间",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "f3a4d9db3719d4cba03f603c830e9683316aa02d",
+          "hash": "f3a4d9db371",
+          "date": "2026-05-12",
+          "message": "perf: 去除bot中调用的已废除功能接口:getByCode",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "44ec88c0eecdc328de1f8638fafcf7f62f82eaf3",
+          "hash": "44ec88c0eec",
+          "date": "2026-05-12",
+          "message": "perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "7c8d9f5e6caadf760678b05d290f27a5350d47d7",
+          "hash": "7c8d9f5e6ca",
+          "date": "2026-05-12",
+          "message": "perf: 去除bot中调用的已废除功能接口:getByCode",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "41c56e90ba186346c6ab2d24628533003484cbcc",
+          "hash": "41c56e90ba1",
+          "date": "2026-05-12",
+          "message": "perf: 去除bot中调用的已废除功能接口:getByCode",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "62c0f933dd37f5cfd52e4a14fb722b483b8d84bc",
+          "hash": "62c0f933dd3",
+          "date": "2026-05-12",
+          "message": "feat: #202207 【绿色通道】业务规则执行对象是子表，但是判断条件无法选择到子表数据",
+          "type": "feature",
+          "label": "功能"
+        },
+        {
+          "full": "e35acd53e77b5fbaf758aa15ff86af96ea43fc1b",
+          "hash": "e35acd53e77",
+          "date": "2026-05-12",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "ac91b583c1ba22184facd95e32e9071aa9ee2d1c",
+          "hash": "ac91b583c1b",
+          "date": "2026-05-11",
+          "message": "perf: 列表视图 - 问题5 - 有决策表配置才初始化决策表",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "d86ab115e5d2c2f7e0961595706dd269de0c7e23",
+          "hash": "d86ab115e5d",
+          "date": "2026-05-11",
+          "message": "perf: 视图列表 - 问题3/问题6 - getDataPermission按需/getFormAttributesJson按需且替换为电子表格接口get_biz_sheet",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "77404a1b75bea59cb59f0c085b50f50b373b862a",
+          "hash": "77404a1b75b",
+          "date": "2026-05-12",
+          "message": "refactor: #202200 优化评论模块懒加载，仅在首次挂载时请求评论数并修复初始显示逻辑",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "b385cd60031befc5b8e01dbbedb27dcfb9a37ad5",
+          "hash": "b385cd60031",
+          "date": "2026-05-12",
+          "message": "refactor: #202200 使用缓存状态并延迟加载评论数",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "afa9f34f22c4de87572fbc187997d75344d86fca",
+          "hash": "afa9f34f22c",
+          "date": "2026-05-12",
+          "message": "refactor: #202200 优化评论模块懒加载，仅在首次挂载时请求评论数并修复初始显示逻辑",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "545ad8af4d92fd7421ae413990b180db32c39a7d",
+          "hash": "545ad8af4d9",
+          "date": "2026-05-12",
+          "message": "perf: 门户首页问题 - 切换导航不再页面级刷新 / 导航配置应用进入时选中第一个而不是选中上次打开过的",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "938b2518cc7f308a051d3c9994adb3bdff246fa7",
+          "hash": "938b2518cc7",
+          "date": "2026-05-12",
+          "message": "refactor: #202200 优化二维码生成逻辑，仅在鼠标悬停时延迟加载二维码并添加加载状态控制",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "9028cbc090d202b3a82c8750e4474fb6952699e1",
+          "hash": "9028cbc090d",
+          "date": "2026-05-12",
+          "message": "refactor: #202200 优化常用审批意见列表加载时机，改为弹窗可见时再请求数据",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "49fa6162106520024f879204b965532ea880d86b",
+          "hash": "49fa6162106",
+          "date": "2026-05-11",
+          "message": "perf: 表单 - 有决策表配置才初始化决策表",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "080e9fe8cf3ee4f747535b74054f3b4f74c2808f",
+          "hash": "080e9fe8cf3",
+          "date": "2026-05-11",
+          "message": "chore: 补全回迁时缺少的代码",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "406864cb33d34de83dd666320bf20b8a545b7310",
+          "hash": "406864cb33d",
+          "date": "2026-05-11",
+          "message": "perf: 列表视图 - 问题5 - 有决策表配置才初始化决策表",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "cf46242e89f093879de18f59a2535d06f3211cc1",
+          "hash": "cf46242e89f",
+          "date": "2026-05-11",
+          "message": "perf: 视图列表 - 问题3/问题6 - getDataPermission按需/getFormAttributesJson按需且替换为电子表格接口get_biz_sheet",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "2f963f9f43a93473948ef129f11af03949b35888",
+          "hash": "2f963f9f43a",
+          "date": "2026-05-11",
+          "message": "perf: 流程中心 - 问题3 - 短时间内多次调用使用同一结果，解决get_work_count调用两次的问题",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "88d98ed5bf0ac5df25977ef7b3407350086adc9b",
+          "hash": "88d98ed5bf0",
+          "date": "2026-05-11",
+          "message": "perf: 流程中心 - 问题2 - /api/api/system/custom/component/list弃用用purpose改用category=form",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "0aeae8f35ea1a047f911d57ac465c7a200ac29c7",
+          "hash": "0aeae8f35ea",
+          "date": "2026-05-11",
+          "message": "test: 手写签名label显示异常问题处理",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "8.6.22",
+      "date": "2026-05-14",
+      "markerCommit": "ca6a6e850a7",
+      "markerMessage": "build: 主工程版本号修改=> 8.6.22",
+      "stats": {
+        "total": 1,
+        "custom": 0,
+        "fix": 0
+      },
+      "features": [],
+      "fixes": [],
+      "others": [
+        {
+          "full": "fecda70d360fa874035160aee6f4ae1dfb1d8eb4",
+          "hash": "fecda70d360",
+          "date": "2026-05-14",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.5",
+      "date": "2026-05-14",
+      "markerCommit": "2ff62bd6f08",
+      "markerMessage": "build: 主工程版本号修改=> AI-Platform-v1.1.5",
+      "stats": {
+        "total": 1,
+        "custom": 0,
+        "fix": 0
+      },
+      "features": [],
+      "fixes": [],
+      "others": [
+        {
+          "full": "0a0665dd26332f3018e7bfffb9076d9f0b0349a7",
+          "hash": "0a0665dd263",
+          "date": "2026-05-14",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.5-bankcomm",
+      "date": "2026-05-16",
+      "markerCommit": "89e17e3b820",
+      "markerMessage": "docs: 临时发布版本",
+      "stats": {
+        "total": 18,
+        "custom": 3,
+        "fix": 11
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "动态列数值格式化值转换修改",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "9020d8879dccdf6cecc450a3c438db84969e2d9b",
+              "hash": "9020d8879dc",
+              "date": "2026-05-15",
+              "message": "test: 交行定制-动态列数值格式化值转换修改",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "发布定制包版本",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "d91a46b24e38f8c6804ddb133f787f5c4215d42e",
+              "hash": "d91a46b24e3",
+              "date": "2026-05-15",
+              "message": "docs: 发布定制包版本",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "自定义页面支持截取参数并传入给图表组件",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "56692401690d8f31d61b1aa9336dab07d3c0c99c",
+              "hash": "56692401690",
+              "date": "2026-05-15",
+              "message": "test: 交行定制-自定义页面支持截取参数并传入给图表组件",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "d0b329b5c418040c565ebfb35f2453fd0508de8e",
+          "hash": "d0b329b5c41",
+          "date": "2026-05-15",
+          "message": "fix: #202395 进入设计器，有其他人操作，展示限制锁弹窗提示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "63478564c0cf4b8c21a0e3119f579ad1009b47f1",
+          "hash": "63478564c0c",
+          "date": "2026-05-15",
+          "message": "fix: #202395 进入设计器，有其他人操作，展示限制锁弹窗提示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "689feb7225836ca0f5da6c2fa0bdb5e16ab560e3",
+          "hash": "689feb72258",
+          "date": "2026-05-15",
+          "message": "fix: #202453 【绿色通道】 逻辑类型字段在业务规则配置为满足条件数据过滤会导致服务异常",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a733975baaa1cd17df257551723d2e3042d5bb48",
+          "hash": "a733975baaa",
+          "date": "2026-05-15",
+          "message": "fix: #202453 【绿色通道】 逻辑类型字段在业务规则配置为满足条件数据过滤会导致服务异常",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "1d5826e80a37f3d94f451b9cf55c9ee0363be96c",
+          "hash": "1d5826e80a3",
+          "date": "2026-05-15",
+          "message": "fix: #202453 【绿色通道】 逻辑类型字段在业务规则配置为满足条件数据过滤会导致服务异常",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8dcc6d77b9cd84241a369ac2a742cb1a26466793",
+          "hash": "8dcc6d77b9c",
+          "date": "2026-05-15",
+          "message": "fix: #202395 进入设计器，有其他人操作，展示限制锁弹窗提示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b1de1572140f2bbe0c7da3863719b5385f20a69d",
+          "hash": "b1de1572140",
+          "date": "2026-05-15",
+          "message": "fix: #202570 【绿色通道】【西钻升级】【产研环境复现】子表空行校验不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "341332ce593e3a1f98f0854f78e97ac02bce712c",
+          "hash": "341332ce593",
+          "date": "2026-05-15",
+          "message": "fix: #202565 【绿色通道】太保安全漏洞扫描--在太保的/js/41772.e36d6999.js请求中扫描出了高德的key，疑似产品自带的",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "190fa81a2d8e6878ca3ed25d6b5ed5c7e274a0b8",
+          "hash": "190fa81a2d8",
+          "date": "2026-05-15",
+          "message": "fix: #202565 【绿色通道】太保安全漏洞扫描--在太保的/js/41772.e36d6999.js请求中扫描出了高德的key，疑似产品自带的",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "544bbd5177e145251c14a4bad76106e30627e08e",
+          "hash": "544bbd5177e",
+          "date": "2026-05-15",
+          "message": "fix: #202565 【绿色通道】太保安全漏洞扫描--在太保的/js/41772.e36d6999.js请求中扫描出了高德的key，疑似产品自带的",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4bd504a51a725e9304cc4c697c1c8aca724548cf",
+          "hash": "4bd504a51a7",
+          "date": "2026-05-15",
+          "message": "fix: #202329 2026-05-21 8.7 打印模板很多时，页面展示不全又没有滚动条",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "4a7dfe067641b687d57ae8744c600d7396110735",
+          "hash": "4a7dfe06764",
+          "date": "2026-05-15",
+          "message": "refactor: 合并文字转图工具并统一使用 TextToImage 类",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "732cce230dca3a54bea024c042f6d4fe89684894",
+          "hash": "732cce230dc",
+          "date": "2026-05-12",
+          "message": "perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "0d04d7489bd8e6cf4d23ad4a24be89235b64f99e",
+          "hash": "0d04d7489bd",
+          "date": "2026-05-12",
+          "message": "perf: 单选多选下拉单选下拉多选控件在只读态抑制调用调用获取options的接口",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "d44687078cbd154cb0626bfc9aef395c1b82b305",
+          "hash": "d44687078cb",
+          "date": "2026-05-15",
+          "message": "chore: 8.6合并冲突处理",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.5-bankcomm.1",
+      "date": "2026-05-20",
+      "markerCommit": "c2eb01b5030",
+      "markerMessage": "docs: 发布版本",
+      "stats": {
+        "total": 54,
+        "custom": 5,
+        "fix": 37
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "修改权限逻辑",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "8c5ac1ba62742e430d9b01c29490426958c4d0c3",
+              "hash": "8c5ac1ba627",
+              "date": "2026-05-18",
+              "message": "docs: 修改权限逻辑",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "修改权限管理功能",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "97995e5db0b32ec3c66527bea123ca2ea73c0df7",
+              "hash": "97995e5db0b",
+              "date": "2026-05-18",
+              "message": "docs: 修改权限管理功能",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "优化权限",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ce0c30900be2f89cdec5677b3d5354be08b7099d",
+              "hash": "ce0c30900be",
+              "date": "2026-05-20",
+              "message": "docs: 优化权限",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "优化企业子管理员权限",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "471ea6aa691854f620950fc7fa919bda8c9c3253",
+              "hash": "471ea6aa691",
+              "date": "2026-05-19",
+              "message": "docs: 优化企业子管理员权限",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "优化权限体系",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "d5533442662b60eddf95262fae140fa5a2d44f6e",
+              "hash": "d5533442662",
+              "date": "2026-05-19",
+              "message": "docs: 优化权限体系",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "07a10aec3ecff74c41975bcadfd60bd161409b77",
+          "hash": "07a10aec3ec",
+          "date": "2026-05-18",
+          "message": "fix: #202720 【绿色通道】视图列表子表字段显示过长-8.7环境",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "56424f962a8e52e8876caaa25ea82eeb19020586",
+          "hash": "56424f962a8",
+          "date": "2026-05-18",
+          "message": "fix: #202734 【绿色通道】【西钻升级】【研发最新代码复现】表单点击提交后按钮置灰，控制台报错，无法正常提交",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "34a2ebf032bbd3d7dc83ed48396bade2efc049e9",
+          "hash": "34a2ebf032b",
+          "date": "2026-05-18",
+          "message": "fix: #202734 【绿色通道】【西钻升级】【研发最新代码复现】表单点击提交后按钮置灰，控制台报错，无法正常提交",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "55d9a8b7189007ef56062c00f54979c03af6e893",
+          "hash": "55d9a8b7189",
+          "date": "2026-05-18",
+          "message": "fix: #202744 【8.7.x】复制表单的时候，时间字段的值没有复制过来。",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6fed61e7b46ded95eb03733fa6b974ac19d82765",
+          "hash": "6fed61e7b46",
+          "date": "2026-05-18",
+          "message": "fix: #202372 审批意见为空时自动滚动到审批区域并添加控件ID",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "99529466d447d448ed447f1c5b4f127ec5a363b1",
+          "hash": "99529466d44",
+          "date": "2026-05-18",
+          "message": "fix: #202708 【绿色通道】子表内配置了字段的必填。当子表数据量大，有分页时，复制表单数据，提交必填校验异常，只校验了当前页的数据，后续分页字段校验失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyjldb2Ya4",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6b3d191b18df8361a8a1a50c9f95fb30912fb05d",
+          "hash": "6b3d191b18d",
+          "date": "2026-05-18",
+          "message": "fix: #202723 【绿色通道】【西钻升级】【研发环境复现】日期字段配置的计算规则，配置正确校验不通过",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a75153d9a11de3f8e4260c6673522867159bfe05",
+          "hash": "a75153d9a11",
+          "date": "2026-05-18",
+          "message": "fix: #202723 【绿色通道】【西钻升级】【研发环境复现】日期字段配置的计算规则，配置正确校验不通过",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "3d09d1f2eaf6adfd090463e5b0f9e1ca910fae83",
+          "hash": "3d09d1f2eaf",
+          "date": "2026-05-18",
+          "message": "fix: #202415 2026-05-21  手机端按钮遮挡表单控件",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b4d06dd69a4a4d7ddc5a3c1d143a483899776984",
+          "hash": "b4d06dd69a4",
+          "date": "2026-05-18",
+          "message": "fix: #202415 2026-05-21  手机端按钮遮挡表单控件",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "02887f984c52ca3b692be9cb936b85f10843937b",
+          "hash": "02887f984c5",
+          "date": "2026-05-18",
+          "message": "fix: #202708 【绿色通道】子表内配置了字段的必填。当子表数据量大，有分页时，复制表单数据，提交必填校验异常，只校验了当前页的数据，后续分页字段校验失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyjldb2Ya4",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4c5d23f3f94bf796eecd7639624d2d3995f9d3f5",
+          "hash": "4c5d23f3f94",
+          "date": "2026-05-18",
+          "message": "fix: #202691 【绿色通道】【西钻升级】【研发环境复现】容器内的组件，在移动端不显示 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd37a1c18",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "0c202067b7e2c0378470ec545b31afc98b6d26b7",
+          "hash": "0c202067b7e",
+          "date": "2026-05-18",
+          "message": "fix: #202498 【8.5.x】关联单选控件下拉框形态下，点击时，有重复的接口调用",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "36317cae339516d362299789e253d1f55e8edf19",
+          "hash": "36317cae339",
+          "date": "2026-05-18",
+          "message": "fix: #202691 【绿色通道】【西钻升级】【研发环境复现】容器内的组件，在移动端不显示 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd37a1c18",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ad11f785c1ea9f5c354a0f2dedd6c547b3227300",
+          "hash": "ad11f785c1e",
+          "date": "2026-05-18",
+          "message": "fix: #202713 2026-05-21  纯净模式下 关联单选 上锁 映射不出来值",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "0b7dd5fb4908691228ca388085d6638ee8be3ddd",
+          "hash": "0b7dd5fb490",
+          "date": "2026-05-18",
+          "message": "fix: #202690 2026-05-21 8.5 关联多选配置查询列表字段选创建人，发布后前台新增页面，关联多选选择数据后，显示json格式 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz11e4d998",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "cf8627709c051abb0931f4b6ee6ad82d1f734651",
+          "hash": "cf8627709c0",
+          "date": "2026-05-18",
+          "message": "fix: #202690 2026-05-21 8.5 关联多选配置查询列表字段选创建人，发布后前台新增页面，关联多选选择数据后，显示json格式 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz11e4d998",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "50f6a975078c78498b3e80a07423e66c964e9193",
+          "hash": "50f6a975078",
+          "date": "2026-05-18",
+          "message": "fix: #202690 2026-05-21 8.5 关联多选配置查询列表字段选创建人，发布后前台新增页面，关联多选选择数据后，显示json格式 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz11e4d998",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "085a575b8aea0032e1b2e07bf4e329c82ef2854c",
+          "hash": "085a575b8ae",
+          "date": "2026-05-18",
+          "message": "fix: #202691 【绿色通道】【西钻升级】【研发环境复现】容器内的组件，在移动端不显示 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd37a1c18",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8665be8b5fa765203eb0f2f76b870f565fdb493d",
+          "hash": "8665be8b5fa",
+          "date": "2026-05-18",
+          "message": "fix: #202449 【内部提单】2026-05-21 长文本限制了字数，子表长文本未生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dd48479a6fde497f1f040c366f92d706734bb26b",
+          "hash": "dd48479a6fd",
+          "date": "2026-05-18",
+          "message": "fix: #202517 8.5应用包导入到8.7之后在子表新加一个字段，配置子表中的关联表单映射字段显示有问题，没有显示子表名.字段名，影响设计态字段展示,运行态数据映射正常 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz0be8f641",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7fcc609f9c58df7f939b7c1f7fc4cb9aac230e9a",
+          "hash": "7fcc609f9c5",
+          "date": "2026-05-18",
+          "message": "fix: #202517 8.5应用包导入到8.7之后在子表新加一个字段，配置子表中的关联表单映射字段显示有问题，没有显示子表名.字段名，影响设计态字段展示,运行态数据映射正常 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz0be8f641",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ae41855a820e1221d3d51481ed31cb6426e0a5d0",
+          "hash": "ae41855a820",
+          "date": "2026-05-18",
+          "message": "fix: #200838 2026-04-23 【产品环境可复现】自定义视图列表点击导出按钮，提示缺少必传参数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b84806b0d7bbb65ee15ca16579e41b75b6671dff",
+          "hash": "b84806b0d7b",
+          "date": "2026-05-18",
+          "message": "fix: #200838 2026-04-23 【产品环境可复现】自定义视图列表点击导出按钮，提示缺少必传参数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8552856cb9de93eb5877be420fcf117821fbb26a",
+          "hash": "8552856cb9d",
+          "date": "2026-05-18",
+          "message": "fix: #200838 2026-04-23 【产品环境可复现】自定义视图列表点击导出按钮，提示缺少必传参数",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "df5e99e247f44a7cd0398d5ab4e795223415e3f1",
+          "hash": "df5e99e247f",
+          "date": "2026-05-19",
+          "message": "fix: #202146 【绿色通道】【西钻升级】【研发环境复现】开启子表纯净编辑模式，切换子表分页后，发现有关联单选从有值变成了显示空",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "36fb32806373a12789351791910a88ffb562666d",
+          "hash": "36fb3280637",
+          "date": "2026-05-19",
+          "message": "fix: #202847 【绿色通道】报表打开后报错，进入到图表编辑页面点“更改”数据源，以及标题左侧返回按钮点击无反应",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c9762229d642df2e6fee491154e8eeb289e19fb0",
+          "hash": "c9762229d64",
+          "date": "2026-05-19",
+          "message": "fix: #202847 【绿色通道】报表打开后报错，进入到图表编辑页面点“更改”数据源，以及标题左侧返回按钮点击无反应",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7c3c6bbc29e899d62f535cec3bca5d5225a59304",
+          "hash": "7c3c6bbc29e",
+          "date": "2026-05-19",
+          "message": "fix: #202374 2026-05-21 应用首页设计器数据列表组件无法保存",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "08e39c38daa4b898d4935a9c873defe75b1a28ae",
+          "hash": "08e39c38daa",
+          "date": "2026-05-19",
+          "message": "fix: #202374 2026-05-21 应用首页设计器数据列表组件无法保存",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "2710f797fc0bb706de44363825c023beb2d04173",
+          "hash": "2710f797fc0",
+          "date": "2026-05-19",
+          "message": "fix: #202374 2026-05-21 应用首页设计器数据列表组件无法保存",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "b1c274de4d067beeb5e9bcb436d1d0e2da115984",
+          "hash": "b1c274de4d0",
+          "date": "2026-05-19",
+          "message": "fix: #202810 【绿色通道】子表数值控件配置的是默认值靠右对齐，打开已提交表单后数据却是靠左展示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9f7609ef2feef55f339e8618916ecc8f52c564c1",
+          "hash": "9f7609ef2fe",
+          "date": "2026-05-19",
+          "message": "fix: #202708 【绿色通道】子表内配置了字段的必填。当子表数据量大，有分页时，复制表单数据，提交必填校验异常，只校验了当前页的数据，后续分页字段校验失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyjldb2Ya4",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "42e4591e9ae872ea5c64647aa9d8907998f74d11",
+          "hash": "42e4591e9ae",
+          "date": "2026-05-19",
+          "message": "fix: #202708 【绿色通道】子表内配置了字段的必填。当子表数据量大，有分页时，复制表单数据，提交必填校验异常，只校验了当前页的数据，后续分页字段校验失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyjldb2Ya4",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "349392e0844e0f0c043c065f80d77fdc23f0db76",
+          "hash": "349392e0844",
+          "date": "2026-05-19",
+          "message": "fix: #202511 【绿色通道】【西部钻探】【产研环境复现】使用union()合并子表中数据，报异常错误",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "341a28bd231551ec638fb7217895ded84e3a37e3",
+          "hash": "341a28bd231",
+          "date": "2026-05-19",
+          "message": "fix: #202511 【绿色通道】【西部钻探】【产研环境复现】使用union()合并子表中数据，报异常错误",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "39a7febba433dccf5e14929b0d133c0d903b685b",
+          "hash": "39a7febba43",
+          "date": "2026-05-19",
+          "message": "fix: #202708 【绿色通道】子表内配置了字段的必填。当子表数据量大，有分页时，复制表单数据，提交必填校验异常，只校验了当前页的数据，后续分页字段校验失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyjldb2Ya4",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "f47d3ec632a6d6234796660dbacb9a6d2ebfbfac",
+          "hash": "f47d3ec632a",
+          "date": "2026-05-18",
+          "message": "test: 修复子表查看模式下，子表列显示条件使用了表单模式字段问题",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "fae862b584e71bc4cec45e8d9f663f62352e6e01",
+          "hash": "fae862b584e",
+          "date": "2026-05-18",
+          "message": "perf: 修复优化优化三，自定义组件跳过渲染限制",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "ef8b46d034b1c0715753ecdb3db67913f5cfd695",
+          "hash": "ef8b46d034b",
+          "date": "2026-05-18",
+          "message": "perf: 修复优化优化三，自定义组件跳过渲染限制",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "60de98b46b764e0679f5555cef4b4bc909802b98",
+          "hash": "60de98b46b7",
+          "date": "2026-05-18",
+          "message": "perf: 每个FormCol都渲染了一个PageLoadingUnify，改成只在显示时渲染",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "348386dae10ae8e77887ea4f62bbd4600905f2a9",
+          "hash": "348386dae10",
+          "date": "2026-05-18",
+          "message": "perf: 修复优化优化三，自定义组件跳过渲染限制",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "b154a25ccced2fda9e0af824aa39e70c15f0d1fa",
+          "hash": "b154a25ccce",
+          "date": "2026-05-18",
+          "message": "perf: 每个FormCol都渲染了一个PageLoadingUnify，改成只在显示时渲染",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "795c8af0e0b3b7774372c4c7c3e0d3ac9ff9b30b",
+          "hash": "795c8af0e0b",
+          "date": "2026-05-18",
+          "message": "perf: 每个FormCol都渲染了一个PageLoadingUnify，改成只在显示时渲染",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "82217b6cfd47f471d872b7ceb6438b9210ea46f6",
+          "hash": "82217b6cfd4",
+          "date": "2026-05-18",
+          "message": "perf: 修复dataItemSplitUtils函数缺失问题",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "6bf89d3aa9300b30eac3fd9fbf720a02169598da",
+          "hash": "6bf89d3aa93",
+          "date": "2026-05-18",
+          "message": "perf: 修复dataItemSplitUtils函数缺失问题",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "bdcc3a1c26084ab8b6b352e2a137805ae8e1dac1",
+          "hash": "bdcc3a1c260",
+          "date": "2026-05-18",
+          "message": "perf: 修复版本差异导致的公共函数缺失报错",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "a733257a0d340b302da6b97517a3b33543fcb737",
+          "hash": "a733257a0d3",
+          "date": "2026-05-18",
+          "message": "perf: 修复版本差异导致的公共函数缺失报错",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "53e2e91468a7ec3635e35086bf70c6c99c0c2c83",
+          "hash": "53e2e91468a",
+          "date": "2026-05-19",
+          "message": "perf: 调整报表的层级，解决报表中的下拉框被遮挡问题",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.6",
+      "date": "2026-05-21",
+      "markerCommit": "93efc9af20a",
+      "markerMessage": "build: 主工程版本号修改=\\>AI-Platform-v1.1.6",
+      "stats": {
+        "total": 38,
+        "custom": 2,
+        "fix": 28
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "修改调试token获取方式",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7fd61aa31a364451e91ebf81900b3d3096b0baa3",
+              "hash": "7fd61aa31a3",
+              "date": "2026-05-21",
+              "message": "docs: 修改调试token获取方式",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "修改token本地存储前缀",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "9ab0599cfbfd1252084ee6fbb1c1163a1620c037",
+              "hash": "9ab0599cfbf",
+              "date": "2026-05-21",
+              "message": "docs: 修改token本地存储前缀",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "bca18b9adb45fd88e81da15700c4c0ea9ca5bf40",
+          "hash": "bca18b9adb4",
+          "date": "2026-05-21",
+          "message": "fix: #202324 【内部提单】2026-5-21   在8.5以及之后的版本，关联引用在打印里不显示了",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "e93882316810d105ce26ae12a477d9060b820e00",
+          "hash": "e9388231681",
+          "date": "2026-05-21",
+          "message": "fix: #198936 【8.7.x】管理员设置-新增管理员未校验系统内存在账号",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "2dc199c4788f22387e9bc94647fce4ea560aa738",
+          "hash": "2dc199c4788",
+          "date": "2026-05-21",
+          "message": "fix: #202324 【内部提单】2026-5-21   在8.5以及之后的版本，关联引用在打印里不显示了",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "2803fadd40e4809b5b964f17f24b53fafa4e69ef",
+          "hash": "2803fadd40e",
+          "date": "2026-05-21",
+          "message": "fix: #202324 【内部提单】2026-5-21   在8.5以及之后的版本，关联引用在打印里不显示了",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "bca3dabdffc71c942024b22842c96263068b3092",
+          "hash": "bca3dabdffc",
+          "date": "2026-05-20",
+          "message": "fix: #202748 2026-05-21 移动端的关联查询，限定范围或查询条件改变后，数据没有自动刷新",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4b41752935c3a25cc36047f489809ac30227f883",
+          "hash": "4b41752935c",
+          "date": "2026-05-20",
+          "message": "fix: #202748 2026-05-21 移动端的关联查询，限定范围或查询条件改变后，数据没有自动刷新",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "29d6f3c8b48cb0b8585230346d56c4eafe71e992",
+          "hash": "29d6f3c8b48",
+          "date": "2026-05-20",
+          "message": "fix: #202912 【绿色通道】人员映射部门，修改人员控件，映射部门字段值未更改 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8716247e",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c1b9531a5f4e598dec9a208f0f35d30a39b04da7",
+          "hash": "c1b9531a5f4",
+          "date": "2026-05-20",
+          "message": "fix: #202912 【绿色通道】人员映射部门，修改人员控件，映射部门字段值未更改 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8716247e",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8811c7e621af0e26e279541e0fefd604b75f3456",
+          "hash": "8811c7e621a",
+          "date": "2026-05-20",
+          "message": "fix: #202912 【绿色通道】人员映射部门，修改人员控件，映射部门字段值未更改 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8716247e",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "211f0a5bd8f113ad06924fdb292e1833420fdcd1",
+          "hash": "211f0a5bd8f",
+          "date": "2026-05-20",
+          "message": "fix: #202657 2026-05-21   Q59\t前端語言包二開無法正常覆蓋 cloudpivot.form.controlConfig https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzea7c378e",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "66f09d7c3d69207bdc58eb769d4e4612be44e9bb",
+          "hash": "66f09d7c3d6",
+          "date": "2026-05-20",
+          "message": "fix: #202592 2026-05-21  移动端关联表单下拉框数据不能显示 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd85c78fc",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "69739231acbc78e5b51f7567a62ed45f80a135e2",
+          "hash": "69739231acb",
+          "date": "2026-05-20",
+          "message": "fix: #202393 2026-05-21  选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常  版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ef9f07a2bef982c034533481fee69b72181a3b27",
+          "hash": "ef9f07a2bef",
+          "date": "2026-05-20",
+          "message": "fix: #202393 2026-05-21  选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常  版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "98d27750ad2c29155ac0864a71bb0ececf62274c",
+          "hash": "98d27750ad2",
+          "date": "2026-05-20",
+          "message": "fix: #202393 2026-05-21  选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常  版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "e85c04c1ed3021c8cbc8efd1185b037e2fa456dc",
+          "hash": "e85c04c1ed3",
+          "date": "2026-05-20",
+          "message": "fix: #202337 2026-05-21 列表存在树形筛选TAB时，列表样式异常 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz27d2c6f6",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "bdfbeb748f30b055028bf526ae76fc38c507fc29",
+          "hash": "bdfbeb748f3",
+          "date": "2026-05-20",
+          "message": "fix: #202337 2026-05-21 列表存在树形筛选TAB时，列表样式异常 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz27d2c6f6",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6d9298704315ac6ddb9f74dc0e031cac64e245e8",
+          "hash": "6d929870431",
+          "date": "2026-05-19",
+          "message": "fix: #202146 【绿色通道】【西钻升级】【研发环境复现】开启子表纯净编辑模式，切换子表分页后，发现有关联单选从有值变成了显示空",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "5ed3b976b9d9932e4b179a1304b605ca69ce2549",
+          "hash": "5ed3b976b9d",
+          "date": "2026-05-20",
+          "message": "fix: #202863 2026-05-21 福建电建-云枢8.2-视图列表下游数据模型修改时间不展示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "69f2867be7a82464ff4293e4fa8ad6721c43229a",
+          "hash": "69f2867be7a",
+          "date": "2026-05-20",
+          "message": "fix: #202863 2026-05-21 福建电建-云枢8.2-视图列表下游数据模型修改时间不展示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "befb4418c1986949d443a42a248c30e05c4e629b",
+          "hash": "befb4418c19",
+          "date": "2026-05-20",
+          "message": "fix: #202863 2026-05-21 福建电建-云枢8.2-视图列表下游数据模型修改时间不展示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "234591fce39c81995af0bacaf68f16acd7573573",
+          "hash": "234591fce39",
+          "date": "2026-05-20",
+          "message": "fix: #202146 【绿色通道】【西钻升级】【研发环境复现】开启子表纯净编辑模式，切换子表分页后，发现有关联单选从有值变成了显示空",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "73fccf8a6c3eafb59d13db4351a100d860d32a43",
+          "hash": "73fccf8a6c3",
+          "date": "2026-05-20",
+          "message": "fix: #202847 【绿色通道】报表打开后报错，进入到图表编辑页面点“更改”数据源，以及标题左侧返回按钮点击无反应",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "10b6e82cad0f28e4f36125f6a0c57eaf3fe867bd",
+          "hash": "10b6e82cad0",
+          "date": "2026-05-18",
+          "message": "fix: #202372 审批意见为空时自动滚动到审批区域并添加控件ID",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f6782f4d631852559e122fa28886f103f8fffb40",
+          "hash": "f6782f4d631",
+          "date": "2026-05-20",
+          "message": "fix: #202474 【绿色通道】移动端关联表单下拉会报错",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "c5abcaaa068493dc98fac950b9fa43ceec32fe8d",
+          "hash": "c5abcaaa068",
+          "date": "2026-05-20",
+          "message": "fix: #202474 【绿色通道】移动端关联表单下拉会报错",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "547852e2eb703f81a547c221a71f2fb2a2a25d80",
+          "hash": "547852e2eb7",
+          "date": "2026-05-20",
+          "message": "fix: #202446 2026-05-21 大地-子表行按钮显示问题。如果子表设置了字段排序，在调整了排序规则之后，行按钮的显示不会随着排序的变动而变动",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "74d9fd23441d2d3f0e7081ed202226a13babb6a8",
+          "hash": "74d9fd23441",
+          "date": "2026-05-20",
+          "message": "fix: #202446 2026-05-21 大地-子表行按钮显示问题。如果子表设置了字段排序，在调整了排序规则之后，行按钮的显示不会随着排序的变动而变动",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a9509b815dff05972fbe6c0e6ba86422dc8bd62d",
+          "hash": "a9509b815df",
+          "date": "2026-05-20",
+          "message": "fix: #202446 2026-05-21 大地-子表行按钮显示问题。如果子表设置了字段排序，在调整了排序规则之后，行按钮的显示不会随着排序的变动而变动",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "7dc9c3dc893da88dff824f30de726731383214c9",
+          "hash": "7dc9c3dc893",
+          "date": "2026-05-21",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "613c0dbe320a917c4183d89c566dac8e2c9d6a0d",
+          "hash": "613c0dbe320",
+          "date": "2026-05-21",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "f65b86c58e1945d91846005ff3b2e4da8d7562b8",
+          "hash": "f65b86c58e1",
+          "date": "2026-05-21",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "43eb898ff0578eb16a4d18467dc088e4b45602b5",
+          "hash": "43eb898ff05",
+          "date": "2026-05-21",
+          "message": "test: 国际化补全",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "a02d5e1976936819d3b2d2f08b4bce6ec2b1429f",
+          "hash": "a02d5e19769",
+          "date": "2026-05-20",
+          "message": "test: 添加注释说明",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "9928d6a0f465c7e688ad2450dfe38f6068da1e2f",
+          "hash": "9928d6a0f46",
+          "date": "2026-05-20",
+          "message": "test: 移除无效的引用",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "1a47b99377f0d8ee4a7a7fdb965a852feddb9ae3",
+          "hash": "1a47b99377f",
+          "date": "2026-05-20",
+          "message": "test: 子表筛选按钮样式异常修复",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "911ba742b6d7651178b33ccddd8bbf18b711f36e",
+          "hash": "911ba742b6d",
+          "date": "2026-05-20",
+          "message": "test: 补充注释文件",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.6-bankcomm.1",
+      "date": "2026-05-22",
+      "markerCommit": "cfbdf98bbb9",
+      "markerMessage": "docs: 更新版本",
+      "stats": {
+        "total": 2,
+        "custom": 2,
+        "fix": 0
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "二维码名称关联单选不显示修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "5edca3d6cdd53b2324ca24d5c70aa713d4a5b73d",
+              "hash": "5edca3d6cdd",
+              "date": "2026-05-21",
+              "message": "test: 交行定制-二维码名称关联单选不显示修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "添加组织日志",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "6d5a4356be2d3a86b71e76e327259a5d6b8d79c7",
+              "hash": "6d5a4356be2",
+              "date": "2026-05-21",
+              "message": "docs: 添加组织日志",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [],
+      "others": []
+    },
+    {
+      "version": "AI-Platform-v1.1.6-bankcomm.3",
+      "date": "2026-05-26",
+      "markerCommit": "8bec9aebec7",
+      "markerMessage": "docs: 发布版本",
+      "stats": {
+        "total": 48,
+        "custom": 8,
+        "fix": 23
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "安装应用模板时，import接口传入appId参数",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "66aaa53d8942552601d9fc0be86aa7284abc6447",
+              "hash": "66aaa53d894",
+              "date": "2026-05-25",
+              "message": "test: 交行定制：安装应用模板时，import接口传入appId参数",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "修正视图设计-数据限定范围-国际化-繁体",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "36d2d38a4660d3b903c131754a258c128dd13b43",
+              "hash": "36d2d38a466",
+              "date": "2026-05-25",
+              "message": "docs: 修正视图设计-数据限定范围-国际化-繁体",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "新增应用安装",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "43b3ac576b37515d08d7dc89eee576588db18427",
+              "hash": "43b3ac576b3",
+              "date": "2026-05-25",
+              "message": "docs: 新增应用安装",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "自定义按钮弹窗关闭需要刷新列表数据",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "284593173de5c1f595bca0bdb653214e8153fc7b",
+              "hash": "284593173de",
+              "date": "2026-05-25",
+              "message": "test: 交行定制-自定义按钮弹窗关闭需要刷新列表数据",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "优化权限和浏览器icon",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "8e1cd00fba18cf8c98ba47ce57896421e7ac1f05",
+              "hash": "8e1cd00fba1",
+              "date": "2026-05-23",
+              "message": "docs: 优化权限和浏览器icon",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-6",
+          "title": "优化权限",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "4100502a22a7204cca3ae8a648c5db0eaa750ae9",
+              "hash": "4100502a22a",
+              "date": "2026-05-22",
+              "message": "docs: 优化权限",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-7",
+          "title": "人员导入格式：人员姓名#证件号、人员姓名#银行卡号",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "48e13fc653aa20630e283d1e33bc823797723bf6",
+              "hash": "48e13fc653a",
+              "date": "2026-05-22",
+              "message": "test: 交行二开：人员导入格式：人员姓名#证件号、人员姓名#银行卡号",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-8",
+          "title": "修改调试方式",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7359ad663bc227c2025c40257124f02dfc8e7bf8",
+              "hash": "7359ad663bc",
+              "date": "2026-05-22",
+              "message": "docs: 修改调试方式",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "c907f1e10a003fc4de6c957c94c19d6b04c8457a",
+          "hash": "c907f1e10a0",
+          "date": "2026-05-26",
+          "message": "fix: #202570 【绿色通道】【西钻升级】【产研环境复现】子表空行校验不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "10df34d919e9399c0e57493e257d0e67aaba4f90",
+          "hash": "10df34d919e",
+          "date": "2026-05-25",
+          "message": "fix: #203336 【绿色通道】【缺陷】关联单选默认值查询条件导致无法正常联动问题 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz30d60541",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "1d49d665df1d667bf7c204d16686b9db5b3ba3b7",
+          "hash": "1d49d665df1",
+          "date": "2026-05-26",
+          "message": "fix: #203318 【绿色通道】8.6产品性能问题提升-前端性能 相比低版本请求数 完成时间 增加不少具体见附件word",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "304721908059b1cf78384feaa6e4d5b82884a75a",
+          "hash": "30472190805",
+          "date": "2026-05-26",
+          "message": "fix: #203372 【迭代测试】业务服务，业务方法调试，前端日期传参格式错误",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "0c345422a9fac37938a9bd88b9b9eb800db058ea",
+          "hash": "0c345422a9f",
+          "date": "2026-05-26",
+          "message": "fix: #203372 【迭代测试】业务服务，业务方法调试，前端日期传参格式错误",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "75bebf46836f4854344b15b64315838033c60f5a",
+          "hash": "75bebf46836",
+          "date": "2026-05-26",
+          "message": "fix: #203372 【迭代测试】业务服务，业务方法调试，前端日期传参格式错误",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "6f47acab4b3d5186042da44e384fd9cd9a4728c2",
+          "hash": "6f47acab4b3",
+          "date": "2026-05-25",
+          "message": "fix: #203274 【迭代测试】流程预测图，可能经过的节点没有被标记染色",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "73d11aabcad3ca0a62e183b9ec8c7887730989c1",
+          "hash": "73d11aabcad",
+          "date": "2026-05-25",
+          "message": "fix: #203355 2026-05-28 打印模型名称显示问题",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "d9daaf69ab54e1c79f2942f458a896e781415220",
+          "hash": "d9daaf69ab5",
+          "date": "2026-05-25",
+          "message": "fix: #203355 2026-05-28 打印模型名称显示问题",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "d783bbe0b539078185f71cf3e1a553fbd0385bd7",
+          "hash": "d783bbe0b53",
+          "date": "2026-05-25",
+          "message": "fix: #203355 2026-05-28 打印模型名称显示问题",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "7047a788b9ccf310c5b9163aa9bc1211c755d040",
+          "hash": "7047a788b9c",
+          "date": "2026-05-25",
+          "message": "fix: #203360 2026-05-28 东材-云枢8.2-移动端必填校验不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9e8027fe25cd71e1c0782599626d930e8467e6a4",
+          "hash": "9e8027fe25c",
+          "date": "2026-05-25",
+          "message": "fix: #203360 2026-05-28 东材-云枢8.2-移动端必填校验不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f8fa14114a67cefd097111eb343606eecd9760fa",
+          "hash": "f8fa14114a6",
+          "date": "2026-05-25",
+          "message": "fix: #203360 2026-05-28 东材-云枢8.2-移动端必填校验不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dfdea3ca64d7ec795d9b644f9c06c1b8df78e8e5",
+          "hash": "dfdea3ca64d",
+          "date": "2026-05-25",
+          "message": "fix: #203336 【绿色通道】【缺陷】关联单选默认值查询条件导致无法正常联动问题 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz30d60541",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8e748ef84f2893cb84ef154142be53c80efc8b62",
+          "hash": "8e748ef84f2",
+          "date": "2026-05-25",
+          "message": "fix: #203336 【绿色通道】【缺陷】关联单选默认值查询条件导致无法正常联动问题 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz30d60541",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "cd0a1637261552c0e54526b8c9fc272e0678b0e2",
+          "hash": "cd0a1637261",
+          "date": "2026-05-25",
+          "message": "fix: #203336 【绿色通道】【缺陷】关联单选默认值查询条件导致无法正常联动问题 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz30d60541",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4178e178da2168a562360609b1d5663f65d33067",
+          "hash": "4178e178da2",
+          "date": "2026-05-22",
+          "message": "fix: #203020 【内部提单】2026-05-28 移动端 附件删除按钮的层级不对",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "9a030e55fe90c4ede8abe0a1bfb247e52c371e64",
+          "hash": "9a030e55fe9",
+          "date": "2026-05-22",
+          "message": "fix: #203020 【内部提单】2026-05-28 移动端 附件删除按钮的层级不对",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "84cff36a5b6fb30ef60f2075816b01b65eb5a73e",
+          "hash": "84cff36a5b6",
+          "date": "2026-05-22",
+          "message": "fix: #203020 【内部提单】2026-05-28 移动端 附件删除按钮的层级不对",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "ee2c46fd1e34608f579ddf9a15547aecbf8b81f1",
+          "hash": "ee2c46fd1e3",
+          "date": "2026-05-22",
+          "message": "fix: #202804 2026-05-28 8.5 组织角色，管理范围，鼠标悬浮上去部门全路径展示不全",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "26e13550f36fad4d094ff39c368806ac2f041cca",
+          "hash": "26e13550f36",
+          "date": "2026-05-22",
+          "message": "fix: #202804 2026-05-28 8.5 组织角色，管理范围，鼠标悬浮上去部门全路径展示不全",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "e66a9e78ffcd0145b0687598025e53ef05758413",
+          "hash": "e66a9e78ffc",
+          "date": "2026-05-22",
+          "message": "fix: #202804 2026-05-28 8.5 组织角色，管理范围，鼠标悬浮上去部门全路径展示不全",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "1f8d74d58598a7e8e1cbb5b642a8d0b026d9e737",
+          "hash": "1f8d74d5859",
+          "date": "2026-05-22",
+          "message": "fix: #203122 2026-05-28  8.5计算规则展示优化",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "b70c0ba285e3dbe9b8f503bfbc9c712ce23f006d",
+          "hash": "b70c0ba285e",
+          "date": "2026-05-26",
+          "message": "refactor: 国际化默认三种语言检查差异补全",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "02c5fef13ced8acf775d47dc43c44ba6c8098fc2",
+          "hash": "02c5fef13ce",
+          "date": "2026-05-26",
+          "message": "refactor: 国际化翻译繁体检查-繁体图片补充",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "a69d06eee4cd49684a00cdfa618ad12add72dfbc",
+          "hash": "a69d06eee4c",
+          "date": "2026-05-25",
+          "message": "refactor: 国际化繁体检查-补充繁体版本的图片",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "7683c7d9a173ea65948a0b1b58165c4373164d35",
+          "hash": "7683c7d9a17",
+          "date": "2026-05-25",
+          "message": "refactor: 补充国际化繁体版本的图片",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "d5e84efbdafa10973ee682749e8b98c1d8125610",
+          "hash": "d5e84efbdaf",
+          "date": "2026-05-25",
+          "message": "refactor: 国际化繁体检查-修正项目报告中未提及的繁体翻译",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "82ccd61379fd5ea9db1a247d19d026548d93ebf7",
+          "hash": "82ccd61379f",
+          "date": "2026-05-25",
+          "message": "refactor: 1_AI_platform_1.1.0_翻譯檢查修正",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "e249419100ba1f7a686a128b8da33b9803057f73",
+          "hash": "e249419100b",
+          "date": "2026-05-25",
+          "message": "refactor: 国际化修正-移除废弃的组件new-user-guide",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "3037b59301c2d47751c32b4196c87595418fb1e6",
+          "hash": "3037b59301c",
+          "date": "2026-05-25",
+          "message": "refactor: 4_二開語言包翻譯檢查修正",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "c5d43356ebf0ae4bc062e0fa3f80f8a5bcdb3156",
+          "hash": "c5d43356ebf",
+          "date": "2026-05-25",
+          "message": "refactor: 3_AI_platform_1.1.0_翻譯檢查修正",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "a5dfa9ce73280fc2bc596ecda4c625c41c4523ae",
+          "hash": "a5dfa9ce732",
+          "date": "2026-05-25",
+          "message": "refactor: 2_AI_platform_1.1.0_翻譯檢查修正",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "2f010493b56c2747c51f1d91450fe0244b12e5ed",
+          "hash": "2f010493b56",
+          "date": "2026-05-25",
+          "message": "refactor: 国际化图片完整性完善-移除废弃国际化图片",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "c315b18db88f8596978522ba7d15c42be4183cd6",
+          "hash": "c315b18db88",
+          "date": "2026-05-23",
+          "message": "refactor: 国际化图片完整性完善-移除废弃国际化图片",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "8f1df4bf22fbf4319c02b414bf9b06037201cc63",
+          "hash": "8f1df4bf22f",
+          "date": "2026-05-23",
+          "message": "refactor: 切换语言种类后国际化图片渲染逻辑优化",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "00cc2b876ad87530bc091bc7b72e97770c005fab",
+          "hash": "00cc2b876ad",
+          "date": "2026-05-23",
+          "message": "refactor: 国际化图片完整性完善-使用中文版本图片暂时代替繁体和英文图片",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "ec9847861bf49b11c2a5562ca7e8b8dc106d0ba9",
+          "hash": "ec9847861bf",
+          "date": "2026-05-23",
+          "message": "refactor: 国际化图片完整性完善",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "254493b3ba070ad764407db4fe76f34348aac6db",
+          "hash": "254493b3ba0",
+          "date": "2026-05-23",
+          "message": "refactor: 国际化图片完整性完善",
+          "type": "refactor",
+          "label": "重构"
+        },
+        {
+          "full": "7e5c8f130c3b49af5b6d8dcce81e0c302d057821",
+          "hash": "7e5c8f130c3",
+          "date": "2026-05-23",
+          "message": "refactor: 国际化图片完整性完善",
+          "type": "refactor",
+          "label": "重构"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.6-bankcomm.4",
+      "date": "2026-05-27",
+      "markerCommit": "484f46ed6ae",
+      "markerMessage": "docs: 发布版本",
+      "stats": {
+        "total": 8,
+        "custom": 2,
+        "fix": 6
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "过滤子表数据",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "da9204c55dffc87f5ed3802a5e756e18bb761204",
+              "hash": "da9204c55df",
+              "date": "2026-05-27",
+              "message": "test: 交行定制-过滤子表数据",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "移动端外链数据回显",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "77991ec80323cf5e9f95fada23bbecb62e20f2bc",
+              "hash": "77991ec8032",
+              "date": "2026-05-27",
+              "message": "test: 交行定制-移动端外链数据回显",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "4a3c2640bc7a83a0a74ff601dd82b126219db804",
+          "hash": "4a3c2640bc7",
+          "date": "2026-05-26",
+          "message": "fix: #191939 【内部提单】【绿色通道】聚合计算校验错误 - 此工单只需要处理sum，不用处理max/min/avg",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "3f19cfad07c41f1c857aa12a75e6f2a93acdd0d7",
+          "hash": "3f19cfad07c",
+          "date": "2026-05-26",
+          "message": "fix: #202516 【绿色通道】申万8.5升级8.7后配置的显示条件不生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "8891350e125bd26e194955cf7bf11cf6e77af684",
+          "hash": "8891350e125",
+          "date": "2026-05-26",
+          "message": "fix: #203430 【8.7.x】SUMIF计算公式在运行时报错。",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "10acf9b5f393f6c35181ba9160a560e69c3adc8b",
+          "hash": "10acf9b5f39",
+          "date": "2026-05-27",
+          "message": "fix: #203515 2026-06-04 8.5表单复制单选框组件未正常渲染 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz307f3027",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "361187a5f8c3255b3d8deed15302a5129b795abf",
+          "hash": "361187a5f8c",
+          "date": "2026-05-27",
+          "message": "fix: #203079 2026-05-28 【内部提单】 子表纯净模式 无法筛选",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "44af52a703837470dbcc6f8c51ae001c3b462e45",
+          "hash": "44af52a7038",
+          "date": "2026-05-27",
+          "message": "fix: #202974 2026-05-26 【内部缺陷】【pre01环境】【移动端】进入AI助理后页面异常 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/HuN41U6sLudokwiT",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": []
+    },
+    {
+      "version": "AI-Platform-v1.1.7",
+      "date": "2026-05-28",
+      "markerCommit": "3a906d78193",
+      "markerMessage": "build: 主工程版本号修改=> AI-Platform-v1.1.7",
+      "stats": {
+        "total": 15,
+        "custom": 3,
+        "fix": 10
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "，增加模型字段选择控件",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "2dd5a9593e5ebb22289222ada0588c04ff6218a7",
+              "hash": "2dd5a9593e5",
+              "date": "2026-05-28",
+              "message": "test: 交行二开，增加模型字段选择控件",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "新增过滤子表数据参数类型报错",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "378034b720f1a6723934232b02858e2ad1fd4911",
+              "hash": "378034b720f",
+              "date": "2026-05-27",
+              "message": "test: 交行定制-新增过滤子表数据参数类型报错",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "选部门和load过滤问题修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "44b1e8e9c15988ec38c48cd116020dee49f1f85d",
+              "hash": "44b1e8e9c15",
+              "date": "2026-05-27",
+              "message": "test: 交行定制-选部门和load过滤问题修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "9efce763a08c684482b870f30b35c0122ac2e4bc",
+          "hash": "9efce763a08",
+          "date": "2026-05-28",
+          "message": "fix: #203761 【8.7.x】表单填单时，子表里的必填字段符合只读条件后，提交时应该不校验必填。【自动化测试】 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/L4Zo7p9zGmqJyC8K",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "af86c88e732596714e63f8bffae140f1c10b3e71",
+          "hash": "af86c88e732",
+          "date": "2026-05-28",
+          "message": "fix: #203675 2026-06-04  卓高8.6.24-SNAPSHOT版本，企微工作台待办同意按钮点击无反应，PC端、浏览器mobile访问均正常（验收卡点）",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dd090a24ac652a7fdac8109d76a990e0b615edfe",
+          "hash": "dd090a24ac6",
+          "date": "2026-05-28",
+          "message": "fix: #203424 【绿色通道】子表部门单选控件的限制选部门范围选择指定部门，但是子表导入时提示“不在限制范围内”，并且修改之后也不能导入 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz2001cb9b",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "e3e897fa36db0c420b20bbe56f10716aeadf455c",
+          "hash": "e3e897fa36d",
+          "date": "2026-05-28",
+          "message": "fix: #203424 【绿色通道】子表部门单选控件的限制选部门范围选择指定部门，但是子表导入时提示“不在限制范围内”，并且修改之后也不能导入 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz2001cb9b",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "5a7399a690429a30e2a418afdcf0c3f94dd4a96c",
+          "hash": "5a7399a6904",
+          "date": "2026-05-27",
+          "message": "fix: #203535 2026-06-04 新丰-云枢8.2-tif格式无法预览",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "4a8cc7416d2e0a2082f0392776e6a97873b223d8",
+          "hash": "4a8cc7416d2",
+          "date": "2026-05-27",
+          "message": "fix: #203340 新增密码必须包含特殊字符的校验规则，并更新多语言提示",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "dcc7bb17bd23685a8873bbbdf58959d60541538a",
+          "hash": "dcc7bb17bd2",
+          "date": "2026-05-27",
+          "message": "fix: #203661 2026-06-04 8.5数值、日期格式怎么设置可以清空值",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "98a47437242c8ce74902bc7c2d16b1c120f15fc8",
+          "hash": "98a47437242",
+          "date": "2026-05-27",
+          "message": "fix: #203340 更新密码校验规则，要求新密码必须包含特殊字符",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "f80536cfd52d119415a7b28f94ba995d99ba7de2",
+          "hash": "f80536cfd52",
+          "date": "2026-05-27",
+          "message": "fix: #203340 更新密码校验规则，要求新密码必须包含特殊字符",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "effd06603ab46b5cde1db3c25fa04d6942af72b7",
+          "hash": "effd06603ab",
+          "date": "2026-05-27",
+          "message": "fix: #203381 2026-05-28 容器隐藏了，字段是可见的，流程上设置的必填，导致提交不通过 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5febe3f7",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "6e6e8263b6cd88d16eb5c7387f688fda2192c3bf",
+          "hash": "6e6e8263b6c",
+          "date": "2026-05-28",
+          "message": "ci(publish): lerna version %s",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "21ccd1082eaacab66fbc07218e64028d87d3be7f",
+          "hash": "21ccd1082ea",
+          "date": "2026-05-27",
+          "message": "test: 修改cloudpivot-locale版本号",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.7-bankcomm.2",
+      "date": "2026-06-11",
+      "markerCommit": "6c263ea75ff",
+      "markerMessage": "docs: 更新版本",
+      "stats": {
+        "total": 40,
+        "custom": 35,
+        "fix": 3
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "，改动版本号",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "c9f135bd7593fedef0251abb26330d0817934738",
+              "hash": "c9f135bd759",
+              "date": "2026-06-04",
+              "message": "test: 交行二开，改动版本号",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "，修改公告详情弹窗的notice-time取值",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "f6e2bf359c49e01b2f65524da132ad62b20d07a4",
+              "hash": "f6e2bf359c4",
+              "date": "2026-06-04",
+              "message": "test: 交行二开，修改公告详情弹窗的notice-time取值",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "发版前修改引用关系",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "52f0fb42a2222b9585c9681119cf6c967e7f685d",
+              "hash": "52f0fb42a22",
+              "date": "2026-06-03",
+              "message": "test: 交行二开: 发版前修改引用关系",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "免登失败，关闭页面，并删除原有token",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "1eb746d29268d8426647183ec497327caea869d2",
+              "hash": "1eb746d2926",
+              "date": "2026-06-03",
+              "message": "test: 交行二开：免登失败，关闭页面，并删除原有token",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "跨模型打印",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7ace7c4998c22672b25b43c30502fc60704552ed",
+              "hash": "7ace7c4998c",
+              "date": "2026-06-03",
+              "message": "test: 交行二开：跨模型打印",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-6",
+          "title": "指定的自定义按钮弹出指定内容预览（代码来源张星）",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "bb1ca3e58315b9fb8bec6d2880b6266bb7b8f4cc",
+              "hash": "bb1ca3e5831",
+              "date": "2026-06-02",
+              "message": "test: 交行二开:指定的自定义按钮弹出指定内容预览（代码来源张星）",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-7",
+          "title": "portal的应用权限设置页面样式调整",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0e75bbbc32b066e4d490e6b36e9066aeb6e6b943",
+              "hash": "0e75bbbc32b",
+              "date": "2026-06-02",
+              "message": "test: 交行二开：portal的应用权限设置页面样式调整",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-8",
+          "title": "国际化修改云枢、奥哲为交薪通",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0579b2d6e607e9cb8d8d5ebc36f33ac73afb51cf",
+              "hash": "0579b2d6e60",
+              "date": "2026-06-02",
+              "message": "test: 交行二开：国际化修改云枢、奥哲为交薪通",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-9",
+          "title": "删除云枢、奥哲名称，修改logo",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ff7e018d0fa7d2a491d2ff6fbebf6d4e614961e3",
+              "hash": "ff7e018d0fa",
+              "date": "2026-06-02",
+              "message": "test: 交行二开：删除云枢、奥哲名称，修改logo",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-10",
+          "title": "替换logo为交薪通",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "1ca3e5db3f6be1bf3042d23149d60395b8a23d97",
+              "hash": "1ca3e5db3f6",
+              "date": "2026-06-02",
+              "message": "test: 交行二开：替换logo为交薪通",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-11",
+          "title": "项目开发提交",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "97e89d759b1b1f08efbcb806f3e1d878846de4d6",
+              "hash": "97e89d759b1",
+              "date": "2026-05-30",
+              "message": "test: 交行定制-项目开发提交",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-12",
+          "title": "暂存后直接可编辑",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "b8ece905cea91adca6e467c3b0f1f6dffbae8512",
+              "hash": "b8ece905cea",
+              "date": "2026-05-30",
+              "message": "test: 交行定制-暂存后直接可编辑",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-13",
+          "title": "修改图片引入位置",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7bdb36e770d2364fd3d1396766044ba655107e31",
+              "hash": "7bdb36e770d",
+              "date": "2026-05-29",
+              "message": "test: 交行二开：修改图片引入位置",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-14",
+          "title": "图标更换位置",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "17a47b6f2461e098cd7b75fc6e6efabe437ecae6",
+              "hash": "17a47b6f246",
+              "date": "2026-05-29",
+              "message": "test: 交行二开：图标更换位置",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-15",
+          "title": "修改依赖包版本",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "1d6bfc09654cd19c7fbbe258a99806d2cedd5426",
+              "hash": "1d6bfc09654",
+              "date": "2026-05-29",
+              "message": "test: 交行二开：修改依赖包版本",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-16",
+          "title": "交薪通免登之后添加缓存tenantId和corpId",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "5787be619f2b68eb513a7673e813436d909b8dce",
+              "hash": "5787be619f2",
+              "date": "2026-05-29",
+              "message": "test: 交行二开：交薪通免登之后添加缓存tenantId和corpId",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-17",
+          "title": "过滤已配置的动态列",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "744d27662946958da79f7f7c12914253dc8de9ca",
+              "hash": "744d2766294",
+              "date": "2026-05-29",
+              "message": "test: 交行定制-过滤已配置的动态列",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-18",
+          "title": "代码恢复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "30c22469a0e830173a8d295e0cb07fe15c68f96f",
+              "hash": "30c22469a0e",
+              "date": "2026-06-05",
+              "message": "test: 交行定制-代码恢复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-19",
+          "title": "视图电子表格，添加行时自动增加query上带的值，动态字段可以编辑",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "3fa483f805b52c50562e08b7a83040c27af476d9",
+              "hash": "3fa483f805b",
+              "date": "2026-06-05",
+              "message": "test: 交行二开：视图电子表格，添加行时自动增加query上带的值，动态字段可以编辑",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-20",
+          "title": "子流程跳转",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "aba05e7f5ea7f96971d7f3c75fed64106b4871f6",
+              "hash": "aba05e7f5ea",
+              "date": "2026-06-11",
+              "message": "test: 交行定制-子流程跳转",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-21",
+          "title": "修改依赖包版本号",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "1ef1eea49fae70ac2f19739d24e71fd79a094454",
+              "hash": "1ef1eea49fa",
+              "date": "2026-06-11",
+              "message": "test: 交行二开：修改依赖包版本号",
+              "type": "custom",
+              "label": "定制"
+            },
+            {
+              "full": "4d91d8c4ef352f84cfe2edec29f4e3bf0091f727",
+              "hash": "4d91d8c4ef3",
+              "date": "2026-06-09",
+              "message": "test: 交行二开：修改依赖包版本号",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-22",
+          "title": "企业管理员可以看到组织角色、工作交接、组织权限入口",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "e07c8226b2249cc401d42ad76da9c24be8af56e3",
+              "hash": "e07c8226b22",
+              "date": "2026-06-11",
+              "message": "test: 交行二开：企业管理员可以看到组织角色、工作交接、组织权限入口",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-23",
+          "title": "信息收集应用-扫码功能移动端兼容",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "6ff0976a9521d41d0e9abd37e5ef3e224f3d2010",
+              "hash": "6ff0976a952",
+              "date": "2026-06-10",
+              "message": "test: 交行二开：信息收集应用-扫码功能移动端兼容",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-24",
+          "title": "优化管理员设置参数",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "a15d949aaa0c3449a3a1793f8ddf85834f76f41e",
+              "hash": "a15d949aaa0",
+              "date": "2026-06-10",
+              "message": "docs: 优化管理员设置参数",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-25",
+          "title": "信息收集应用-扫码功能兼容",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "3addaf7b97e50cd224136ae471712793b6bd1b35",
+              "hash": "3addaf7b97e",
+              "date": "2026-06-10",
+              "message": "test: 交行二开：信息收集应用-扫码功能兼容",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-26",
+          "title": "，汇总列修改（张星）",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "41cf604f5533f6deb7a616975c63531aa905b666",
+              "hash": "41cf604f553",
+              "date": "2026-06-10",
+              "message": "test: 交行二开，汇总列修改（张星）",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-27",
+          "title": "信息收集应用-编辑权限调整",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "5598a2a548802d25d68dea8b7a8747bcd267b1f4",
+              "hash": "5598a2a5488",
+              "date": "2026-06-10",
+              "message": "test: 交行二开：信息收集应用-编辑权限调整",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-28",
+          "title": "信息收集应用-缺陷修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7b3b21c9520fe53e90b8e8ebfefefcb9efd6e550",
+              "hash": "7b3b21c9520",
+              "date": "2026-06-09",
+              "message": "test: 交行二开-信息收集应用-缺陷修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-29",
+          "title": "模型字段控件中的匹配字段只允许选人员单选或关联了花名册的模型的关联单选字段， 视图显示选中的模型",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "bf79b9bcad01c545954d83e2f6b9a69cd953b257",
+              "hash": "bf79b9bcad0",
+              "date": "2026-06-09",
+              "message": "test: 交行二开：模型字段控件中的匹配字段只允许选人员单选或关联了花名册的模型的关联单选字段， 视图显示选中的模型",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-30",
+          "title": "打印模板富文本不能双击编辑",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "5af4f50590c6f6cd0a4283f728393e5a8b7bc43d",
+              "hash": "5af4f50590c",
+              "date": "2026-06-09",
+              "message": "test: 交行二开：打印模板富文本不能双击编辑",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-31",
+          "title": "屏蔽系统管理-统一配置-文件存储配置",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0a944453d572bcb282c90879cbf4f4467a277cec",
+              "hash": "0a944453d57",
+              "date": "2026-06-09",
+              "message": "test: 交行二开： 屏蔽系统管理-统一配置-文件存储配置",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-32",
+          "title": "变更版本号",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "0abb3b8973c75becdf9e2744205a094695de328a",
+              "hash": "0abb3b8973c",
+              "date": "2026-06-08",
+              "message": "test: 交行二开：变更版本号",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-33",
+          "title": "预设应用【采集表列表】中的所有表单设计的发布不再需要鉴权",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "2a5b8ca7c41bb9c9e0db78cfdc01b7e82eacc8ac",
+              "hash": "2a5b8ca7c41",
+              "date": "2026-06-08",
+              "message": "test: 交行二开： 预设应用【采集表列表】中的所有表单设计的发布不再需要鉴权",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-34",
+          "title": "url跳转当前页重定向问题处理",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "a702bd27b0979b2fce1bdad9352555e8303039f1",
+              "hash": "a702bd27b09",
+              "date": "2026-06-08",
+              "message": "test: 交行定制-url跳转当前页重定向问题处理",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "98c698ad05c0256de04158194d0dbadf5a25dc92",
+          "hash": "98c698ad05c",
+          "date": "2026-06-04",
+          "message": "fix: #204245 【绿色通道】打开表单详情未添加二级域名 表单打不开 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzb9e7198b",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "30c3aa520674dc070612ad14d41dd6780bc13939",
+          "hash": "30c3aa52067",
+          "date": "2026-06-03",
+          "message": "fix: #204102 【绿色通道】新增表单界面：提交并继续创建按钮不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz243c0482",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "3de4fc1b93a77cea927827445fe52823e3e29d46",
+          "hash": "3de4fc1b93a",
+          "date": "2026-06-09",
+          "message": "fix: #204341 2026-06-11 操作列按钮名称展示不全，调整操作列的列宽自适应 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz24858430",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": [
+        {
+          "full": "6a4284224fb77a64985cc097284209a29343803d",
+          "hash": "6a4284224fb",
+          "date": "2026-05-29",
+          "message": "test: 子表中的附件使用<AuthImg>组件展示图片",
+          "type": "other",
+          "label": "其他"
+        },
+        {
+          "full": "259f341a337e972a255dc6570ab8c577096bd444",
+          "hash": "259f341a337",
+          "date": "2026-05-29",
+          "message": "test: 国际化三语一致性检查-补充缺失的英文和繁体",
+          "type": "other",
+          "label": "其他"
+        }
+      ]
+    },
+    {
+      "version": "AI-Platform-v1.1.7-bankcomm.4",
+      "date": "2026-06-26",
+      "markerCommit": "9943c13b5b4",
+      "markerMessage": "docs: 更新版本",
+      "stats": {
+        "total": 25,
+        "custom": 20,
+        "fix": 5
+      },
+      "features": [
+        {
+          "id": "f-1",
+          "title": "依赖包版本修改",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "50308b8185a75e1a0d4d0d19f84c850c6d9ab66c",
+              "hash": "50308b8185a",
+              "date": "2026-06-23",
+              "message": "test: 交行二开：依赖包版本修改",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-2",
+          "title": "子表控件增加行显示条件",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "c583cc4fb7a0f28915f8414a7bccf50314f151f5",
+              "hash": "c583cc4fb7a",
+              "date": "2026-06-23",
+              "message": "test: 交行二开： 子表控件增加行显示条件",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-3",
+          "title": "打印富文本动态数据拿不到问题修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "1b06a2d73b740aeaf4ab8d4f0adf5c99781f294e",
+              "hash": "1b06a2d73b7",
+              "date": "2026-06-22",
+              "message": "test: 交行二开：打印富文本动态数据拿不到问题修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-4",
+          "title": "，企业子管理员进入系统，表单设计中，模型选择的侧边栏不见了",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "19c8f7e3872c1c1bc19886147ccc2c705a07d778",
+              "hash": "19c8f7e3872",
+              "date": "2026-06-18",
+              "message": "test: 交行二开，企业子管理员进入系统，表单设计中，模型选择的侧边栏不见了",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-5",
+          "title": "视图添加显示条件",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "38f9029ae5714c8eeb09dade71f129546dbae541",
+              "hash": "38f9029ae57",
+              "date": "2026-06-18",
+              "message": "test: 交行二开：视图添加显示条件",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-6",
+          "title": "合并项目二开代码",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7b082de78d598997be97345052c5cfd8d49df15b",
+              "hash": "7b082de78d5",
+              "date": "2026-06-18",
+              "message": "docs: 合并项目二开代码",
+              "type": "docs-feature",
+              "label": "说明"
+            },
+            {
+              "full": "dc1746099027edc585f8da6abac465c3eab791c9",
+              "hash": "dc174609902",
+              "date": "2026-06-15",
+              "message": "docs: 合并项目二开代码",
+              "type": "docs-feature",
+              "label": "说明"
+            },
+            {
+              "full": "7e239bef8e5817da59179b84ceb7503785d16c79",
+              "hash": "7e239bef8e5",
+              "date": "2026-06-12",
+              "message": "docs: 合并项目二开代码",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-7",
+          "title": "修改交行免登录参数",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "78f110bad6932cc9a4a14085a6c60baf9570e2a4",
+              "hash": "78f110bad69",
+              "date": "2026-06-17",
+              "message": "docs: 修改交行免登录参数",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-8",
+          "title": "修改依赖版本",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "2fb020cb78ccea74a39f6aedb3b4f0d49438e617",
+              "hash": "2fb020cb78c",
+              "date": "2026-06-17",
+              "message": "test: 交行二开：修改依赖版本",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-9",
+          "title": "视图列表导出，选择表头导出内容时，如果没有历史配置，不默认选中系统字段",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ce7ec96e3ead32eae3eae5bdf045edd899fb9468",
+              "hash": "ce7ec96e3ea",
+              "date": "2026-06-17",
+              "message": "test: 交行二开：视图列表导出，选择表头导出内容时，如果没有历史配置，不默认选中系统字段",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-10",
+          "title": "更新依赖图片",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "108acb3e6866db66a5643a8e44ed2103ca669f8c",
+              "hash": "108acb3e686",
+              "date": "2026-06-16",
+              "message": "docs: 更新依赖图片",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-11",
+          "title": "打印模板不存在增加提示",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "f2daac134d01f58ab26c58180f14da684e22cd3a",
+              "hash": "f2daac134d0",
+              "date": "2026-06-12",
+              "message": "test: 交行二开： 打印模板不存在增加提示",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-12",
+          "title": "DATA_COLLECTION_FORM_DESIGN用户，没有formDesignPermission配置时，应该是无权限",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "9e4c7c65c379ae65b933b06e58520cc057da3d16",
+              "hash": "9e4c7c65c37",
+              "date": "2026-06-24",
+              "message": "test: 交行二开：DATA_COLLECTION_FORM_DESIGN用户，没有formDesignPermission配置时，应该是无权限",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-13",
+          "title": "更新admin-core采集表",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "061be90f1681e015e48985475aa037854e45c772",
+              "hash": "061be90f168",
+              "date": "2026-06-23",
+              "message": "docs: 更新admin-core采集表",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-14",
+          "title": "屏蔽扩展组件tab，编辑应用信息时，获取应用信息接口报错增加提示，禁止显示新建应用弹窗",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "7eb3e2b7cd34d4a3ee8b5a8e88021d12080a1517",
+              "hash": "7eb3e2b7cd3",
+              "date": "2026-06-23",
+              "message": "test: 交行二开：屏蔽扩展组件tab，编辑应用信息时，获取应用信息接口报错增加提示，禁止显示新建应用弹窗",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-15",
+          "title": "添加视图自定义按钮 展示端 【pc】【 移动】",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "b3c27a07a95ed0ace7d58649347cf525c02369b0",
+              "hash": "b3c27a07a95",
+              "date": "2026-06-26",
+              "message": "docs: 添加视图自定义按钮 展示端 【pc】【 移动】",
+              "type": "docs-feature",
+              "label": "说明"
+            }
+          ]
+        },
+        {
+          "id": "f-16",
+          "title": "人员单选部门显示问题修复",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "fb4d1b121bedc38b0c6e0ad9d740820614f73624",
+              "hash": "fb4d1b121be",
+              "date": "2026-06-26",
+              "message": "test: 交行定制-人员单选部门显示问题修复",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-17",
+          "title": "portal端角色新增角色和角色组",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "431dd99a62952232b2f5e15285f15cd58e474e0d",
+              "hash": "431dd99a629",
+              "date": "2026-06-26",
+              "message": "test: 交行定制-portal端角色新增角色和角色组",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        },
+        {
+          "id": "f-18",
+          "title": "视图显示修改为 根据显示条件调用查询列表接口，判断是否有数据控制显示",
+          "type": "custom",
+          "tag": "定制",
+          "commits": [
+            {
+              "full": "ea9a9220a9de3b5a8a8b207ffe3571e122e7da84",
+              "hash": "ea9a9220a9d",
+              "date": "2026-06-26",
+              "message": "test: 交行二开：视图显示修改为 根据显示条件调用查询列表接口，判断是否有数据控制显示",
+              "type": "custom",
+              "label": "定制"
+            }
+          ]
+        }
+      ],
+      "fixes": [
+        {
+          "full": "6a4c1d58ed42c75fff625c9ed8e6d528aaf0aa7a",
+          "hash": "6a4c1d58ed4",
+          "date": "2026-06-16",
+          "message": "fix: #205314 【绿色通道】视图列表配置行按钮查看其他视图列表数据时候，其他模型被关联的数据被删除了。展示乱码",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "933c6682093b58df2ffa88e6a21cbca9a74cb8a1",
+          "hash": "933c6682093",
+          "date": "2026-06-16",
+          "message": "fix: #205302 【绿色通道】报表样式有问题，筛选条件查询框显示出来的时候占用了高度导致样式溢出 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz80b3d7b3",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "053f4f3351984f7a22f360f985d154917a741074",
+          "hash": "053f4f33519",
+          "date": "2026-06-25",
+          "message": "fix: #206056 【绿色通道】模型导入容器控件显示条件未生效",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "3566cced7d6ec6d7c732640105c25a63fd23510b",
+          "hash": "3566cced7d6",
+          "date": "2026-06-25",
+          "message": "fix: #206011 2026-06-25 8.7.x 视图设计-数据限定范围条件组件中，逻辑控件选择否，保存刷新展示有问题 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/2AKWBiXgiOeN217Z",
+          "type": "fix",
+          "label": "修复"
+        },
+        {
+          "full": "a4ad49f529174447834d57b7777483be9ef8bb2c",
+          "hash": "a4ad49f5291",
+          "date": "2026-06-08",
+          "message": "fix: #204423 2026-06-11  8.6以后的版本流程节点不支持批量复制粘贴",
+          "type": "fix",
+          "label": "修复"
+        }
+      ],
+      "others": []
+    }
+  ],
+  "summary": {
+    "releaseCount": 19,
+    "totalCommits": 465,
+    "totalCustom": 123,
+    "totalFix": 241
+  }
+}

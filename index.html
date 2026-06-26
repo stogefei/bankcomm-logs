@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>云枢企业AI平台 · 交行定制版 发版说明</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-gitlab-base="https://gitlab.authine.cn/cloudpivot/frontend/-/commit/">
+
+<div class="hero">
+  <h1>云枢企业AI平台 · 交行定制版</h1>
+  <p class="subtitle">版本 <span id="hero-version">—</span> 发版说明 · 提交记录时间线</p>
+  <div class="meta">
+    <span>分支：<span id="hero-branch">feature-8.7.x-bankcomm</span></span>
+    <span>基线：8.7.x</span>
+    <span>最新发版：<span id="hero-updated">—</span></span>
+  </div>
+  <a href="upgrade-guide.html" class="hero-cta">版本更新指南 &rarr;</a>
+</div>
+
+<div class="page-layout">
+
+<aside class="release-sidebar">
+  <div class="sidebar-header">
+    <h2>发版时间线</h2>
+    <p class="sidebar-hint">点击切换版本</p>
+  </div>
+  <nav class="steps-vertical" id="release-timeline" aria-label="发版版本时间线"></nav>
+  <div class="sidebar-footer">
+    <a href="upgrade-guide.html" class="sidebar-link">版本更新指南 →</a>
+  </div>
+</aside>
+
+<main class="page-main">
+<div class="container container-fluid">
+
+<div class="stats-bar">
+  <div class="stat-card">
+    <div class="number" id="stat-features">—</div>
+    <div class="label">定制功能</div>
+  </div>
+  <div class="stat-card">
+    <div class="number" id="stat-custom">—</div>
+    <div class="label">定制提交</div>
+  </div>
+  <div class="stat-card">
+    <div class="number" id="stat-fix">—</div>
+    <div class="label">修复提交</div>
+  </div>
+  <div class="stat-card">
+    <div class="number" id="stat-total">—</div>
+    <div class="label">总提交数</div>
+  </div>
+  <div class="stat-card">
+    <div class="number" id="stat-releases">—</div>
+    <div class="label">发版版本</div>
+  </div>
+</div>
+
+<p class="generated-meta">数据生成于 <span id="generated-at">—</span> · 由 frontend 仓库 git 提交自动梳理</p>
+
+<div class="toolbar">
+  <input type="search" id="search-input" placeholder="搜索提交信息、hash、日期…" autocomplete="off">
+  <select id="type-filter" aria-label="提交类型筛选">
+    <option value="all">全部类型</option>
+    <option value="custom">定制 (test: 交行 / docs 说明)</option>
+    <option value="fix">修复 (fix:)</option>
+    <option value="feature">功能 (feat:)</option>
+    <option value="other">其他</option>
+  </select>
+</div>
+
+<div class="toc">
+  <h2>功能目录</h2>
+  <ol id="toc-list">
+    <li style="color:var(--text-secondary);">加载中…</li>
+  </ol>
+</div>
+
+<div id="release-content">
+  <div class="empty-state"><p>加载发版数据中…</p></div>
+</div>
+
+<div class="feature" id="packages">
+  <div class="feature-header">
+    <div class="feature-icon" style="background: var(--bg); color: var(--text-secondary);">⊕</div>
+    <div class="feature-header-text">
+      <h3>当前定制包版本（resolutions）</h3>
+      <p class="desc">来自 frontend/package.json，发版前请同步更新并重新生成 changelog。</p>
+    </div>
+  </div>
+  <div class="feature-body">
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;" id="package-table">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); text-align: left;">
+          <th style="padding: 10px 12px; font-weight: 600;">包名</th>
+          <th style="padding: 10px 12px; font-weight: 600;">版本号</th>
+          <th style="padding: 10px 12px; font-weight: 600;">涉及功能</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+</div>
+</main>
+</div>
+
+<footer>
+  云枢企业AI平台 · 交行定制版 · 发版说明 · GitHub Pages
+</footer>
+
+<script src="assets/js/app.js"></script>
+</body>
+</html>
