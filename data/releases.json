@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T08:17:18.597Z",
+  "generatedAt": "2026-06-26T08:38:11.908Z",
   "frontendVersion": "AI-Platform-v1.1.7-bankcomm.4",
   "branch": "feature-8.7.x-bankcomm",
   "resolutions": {
@@ -64,7 +64,7 @@
         },
         {
           "id": "f-3",
-          "title": "业务规则新增SQL执行节点下拉报错修复",
+          "title": "test: 业务规则新增SQL执行节点下拉报错修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -72,7 +72,7 @@
               "full": "aeba9e1d891fe7b2f4900dd5e1732c3098611086",
               "hash": "aeba9e1d891",
               "date": "2026-04-30",
-              "message": "test: 交行定制：业务规则新增SQL执行节点下拉报错修复",
+              "message": "test: 业务规则新增SQL执行节点下拉报错修复",
               "type": "custom",
               "label": "定制"
             }
@@ -124,7 +124,7 @@
           "full": "96cfacee71e9e30b24c2a70903e12a8abca9a09f",
           "hash": "96cfacee71e",
           "date": "2026-04-30",
-          "message": "fix: #201658 【绿色通道】  子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "message": "fix: #201658 【绿色通道】 子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
           "type": "fix",
           "label": "修复"
         },
@@ -132,7 +132,7 @@
           "full": "cba3a3fa84b88681e167560efda4adcd787bf26a",
           "hash": "cba3a3fa84b",
           "date": "2026-04-30",
-          "message": "fix: #201658 【绿色通道】  子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "message": "fix: #201658 【绿色通道】 子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
           "type": "fix",
           "label": "修复"
         },
@@ -140,7 +140,7 @@
           "full": "3f1c4f2e187fbfa054890de503ac624e5faf8ac2",
           "hash": "3f1c4f2e187",
           "date": "2026-04-30",
-          "message": "fix: #201658 【绿色通道】  子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
+          "message": "fix: #201658 【绿色通道】 子表数据被暂存后无法批量删除 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz6e1a7950",
           "type": "fix",
           "label": "修复"
         },
@@ -318,7 +318,7 @@
       "version": "8.7.bocom-2.1",
       "date": "2026-05-08",
       "markerCommit": "1f9ac64faee",
-      "markerMessage": "docs: 更新版本号【交行】",
+      "markerMessage": "docs: 更新版本号",
       "stats": {
         "total": 49,
         "custom": 15,
@@ -359,7 +359,7 @@
         },
         {
           "id": "f-3",
-          "title": "业务规则新增SQL执行节点下拉数据问题修复",
+          "title": "test: 业务规则新增SQL执行节点下拉数据问题修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -367,7 +367,7 @@
               "full": "b1ac9576ac2dfcaf93e304998be4ae2f70e7a123",
               "hash": "b1ac9576ac2",
               "date": "2026-05-07",
-              "message": "test: 交行定制：业务规则新增SQL执行节点下拉数据问题修复",
+              "message": "test: 业务规则新增SQL执行节点下拉数据问题修复",
               "type": "custom",
               "label": "定制"
             }
@@ -375,7 +375,7 @@
         },
         {
           "id": "f-4",
-          "title": "指定的自定义按钮弹出指定内容预览（代码来源张星）",
+          "title": "test: 指定的自定义按钮弹出指定内容预览（代码来源张星）",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -383,7 +383,7 @@
               "full": "c5bc531e115e93a54ceeac15376de9f447ad13cf",
               "hash": "c5bc531e115",
               "date": "2026-05-07",
-              "message": "test: 交行二开：指定的自定义按钮弹出指定内容预览（代码来源张星）",
+              "message": "test: 指定的自定义按钮弹出指定内容预览（代码来源张星）",
               "type": "custom",
               "label": "定制"
             },
@@ -391,7 +391,7 @@
               "full": "082af5af04d5bf858582b8366baf2c6e63a600d5",
               "hash": "082af5af04d",
               "date": "2026-05-07",
-              "message": "test: 交行二开：指定的自定义按钮弹出指定内容预览（代码来源张星）",
+              "message": "test: 指定的自定义按钮弹出指定内容预览（代码来源张星）",
               "type": "custom",
               "label": "定制"
             }
@@ -399,7 +399,7 @@
         },
         {
           "id": "f-5",
-          "title": "部门单选支持全路径显示",
+          "title": "test: 部门单选支持全路径显示",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -407,7 +407,7 @@
               "full": "59c616d3ed8ec9f0ec5b9b54576cecc6df3f4487",
               "hash": "59c616d3ed8",
               "date": "2026-05-07",
-              "message": "test: 交行定制-部门单选支持全路径显示",
+              "message": "test: 部门单选支持全路径显示",
               "type": "custom",
               "label": "定制"
             },
@@ -415,7 +415,7 @@
               "full": "73a5ec197d9328f758a0ceba38f3bc365d93519d",
               "hash": "73a5ec197d9",
               "date": "2026-05-06",
-              "message": "test: 交行定制-部门单选支持全路径显示",
+              "message": "test: 部门单选支持全路径显示",
               "type": "custom",
               "label": "定制"
             }
@@ -423,7 +423,7 @@
         },
         {
           "id": "f-6",
-          "title": "运行态内置数据及应用导出时可选业务数据一并导出",
+          "title": "test: 运行态内置数据及应用导出时可选业务数据一并导出",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -431,7 +431,7 @@
               "full": "ea30e438d631a98d598dc43e7827ecafd004a4c5",
               "hash": "ea30e438d63",
               "date": "2026-05-07",
-              "message": "test: 交行定制-运行态内置数据及应用导出时可选业务数据一并导出",
+              "message": "test: 运行态内置数据及应用导出时可选业务数据一并导出",
               "type": "custom",
               "label": "定制"
             }
@@ -439,7 +439,7 @@
         },
         {
           "id": "f-7",
-          "title": "业务标题、关联查询、子表标题栏添加icon",
+          "title": "test: 业务标题、关联查询、子表标题栏添加icon",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -447,7 +447,7 @@
               "full": "3a1a8dc074b393c45018a1dfd9c231779fb3cc89",
               "hash": "3a1a8dc074b",
               "date": "2026-05-07",
-              "message": "test: 交行二开：业务标题、关联查询、子表标题栏添加icon",
+              "message": "test: 业务标题、关联查询、子表标题栏添加icon",
               "type": "custom",
               "label": "定制"
             }
@@ -455,7 +455,7 @@
         },
         {
           "id": "f-8",
-          "title": "视图参数支持业务ID选择和参数转换过滤条件传递到视图筛选",
+          "title": "test: 视图参数支持业务ID选择和参数转换过滤条件传递到视图筛选",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -463,7 +463,7 @@
               "full": "a176a547d2fad4fa06dc2d34f7587162d263fbb1",
               "hash": "a176a547d2f",
               "date": "2026-05-07",
-              "message": "test: 交行定制-视图参数支持业务ID选择和参数转换过滤条件传递到视图筛选",
+              "message": "test: 视图参数支持业务ID选择和参数转换过滤条件传递到视图筛选",
               "type": "custom",
               "label": "定制"
             }
@@ -471,7 +471,7 @@
         },
         {
           "id": "f-9",
-          "title": "sql节点报错修复",
+          "title": "test: sql节点报错修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -479,7 +479,7 @@
               "full": "6e4f2192b1437e2919ed09c744984f52e73cc6a7",
               "hash": "6e4f2192b14",
               "date": "2026-05-07",
-              "message": "test: 交行定制-sql节点报错修复",
+              "message": "test: sql节点报错修复",
               "type": "custom",
               "label": "定制"
             }
@@ -487,7 +487,7 @@
         },
         {
           "id": "f-10",
-          "title": "表单设计支持拖入特定控件之后执行脚本添加其他控件，并且添加的其他控件可以执行默认options",
+          "title": "test: 表单设计支持拖入特定控件之后执行脚本添加其他控件，并且添加的其他控件可以执行默认options",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -495,7 +495,7 @@
               "full": "2afcd336efb380ecca9253c8e797d96c9e06a715",
               "hash": "2afcd336efb",
               "date": "2026-05-06",
-              "message": "test: 交行定制：表单设计支持拖入特定控件之后执行脚本添加其他控件，并且添加的其他控件可以执行默认options",
+              "message": "test: 表单设计支持拖入特定控件之后执行脚本添加其他控件，并且添加的其他控件可以执行默认options",
               "type": "custom",
               "label": "定制"
             }
@@ -519,7 +519,7 @@
         },
         {
           "id": "f-12",
-          "title": "表单的关闭方法(postReloadMessage)挂载到h3form上面",
+          "title": "test: 表单的关闭方法(postReloadMessage)挂载到h3form上面",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -527,7 +527,7 @@
               "full": "c1a00557575db4857371943865b64186cdf9f724",
               "hash": "c1a00557575",
               "date": "2026-05-06",
-              "message": "test: 交行定制：表单的关闭方法(postReloadMessage)挂载到h3form上面",
+              "message": "test: 表单的关闭方法(postReloadMessage)挂载到h3form上面",
               "type": "custom",
               "label": "定制"
             }
@@ -555,7 +555,7 @@
           "full": "67cf2bca8845908f5a57850e871b4093c2b93aa9",
           "hash": "67cf2bca884",
           "date": "2026-04-28",
-          "message": "fix: #201366 2026-04-30  8.6 日期字段设置函数ADDMINUTE函数，前台没有计算 - 8.7",
+          "message": "fix: #201366 2026-04-30 8.6 日期字段设置函数ADDMINUTE函数，前台没有计算 - 8.7",
           "type": "fix",
           "label": "修复"
         },
@@ -571,7 +571,7 @@
           "full": "c4eacd6dffd690e3ff9e1fa0bc90988f96b8ae21",
           "hash": "c4eacd6dffd",
           "date": "2026-05-07",
-          "message": "fix: #201877 【绿色通道】  企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
+          "message": "fix: #201877 【绿色通道】 企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
           "type": "fix",
           "label": "修复"
         },
@@ -579,7 +579,7 @@
           "full": "2d17fd112a545ae8a21baac603a6436066de1599",
           "hash": "2d17fd112a5",
           "date": "2026-05-07",
-          "message": "fix: #201877 【绿色通道】  企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
+          "message": "fix: #201877 【绿色通道】 企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
           "type": "fix",
           "label": "修复"
         },
@@ -603,7 +603,7 @@
           "full": "bb5d778f8c72b762fedec4f9dbac528758c09812",
           "hash": "bb5d778f8c7",
           "date": "2026-05-07",
-          "message": "fix: #201877 【绿色通道】  企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
+          "message": "fix: #201877 【绿色通道】 企微扫码登陆后无法跳转到具体页面 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzbdd7ab4c",
           "type": "fix",
           "label": "修复"
         },
@@ -627,7 +627,7 @@
           "full": "92306be2b13d99044a94aa0984edfe05e5eb15ac",
           "hash": "92306be2b13",
           "date": "2026-05-07",
-          "message": "fix: #201134 2026-04 30       Q33\tRWD 沒有處理好，筆電解析度時看不到最下面的編輯按鈕",
+          "message": "fix: #201134 2026-04 30 Q33\tRWD 沒有處理好，筆電解析度時看不到最下面的編輯按鈕",
           "type": "fix",
           "label": "修复"
         },
@@ -683,7 +683,7 @@
           "full": "b0772df04f9a071a140c882aaedc58815418612c",
           "hash": "b0772df04f9",
           "date": "2026-05-07",
-          "message": "fix: #201119 2026-05-08  8.5/8.6表单配置显示条件，表单预览不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVza3d121bb",
+          "message": "fix: #201119 2026-05-08 8.5/8.6表单配置显示条件，表单预览不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVza3d121bb",
           "type": "fix",
           "label": "修复"
         },
@@ -691,7 +691,7 @@
           "full": "935f4454b3dd4604fabcacb094f13af893ff6ba3",
           "hash": "935f4454b3d",
           "date": "2026-05-07",
-          "message": "fix: #201119 2026-05-08  8.5/8.6表单配置显示条件，表单预览不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVza3d121bb",
+          "message": "fix: #201119 2026-05-08 8.5/8.6表单配置显示条件，表单预览不生效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVza3d121bb",
           "type": "fix",
           "label": "修复"
         },
@@ -781,7 +781,7 @@
           "full": "fc7578dbbc424159ae59e6e9a7de77cc2cbdce6a",
           "hash": "fc7578dbbc4",
           "date": "2026-05-07",
-          "message": "Revert \"feat:  #194433 云枢平台内可实时查看在线用户\"",
+          "message": "Revert \"feat: #194433 云枢平台内可实时查看在线用户\"",
           "type": "other",
           "label": "其他"
         },
@@ -789,7 +789,7 @@
           "full": "7fb350d3bd80fdf9df6bc6e6b9b69caf4d1818ae",
           "hash": "7fb350d3bd8",
           "date": "2026-03-16",
-          "message": "feat:  #194433 云枢平台内可实时查看在线用户",
+          "message": "feat: #194433 云枢平台内可实时查看在线用户",
           "type": "feature",
           "label": "功能"
         },
@@ -840,7 +840,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "优化权限显示【交行】",
+          "title": "优化权限显示",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -848,7 +848,7 @@
               "full": "1614097d1bcf76617dccea2479cf9641ecfd7a1d",
               "hash": "1614097d1bc",
               "date": "2026-05-09",
-              "message": "docs: 优化权限显示【交行】",
+              "message": "docs: 优化权限显示",
               "type": "docs-feature",
               "label": "说明"
             }
@@ -856,7 +856,7 @@
         },
         {
           "id": "f-2",
-          "title": "协同办公",
+          "title": "test: 协同办公",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -864,7 +864,7 @@
               "full": "e7178a5087f10eb26bbd0700617fc7af4674acbb",
               "hash": "e7178a5087f",
               "date": "2026-05-09",
-              "message": "test: 交行定制-协同办公",
+              "message": "test: 协同办公",
               "type": "custom",
               "label": "定制"
             }
@@ -872,7 +872,7 @@
         },
         {
           "id": "f-3",
-          "title": "过滤参数短文本值转换",
+          "title": "test: 过滤参数短文本值转换",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -880,7 +880,7 @@
               "full": "0d84d0090b332fd7c482333879c982b272353076",
               "hash": "0d84d0090b3",
               "date": "2026-05-09",
-              "message": "test: 交行定制-过滤参数短文本值转换",
+              "message": "test: 过滤参数短文本值转换",
               "type": "custom",
               "label": "定制"
             }
@@ -888,7 +888,7 @@
         },
         {
           "id": "f-4",
-          "title": "设计态二维码按钮配置",
+          "title": "test: 设计态二维码按钮配置",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -896,7 +896,7 @@
               "full": "04a7672d8de2e56cd9849d78a429d40e44b1195b",
               "hash": "04a7672d8de",
               "date": "2026-05-09",
-              "message": "test: 交行定制-设计态二维码按钮配置",
+              "message": "test: 设计态二维码按钮配置",
               "type": "custom",
               "label": "定制"
             }
@@ -936,7 +936,7 @@
         },
         {
           "id": "f-7",
-          "title": "优化依赖安装脚本【交行】",
+          "title": "优化依赖安装脚本",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -944,7 +944,7 @@
               "full": "dba9ff918b14a59e963cb4acbc689211d8ad20fc",
               "hash": "dba9ff918b1",
               "date": "2026-05-09",
-              "message": "docs: 优化依赖安装脚本【交行】",
+              "message": "docs: 优化依赖安装脚本",
               "type": "docs-feature",
               "label": "说明"
             }
@@ -952,7 +952,7 @@
         },
         {
           "id": "f-8",
-          "title": "优化企业权限【交行】",
+          "title": "优化企业权限",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -960,7 +960,7 @@
               "full": "5a8814e4d3f5988cedd6e6db8016e7a590a56598",
               "hash": "5a8814e4d3f",
               "date": "2026-05-08",
-              "message": "docs: 优化企业权限【交行】",
+              "message": "docs: 优化企业权限",
               "type": "docs-feature",
               "label": "说明"
             }
@@ -968,7 +968,7 @@
         },
         {
           "id": "f-9",
-          "title": "，修改依赖包版本号",
+          "title": "test: 修改依赖包版本号",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -976,7 +976,7 @@
               "full": "55f3d229427f10d8738e4d03c2bfd391e46fa46e",
               "hash": "55f3d229427",
               "date": "2026-05-08",
-              "message": "test: 交行定制，修改依赖包版本号",
+              "message": "test: 修改依赖包版本号",
               "type": "custom",
               "label": "定制"
             }
@@ -984,7 +984,7 @@
         },
         {
           "id": "f-10",
-          "title": "独立cloudpivot-platform为交行包",
+          "title": "test: 独立cloudpivot-platform为定制包",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -992,7 +992,7 @@
               "full": "c364b4c667500fc19708915be0e83234e1ed0aec",
               "hash": "c364b4c6675",
               "date": "2026-05-08",
-              "message": "test: 交行定制：独立cloudpivot-platform为交行包",
+              "message": "test: 独立cloudpivot-platform为定制包",
               "type": "custom",
               "label": "定制"
             }
@@ -1000,7 +1000,7 @@
         },
         {
           "id": "f-11",
-          "title": "更新报表版本号【交行】",
+          "title": "更新报表版本号",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1008,7 +1008,7 @@
               "full": "efe8c4cc9d8a7f0548d3992a1c42874fd60bf4de",
               "hash": "efe8c4cc9d8",
               "date": "2026-05-08",
-              "message": "docs: 更新报表版本号【交行】",
+              "message": "docs: 更新报表版本号",
               "type": "docs-feature",
               "label": "说明"
             }
@@ -1016,7 +1016,7 @@
         },
         {
           "id": "f-12",
-          "title": "带交行bankcommToken参数，实现免登",
+          "title": "test: 带bankcommToken参数，实现免登",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1024,7 +1024,7 @@
               "full": "0c2ba7c81df5334bf367cc0825635ba389a0311b",
               "hash": "0c2ba7c81df",
               "date": "2026-05-08",
-              "message": "test: 交行定制：带交行bankcommToken参数，实现免登",
+              "message": "test: 带bankcommToken参数，实现免登",
               "type": "custom",
               "label": "定制"
             }
@@ -1156,7 +1156,7 @@
           "full": "de2064b9c1f6492651d66956dbf4b4987873637e",
           "hash": "de2064b9c1f",
           "date": "2026-05-08",
-          "message": "fix: #202079 【长鑫性能】 后台默认语言是英文   无痕模式下访问还是中文 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyYc8RPsRj",
+          "message": "fix: #202079 【长鑫性能】 后台默认语言是英文 无痕模式下访问还是中文 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/59t17wuyYc8RPsRj",
           "type": "fix",
           "label": "修复"
         },
@@ -1303,7 +1303,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "打开当前页url未带域名判断为路由执行",
+          "title": "test: 打开当前页url未带域名判断为路由执行",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1311,7 +1311,7 @@
               "full": "effdecfd9993875517fd1b70e686c58ef71d414b",
               "hash": "effdecfd999",
               "date": "2026-05-14",
-              "message": "test: 交行定制-打开当前页url未带域名判断为路由执行",
+              "message": "test: 打开当前页url未带域名判断为路由执行",
               "type": "custom",
               "label": "定制"
             }
@@ -1335,7 +1335,7 @@
         },
         {
           "id": "f-3",
-          "title": "运行态内置数据支持业务数据选择模型导出参数传值修改",
+          "title": "test: 运行态内置数据支持业务数据选择模型导出参数传值修改",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1343,7 +1343,7 @@
               "full": "fafb6563ebb234d323140422da5b1a39d8e59751",
               "hash": "fafb6563ebb",
               "date": "2026-05-13",
-              "message": "test: 交行定制-运行态内置数据支持业务数据选择模型导出参数传值修改",
+              "message": "test: 运行态内置数据支持业务数据选择模型导出参数传值修改",
               "type": "custom",
               "label": "定制"
             }
@@ -1351,7 +1351,7 @@
         },
         {
           "id": "f-4",
-          "title": "员工管理入职二维码功能",
+          "title": "test: 员工管理入职二维码功能",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1359,7 +1359,7 @@
               "full": "475b596b4d34c415a852f009fb215713d1627ebf",
               "hash": "475b596b4d3",
               "date": "2026-05-13",
-              "message": "test: 交行定制-员工管理入职二维码功能",
+              "message": "test: 员工管理入职二维码功能",
               "type": "custom",
               "label": "定制"
             }
@@ -1367,7 +1367,7 @@
         },
         {
           "id": "f-5",
-          "title": "视图动态列配置参数名修改为非必填及运行态内置数据支持业务数据选择模型导出",
+          "title": "test: 视图动态列配置参数名修改为非必填及运行态内置数据支持业务数据选择模型导出",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1375,7 +1375,7 @@
               "full": "ff064b62abe5d3cf3a661a834b7ddb352d7a8da7",
               "hash": "ff064b62abe",
               "date": "2026-05-12",
-              "message": "test: 交行定制-视图动态列配置参数名修改为非必填及运行态内置数据支持业务数据选择模型导出",
+              "message": "test: 视图动态列配置参数名修改为非必填及运行态内置数据支持业务数据选择模型导出",
               "type": "custom",
               "label": "定制"
             }
@@ -1399,7 +1399,7 @@
         },
         {
           "id": "f-7",
-          "title": "安装应用模板时，import接口传入appId参数",
+          "title": "test: 安装应用模板时，import接口传入appId参数",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -1407,7 +1407,7 @@
               "full": "ae0b0bfb982b372cdf87437a4c0dd2f85c1e598b",
               "hash": "ae0b0bfb982",
               "date": "2026-05-11",
-              "message": "test: 交行定制：安装应用模板时，import接口传入appId参数",
+              "message": "test: 安装应用模板时，import接口传入appId参数",
               "type": "custom",
               "label": "定制"
             }
@@ -1483,7 +1483,7 @@
           "full": "9e475ee47f0ab45e27dce3775541dd7db4d5bca7",
           "hash": "9e475ee47f0",
           "date": "2026-05-14",
-          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "message": "fix: #202293 【内部提单】2026-05-14 按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
           "type": "fix",
           "label": "修复"
         },
@@ -1491,7 +1491,7 @@
           "full": "5f8e0e2c004ba88dc2e124bb949cc07e0ec518e4",
           "hash": "5f8e0e2c004",
           "date": "2026-05-14",
-          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "message": "fix: #202293 【内部提单】2026-05-14 按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
           "type": "fix",
           "label": "修复"
         },
@@ -1499,7 +1499,7 @@
           "full": "45af2d599f91da65e99b42ad9f2b697e6200b155",
           "hash": "45af2d599f9",
           "date": "2026-05-14",
-          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "message": "fix: #202293 【内部提单】2026-05-14 按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
           "type": "fix",
           "label": "修复"
         },
@@ -1539,7 +1539,7 @@
           "full": "b1412867de2ef36b5410160d339b060fb85e66b0",
           "hash": "b1412867de2",
           "date": "2026-05-14",
-          "message": "fix: #202101 2026-05-14  手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
+          "message": "fix: #202101 2026-05-14 手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
           "type": "fix",
           "label": "修复"
         },
@@ -1547,7 +1547,7 @@
           "full": "124430a0eec40c2261f805b47bc078898388aae0",
           "hash": "124430a0eec",
           "date": "2026-05-14",
-          "message": "fix: #202101 2026-05-14  手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
+          "message": "fix: #202101 2026-05-14 手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
           "type": "fix",
           "label": "修复"
         },
@@ -1555,7 +1555,7 @@
           "full": "87b23d265710a53bb770051c04fcce64ac5e1c4b",
           "hash": "87b23d26571",
           "date": "2026-05-14",
-          "message": "fix: #202101 2026-05-14  手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
+          "message": "fix: #202101 2026-05-14 手机-接收到企微消息通知，进入流程点击返回首页按钮失效 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz5440c664",
           "type": "fix",
           "label": "修复"
         },
@@ -1563,7 +1563,7 @@
           "full": "5517cde3132da3c81f6946593a37a06a6dc4fa9f",
           "hash": "5517cde3132",
           "date": "2026-05-14",
-          "message": "fix: #201825 2026-05-14   子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
+          "message": "fix: #201825 2026-05-14 子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
           "type": "fix",
           "label": "修复"
         },
@@ -1571,7 +1571,7 @@
           "full": "7367890e3288ddb07eacd95c950910892cc1e005",
           "hash": "7367890e328",
           "date": "2026-05-14",
-          "message": "fix: #201825 2026-05-14   子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
+          "message": "fix: #201825 2026-05-14 子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
           "type": "fix",
           "label": "修复"
         },
@@ -1579,7 +1579,7 @@
           "full": "3ce4121e9482024a6f74d62bbd9a6fbfe951f7cf",
           "hash": "3ce4121e948",
           "date": "2026-05-14",
-          "message": "fix: #201825 2026-05-14   子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
+          "message": "fix: #201825 2026-05-14 子表筛选和导出逻辑不匹配 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd12da098",
           "type": "fix",
           "label": "修复"
         },
@@ -1707,7 +1707,7 @@
           "full": "dadd8782960fbe5cab6b775b95f1f550be473ba9",
           "hash": "dadd8782960",
           "date": "2026-05-13",
-          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "message": "fix: #202293 【内部提单】2026-05-14 按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
           "type": "fix",
           "label": "修复"
         },
@@ -1715,7 +1715,7 @@
           "full": "73ae240ed3d8dcab92c4c59c30c80d79ae106383",
           "hash": "73ae240ed3d",
           "date": "2026-05-13",
-          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "message": "fix: #202293 【内部提单】2026-05-14 按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
           "type": "fix",
           "label": "修复"
         },
@@ -1723,7 +1723,7 @@
           "full": "bd6fc8bc038b1902014adba192cc0ea010d67b4e",
           "hash": "bd6fc8bc038",
           "date": "2026-05-13",
-          "message": "fix: #202293 【内部提单】2026-05-14  按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
+          "message": "fix: #202293 【内部提单】2026-05-14 按钮控件触发了表单JS的监听 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/BsN5Wx6L7ey5Vl21",
           "type": "fix",
           "label": "修复"
         },
@@ -1731,7 +1731,7 @@
           "full": "e3d46f56dbfae1fe677f62254cb200d40afbba3c",
           "hash": "e3d46f56dbf",
           "date": "2026-05-13",
-          "message": "fix: #201978 2026-05-14  应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
+          "message": "fix: #201978 2026-05-14 应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
           "type": "fix",
           "label": "修复"
         },
@@ -1739,7 +1739,7 @@
           "full": "a71aae544bd6b8c1a42fc4cd0279448a07c0d06e",
           "hash": "a71aae544bd",
           "date": "2026-05-13",
-          "message": "fix: #201978 2026-05-14  应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
+          "message": "fix: #201978 2026-05-14 应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
           "type": "fix",
           "label": "修复"
         },
@@ -1747,7 +1747,7 @@
           "full": "0de6c929a8fc59b7c60a10e1dda9c3e684527c50",
           "hash": "0de6c929a8f",
           "date": "2026-05-13",
-          "message": "fix: #201978 2026-05-14  应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
+          "message": "fix: #201978 2026-05-14 应用权限设置-新建权限组无法新建 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz51fa3665",
           "type": "fix",
           "label": "修复"
         },
@@ -1891,7 +1891,7 @@
           "full": "c3681982502535a3951afb0af9c18f8eb82613cc",
           "hash": "c3681982502",
           "date": "2026-05-11",
-          "message": "fix: #202208 【绿色通道】产品配置视图的自定义行按钮绑定了业务规则  用户多次点击会出现同时执行多次的情况 应该改为点一次 按钮先置灰等第一次有返回 才能点击第二次 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz59db0884",
+          "message": "fix: #202208 【绿色通道】产品配置视图的自定义行按钮绑定了业务规则 用户多次点击会出现同时执行多次的情况 应该改为点一次 按钮先置灰等第一次有返回 才能点击第二次 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz59db0884",
           "type": "fix",
           "label": "修复"
         },
@@ -1899,7 +1899,7 @@
           "full": "2f84f2bfbeaad611f4ed63465f50f2b43db4fb77",
           "hash": "2f84f2bfbea",
           "date": "2026-05-11",
-          "message": "fix: #201913 2026-05-14   【8.7产品环境可复现】从6.14将应用导入8.7之后表单中分组标题没有显示（应用包见附件） https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze9890d76",
+          "message": "fix: #201913 2026-05-14 【8.7产品环境可复现】从6.14将应用导入8.7之后表单中分组标题没有显示（应用包见附件） https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze9890d76",
           "type": "fix",
           "label": "修复"
         },
@@ -1907,7 +1907,7 @@
           "full": "8258647ee73bbcaea44504c9b821ac5a5003773b",
           "hash": "8258647ee73",
           "date": "2026-05-11",
-          "message": "fix: #201913 2026-05-14   【8.7产品环境可复现】从6.14将应用导入8.7之后表单中分组标题没有显示（应用包见附件） https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze9890d76",
+          "message": "fix: #201913 2026-05-14 【8.7产品环境可复现】从6.14将应用导入8.7之后表单中分组标题没有显示（应用包见附件） https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVze9890d76",
           "type": "fix",
           "label": "修复"
         },
@@ -2254,7 +2254,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "动态列数值格式化值转换修改",
+          "title": "test: 动态列数值格式化值转换修改",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -2262,7 +2262,7 @@
               "full": "9020d8879dccdf6cecc450a3c438db84969e2d9b",
               "hash": "9020d8879dc",
               "date": "2026-05-15",
-              "message": "test: 交行定制-动态列数值格式化值转换修改",
+              "message": "test: 动态列数值格式化值转换修改",
               "type": "custom",
               "label": "定制"
             }
@@ -2286,7 +2286,7 @@
         },
         {
           "id": "f-3",
-          "title": "自定义页面支持截取参数并传入给图表组件",
+          "title": "test: 自定义页面支持截取参数并传入给图表组件",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -2294,7 +2294,7 @@
               "full": "56692401690d8f31d61b1aa9336dab07d3c0c99c",
               "hash": "56692401690",
               "date": "2026-05-15",
-              "message": "test: 交行定制-自定义页面支持截取参数并传入给图表组件",
+              "message": "test: 自定义页面支持截取参数并传入给图表组件",
               "type": "custom",
               "label": "定制"
             }
@@ -2587,7 +2587,7 @@
           "full": "3d09d1f2eaf6adfd090463e5b0f9e1ca910fae83",
           "hash": "3d09d1f2eaf",
           "date": "2026-05-18",
-          "message": "fix: #202415 2026-05-21  手机端按钮遮挡表单控件",
+          "message": "fix: #202415 2026-05-21 手机端按钮遮挡表单控件",
           "type": "fix",
           "label": "修复"
         },
@@ -2595,7 +2595,7 @@
           "full": "b4d06dd69a4a4d7ddc5a3c1d143a483899776984",
           "hash": "b4d06dd69a4",
           "date": "2026-05-18",
-          "message": "fix: #202415 2026-05-21  手机端按钮遮挡表单控件",
+          "message": "fix: #202415 2026-05-21 手机端按钮遮挡表单控件",
           "type": "fix",
           "label": "修复"
         },
@@ -2635,7 +2635,7 @@
           "full": "ad11f785c1ea9f5c354a0f2dedd6c547b3227300",
           "hash": "ad11f785c1e",
           "date": "2026-05-18",
-          "message": "fix: #202713 2026-05-21  纯净模式下 关联单选 上锁 映射不出来值",
+          "message": "fix: #202713 2026-05-21 纯净模式下 关联单选 上锁 映射不出来值",
           "type": "fix",
           "label": "修复"
         },
@@ -2964,7 +2964,7 @@
           "full": "bca18b9adb45fd88e81da15700c4c0ea9ca5bf40",
           "hash": "bca18b9adb4",
           "date": "2026-05-21",
-          "message": "fix: #202324 【内部提单】2026-5-21   在8.5以及之后的版本，关联引用在打印里不显示了",
+          "message": "fix: #202324 【内部提单】2026-5-21 在8.5以及之后的版本，关联引用在打印里不显示了",
           "type": "fix",
           "label": "修复"
         },
@@ -2980,7 +2980,7 @@
           "full": "2dc199c4788f22387e9bc94647fce4ea560aa738",
           "hash": "2dc199c4788",
           "date": "2026-05-21",
-          "message": "fix: #202324 【内部提单】2026-5-21   在8.5以及之后的版本，关联引用在打印里不显示了",
+          "message": "fix: #202324 【内部提单】2026-5-21 在8.5以及之后的版本，关联引用在打印里不显示了",
           "type": "fix",
           "label": "修复"
         },
@@ -2988,7 +2988,7 @@
           "full": "2803fadd40e4809b5b964f17f24b53fafa4e69ef",
           "hash": "2803fadd40e",
           "date": "2026-05-21",
-          "message": "fix: #202324 【内部提单】2026-5-21   在8.5以及之后的版本，关联引用在打印里不显示了",
+          "message": "fix: #202324 【内部提单】2026-5-21 在8.5以及之后的版本，关联引用在打印里不显示了",
           "type": "fix",
           "label": "修复"
         },
@@ -3036,7 +3036,7 @@
           "full": "211f0a5bd8f113ad06924fdb292e1833420fdcd1",
           "hash": "211f0a5bd8f",
           "date": "2026-05-20",
-          "message": "fix: #202657 2026-05-21   Q59\t前端語言包二開無法正常覆蓋 cloudpivot.form.controlConfig https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzea7c378e",
+          "message": "fix: #202657 2026-05-21 Q59\t前端語言包二開無法正常覆蓋 cloudpivot.form.controlConfig https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzea7c378e",
           "type": "fix",
           "label": "修复"
         },
@@ -3044,7 +3044,7 @@
           "full": "66f09d7c3d69207bdc58eb769d4e4612be44e9bb",
           "hash": "66f09d7c3d6",
           "date": "2026-05-20",
-          "message": "fix: #202592 2026-05-21  移动端关联表单下拉框数据不能显示 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd85c78fc",
+          "message": "fix: #202592 2026-05-21 移动端关联表单下拉框数据不能显示 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVzd85c78fc",
           "type": "fix",
           "label": "修复"
         },
@@ -3052,7 +3052,7 @@
           "full": "69739231acbc78e5b51f7567a62ed45f80a135e2",
           "hash": "69739231acb",
           "date": "2026-05-20",
-          "message": "fix: #202393 2026-05-21  选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常  版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
+          "message": "fix: #202393 2026-05-21 选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常 版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
           "type": "fix",
           "label": "修复"
         },
@@ -3060,7 +3060,7 @@
           "full": "ef9f07a2bef982c034533481fee69b72181a3b27",
           "hash": "ef9f07a2bef",
           "date": "2026-05-20",
-          "message": "fix: #202393 2026-05-21  选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常  版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
+          "message": "fix: #202393 2026-05-21 选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常 版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
           "type": "fix",
           "label": "修复"
         },
@@ -3068,7 +3068,7 @@
           "full": "98d27750ad2c29155ac0864a71bb0ececf62274c",
           "hash": "98d27750ad2",
           "date": "2026-05-20",
-          "message": "fix: #202393 2026-05-21  选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常  版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
+          "message": "fix: #202393 2026-05-21 选择关联表单时、移动端不调用list接口 导致数据空白 ，移动端筛选时正常； PC端正常 版本8.2.75 https://rdmp.authine.cn/project/#/team/LSY1vbUE/task/SDocKmVz8cdb25de",
           "type": "fix",
           "label": "修复"
         },
@@ -3265,7 +3265,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "二维码名称关联单选不显示修复",
+          "title": "test: 二维码名称关联单选不显示修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3273,7 +3273,7 @@
               "full": "5edca3d6cdd53b2324ca24d5c70aa713d4a5b73d",
               "hash": "5edca3d6cdd",
               "date": "2026-05-21",
-              "message": "test: 交行定制-二维码名称关联单选不显示修复",
+              "message": "test: 二维码名称关联单选不显示修复",
               "type": "custom",
               "label": "定制"
             }
@@ -3312,7 +3312,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "安装应用模板时，import接口传入appId参数",
+          "title": "test: 安装应用模板时，import接口传入appId参数",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3320,7 +3320,7 @@
               "full": "66aaa53d8942552601d9fc0be86aa7284abc6447",
               "hash": "66aaa53d894",
               "date": "2026-05-25",
-              "message": "test: 交行定制：安装应用模板时，import接口传入appId参数",
+              "message": "test: 安装应用模板时，import接口传入appId参数",
               "type": "custom",
               "label": "定制"
             }
@@ -3360,7 +3360,7 @@
         },
         {
           "id": "f-4",
-          "title": "自定义按钮弹窗关闭需要刷新列表数据",
+          "title": "test: 自定义按钮弹窗关闭需要刷新列表数据",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3368,7 +3368,7 @@
               "full": "284593173de5c1f595bca0bdb653214e8153fc7b",
               "hash": "284593173de",
               "date": "2026-05-25",
-              "message": "test: 交行定制-自定义按钮弹窗关闭需要刷新列表数据",
+              "message": "test: 自定义按钮弹窗关闭需要刷新列表数据",
               "type": "custom",
               "label": "定制"
             }
@@ -3408,7 +3408,7 @@
         },
         {
           "id": "f-7",
-          "title": "人员导入格式：人员姓名#证件号、人员姓名#银行卡号",
+          "title": "test: 人员导入格式：人员姓名#证件号、人员姓名#银行卡号",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3416,7 +3416,7 @@
               "full": "48e13fc653aa20630e283d1e33bc823797723bf6",
               "hash": "48e13fc653a",
               "date": "2026-05-22",
-              "message": "test: 交行二开：人员导入格式：人员姓名#证件号、人员姓名#银行卡号",
+              "message": "test: 人员导入格式：人员姓名#证件号、人员姓名#银行卡号",
               "type": "custom",
               "label": "定制"
             }
@@ -3620,7 +3620,7 @@
           "full": "1f8d74d58598a7e8e1cbb5b642a8d0b026d9e737",
           "hash": "1f8d74d5859",
           "date": "2026-05-22",
-          "message": "fix: #203122 2026-05-28  8.5计算规则展示优化",
+          "message": "fix: #203122 2026-05-28 8.5计算规则展示优化",
           "type": "fix",
           "label": "修复"
         }
@@ -3777,7 +3777,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "过滤子表数据",
+          "title": "test: 过滤子表数据",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3785,7 +3785,7 @@
               "full": "da9204c55dffc87f5ed3802a5e756e18bb761204",
               "hash": "da9204c55df",
               "date": "2026-05-27",
-              "message": "test: 交行定制-过滤子表数据",
+              "message": "test: 过滤子表数据",
               "type": "custom",
               "label": "定制"
             }
@@ -3793,7 +3793,7 @@
         },
         {
           "id": "f-2",
-          "title": "移动端外链数据回显",
+          "title": "test: 移动端外链数据回显",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3801,7 +3801,7 @@
               "full": "77991ec80323cf5e9f95fada23bbecb62e20f2bc",
               "hash": "77991ec8032",
               "date": "2026-05-27",
-              "message": "test: 交行定制-移动端外链数据回显",
+              "message": "test: 移动端外链数据回显",
               "type": "custom",
               "label": "定制"
             }
@@ -3873,7 +3873,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "，增加模型字段选择控件",
+          "title": "test: 增加模型字段选择控件",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3881,7 +3881,7 @@
               "full": "2dd5a9593e5ebb22289222ada0588c04ff6218a7",
               "hash": "2dd5a9593e5",
               "date": "2026-05-28",
-              "message": "test: 交行二开，增加模型字段选择控件",
+              "message": "test: 增加模型字段选择控件",
               "type": "custom",
               "label": "定制"
             }
@@ -3889,7 +3889,7 @@
         },
         {
           "id": "f-2",
-          "title": "新增过滤子表数据参数类型报错",
+          "title": "test: 新增过滤子表数据参数类型报错",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3897,7 +3897,7 @@
               "full": "378034b720f1a6723934232b02858e2ad1fd4911",
               "hash": "378034b720f",
               "date": "2026-05-27",
-              "message": "test: 交行定制-新增过滤子表数据参数类型报错",
+              "message": "test: 新增过滤子表数据参数类型报错",
               "type": "custom",
               "label": "定制"
             }
@@ -3905,7 +3905,7 @@
         },
         {
           "id": "f-3",
-          "title": "选部门和load过滤问题修复",
+          "title": "test: 选部门和load过滤问题修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -3913,7 +3913,7 @@
               "full": "44b1e8e9c15988ec38c48cd116020dee49f1f85d",
               "hash": "44b1e8e9c15",
               "date": "2026-05-27",
-              "message": "test: 交行定制-选部门和load过滤问题修复",
+              "message": "test: 选部门和load过滤问题修复",
               "type": "custom",
               "label": "定制"
             }
@@ -3933,7 +3933,7 @@
           "full": "af86c88e732596714e63f8bffae140f1c10b3e71",
           "hash": "af86c88e732",
           "date": "2026-05-28",
-          "message": "fix: #203675 2026-06-04  卓高8.6.24-SNAPSHOT版本，企微工作台待办同意按钮点击无反应，PC端、浏览器mobile访问均正常（验收卡点）",
+          "message": "fix: #203675 2026-06-04 卓高8.6.24-SNAPSHOT版本，企微工作台待办同意按钮点击无反应，PC端、浏览器mobile访问均正常（验收卡点）",
           "type": "fix",
           "label": "修复"
         },
@@ -4034,7 +4034,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "，改动版本号",
+          "title": "test: 改动版本号",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4042,7 +4042,7 @@
               "full": "c9f135bd7593fedef0251abb26330d0817934738",
               "hash": "c9f135bd759",
               "date": "2026-06-04",
-              "message": "test: 交行二开，改动版本号",
+              "message": "test: 改动版本号",
               "type": "custom",
               "label": "定制"
             }
@@ -4050,7 +4050,7 @@
         },
         {
           "id": "f-2",
-          "title": "，修改公告详情弹窗的notice-time取值",
+          "title": "test: 修改公告详情弹窗的notice-time取值",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4058,7 +4058,7 @@
               "full": "f6e2bf359c49e01b2f65524da132ad62b20d07a4",
               "hash": "f6e2bf359c4",
               "date": "2026-06-04",
-              "message": "test: 交行二开，修改公告详情弹窗的notice-time取值",
+              "message": "test: 修改公告详情弹窗的notice-time取值",
               "type": "custom",
               "label": "定制"
             }
@@ -4066,7 +4066,7 @@
         },
         {
           "id": "f-3",
-          "title": "发版前修改引用关系",
+          "title": "test: 发版前修改引用关系",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4074,7 +4074,7 @@
               "full": "52f0fb42a2222b9585c9681119cf6c967e7f685d",
               "hash": "52f0fb42a22",
               "date": "2026-06-03",
-              "message": "test: 交行二开: 发版前修改引用关系",
+              "message": "test: 发版前修改引用关系",
               "type": "custom",
               "label": "定制"
             }
@@ -4082,7 +4082,7 @@
         },
         {
           "id": "f-4",
-          "title": "免登失败，关闭页面，并删除原有token",
+          "title": "test: 免登失败，关闭页面，并删除原有token",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4090,7 +4090,7 @@
               "full": "1eb746d29268d8426647183ec497327caea869d2",
               "hash": "1eb746d2926",
               "date": "2026-06-03",
-              "message": "test: 交行二开：免登失败，关闭页面，并删除原有token",
+              "message": "test: 免登失败，关闭页面，并删除原有token",
               "type": "custom",
               "label": "定制"
             }
@@ -4098,7 +4098,7 @@
         },
         {
           "id": "f-5",
-          "title": "跨模型打印",
+          "title": "test: 跨模型打印",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4106,7 +4106,7 @@
               "full": "7ace7c4998c22672b25b43c30502fc60704552ed",
               "hash": "7ace7c4998c",
               "date": "2026-06-03",
-              "message": "test: 交行二开：跨模型打印",
+              "message": "test: 跨模型打印",
               "type": "custom",
               "label": "定制"
             }
@@ -4114,7 +4114,7 @@
         },
         {
           "id": "f-6",
-          "title": "指定的自定义按钮弹出指定内容预览（代码来源张星）",
+          "title": "test: 指定的自定义按钮弹出指定内容预览（代码来源张星）",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4122,7 +4122,7 @@
               "full": "bb1ca3e58315b9fb8bec6d2880b6266bb7b8f4cc",
               "hash": "bb1ca3e5831",
               "date": "2026-06-02",
-              "message": "test: 交行二开:指定的自定义按钮弹出指定内容预览（代码来源张星）",
+              "message": "test: 指定的自定义按钮弹出指定内容预览（代码来源张星）",
               "type": "custom",
               "label": "定制"
             }
@@ -4130,7 +4130,7 @@
         },
         {
           "id": "f-7",
-          "title": "portal的应用权限设置页面样式调整",
+          "title": "test: portal的应用权限设置页面样式调整",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4138,7 +4138,7 @@
               "full": "0e75bbbc32b066e4d490e6b36e9066aeb6e6b943",
               "hash": "0e75bbbc32b",
               "date": "2026-06-02",
-              "message": "test: 交行二开：portal的应用权限设置页面样式调整",
+              "message": "test: portal的应用权限设置页面样式调整",
               "type": "custom",
               "label": "定制"
             }
@@ -4146,7 +4146,7 @@
         },
         {
           "id": "f-8",
-          "title": "国际化修改云枢、奥哲为交薪通",
+          "title": "test: 国际化修改云枢、奥哲为交薪通",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4154,7 +4154,7 @@
               "full": "0579b2d6e607e9cb8d8d5ebc36f33ac73afb51cf",
               "hash": "0579b2d6e60",
               "date": "2026-06-02",
-              "message": "test: 交行二开：国际化修改云枢、奥哲为交薪通",
+              "message": "test: 国际化修改云枢、奥哲为交薪通",
               "type": "custom",
               "label": "定制"
             }
@@ -4162,7 +4162,7 @@
         },
         {
           "id": "f-9",
-          "title": "删除云枢、奥哲名称，修改logo",
+          "title": "test: 删除云枢、奥哲名称，修改logo",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4170,7 +4170,7 @@
               "full": "ff7e018d0fa7d2a491d2ff6fbebf6d4e614961e3",
               "hash": "ff7e018d0fa",
               "date": "2026-06-02",
-              "message": "test: 交行二开：删除云枢、奥哲名称，修改logo",
+              "message": "test: 删除云枢、奥哲名称，修改logo",
               "type": "custom",
               "label": "定制"
             }
@@ -4178,7 +4178,7 @@
         },
         {
           "id": "f-10",
-          "title": "替换logo为交薪通",
+          "title": "test: 替换logo为交薪通",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4186,7 +4186,7 @@
               "full": "1ca3e5db3f6be1bf3042d23149d60395b8a23d97",
               "hash": "1ca3e5db3f6",
               "date": "2026-06-02",
-              "message": "test: 交行二开：替换logo为交薪通",
+              "message": "test: 替换logo为交薪通",
               "type": "custom",
               "label": "定制"
             }
@@ -4194,7 +4194,7 @@
         },
         {
           "id": "f-11",
-          "title": "项目开发提交",
+          "title": "test: 项目开发提交",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4202,7 +4202,7 @@
               "full": "97e89d759b1b1f08efbcb806f3e1d878846de4d6",
               "hash": "97e89d759b1",
               "date": "2026-05-30",
-              "message": "test: 交行定制-项目开发提交",
+              "message": "test: 项目开发提交",
               "type": "custom",
               "label": "定制"
             }
@@ -4210,7 +4210,7 @@
         },
         {
           "id": "f-12",
-          "title": "暂存后直接可编辑",
+          "title": "test: 暂存后直接可编辑",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4218,7 +4218,7 @@
               "full": "b8ece905cea91adca6e467c3b0f1f6dffbae8512",
               "hash": "b8ece905cea",
               "date": "2026-05-30",
-              "message": "test: 交行定制-暂存后直接可编辑",
+              "message": "test: 暂存后直接可编辑",
               "type": "custom",
               "label": "定制"
             }
@@ -4226,7 +4226,7 @@
         },
         {
           "id": "f-13",
-          "title": "修改图片引入位置",
+          "title": "test: 修改图片引入位置",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4234,7 +4234,7 @@
               "full": "7bdb36e770d2364fd3d1396766044ba655107e31",
               "hash": "7bdb36e770d",
               "date": "2026-05-29",
-              "message": "test: 交行二开：修改图片引入位置",
+              "message": "test: 修改图片引入位置",
               "type": "custom",
               "label": "定制"
             }
@@ -4242,7 +4242,7 @@
         },
         {
           "id": "f-14",
-          "title": "图标更换位置",
+          "title": "test: 图标更换位置",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4250,7 +4250,7 @@
               "full": "17a47b6f2461e098cd7b75fc6e6efabe437ecae6",
               "hash": "17a47b6f246",
               "date": "2026-05-29",
-              "message": "test: 交行二开：图标更换位置",
+              "message": "test: 图标更换位置",
               "type": "custom",
               "label": "定制"
             }
@@ -4258,7 +4258,7 @@
         },
         {
           "id": "f-15",
-          "title": "修改依赖包版本",
+          "title": "test: 修改依赖包版本",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4266,7 +4266,7 @@
               "full": "1d6bfc09654cd19c7fbbe258a99806d2cedd5426",
               "hash": "1d6bfc09654",
               "date": "2026-05-29",
-              "message": "test: 交行二开：修改依赖包版本",
+              "message": "test: 修改依赖包版本",
               "type": "custom",
               "label": "定制"
             }
@@ -4274,7 +4274,7 @@
         },
         {
           "id": "f-16",
-          "title": "交薪通免登之后添加缓存tenantId和corpId",
+          "title": "test: 交薪通免登之后添加缓存tenantId和corpId",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4282,7 +4282,7 @@
               "full": "5787be619f2b68eb513a7673e813436d909b8dce",
               "hash": "5787be619f2",
               "date": "2026-05-29",
-              "message": "test: 交行二开：交薪通免登之后添加缓存tenantId和corpId",
+              "message": "test: 交薪通免登之后添加缓存tenantId和corpId",
               "type": "custom",
               "label": "定制"
             }
@@ -4290,7 +4290,7 @@
         },
         {
           "id": "f-17",
-          "title": "过滤已配置的动态列",
+          "title": "test: 过滤已配置的动态列",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4298,7 +4298,7 @@
               "full": "744d27662946958da79f7f7c12914253dc8de9ca",
               "hash": "744d2766294",
               "date": "2026-05-29",
-              "message": "test: 交行定制-过滤已配置的动态列",
+              "message": "test: 过滤已配置的动态列",
               "type": "custom",
               "label": "定制"
             }
@@ -4306,7 +4306,7 @@
         },
         {
           "id": "f-18",
-          "title": "代码恢复",
+          "title": "test: 代码恢复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4314,7 +4314,7 @@
               "full": "30c22469a0e830173a8d295e0cb07fe15c68f96f",
               "hash": "30c22469a0e",
               "date": "2026-06-05",
-              "message": "test: 交行定制-代码恢复",
+              "message": "test: 代码恢复",
               "type": "custom",
               "label": "定制"
             }
@@ -4322,7 +4322,7 @@
         },
         {
           "id": "f-19",
-          "title": "视图电子表格，添加行时自动增加query上带的值，动态字段可以编辑",
+          "title": "test: 视图电子表格，添加行时自动增加query上带的值，动态字段可以编辑",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4330,7 +4330,7 @@
               "full": "3fa483f805b52c50562e08b7a83040c27af476d9",
               "hash": "3fa483f805b",
               "date": "2026-06-05",
-              "message": "test: 交行二开：视图电子表格，添加行时自动增加query上带的值，动态字段可以编辑",
+              "message": "test: 视图电子表格，添加行时自动增加query上带的值，动态字段可以编辑",
               "type": "custom",
               "label": "定制"
             }
@@ -4338,7 +4338,7 @@
         },
         {
           "id": "f-20",
-          "title": "子流程跳转",
+          "title": "test: 子流程跳转",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4346,7 +4346,7 @@
               "full": "aba05e7f5ea7f96971d7f3c75fed64106b4871f6",
               "hash": "aba05e7f5ea",
               "date": "2026-06-11",
-              "message": "test: 交行定制-子流程跳转",
+              "message": "test: 子流程跳转",
               "type": "custom",
               "label": "定制"
             }
@@ -4354,7 +4354,7 @@
         },
         {
           "id": "f-21",
-          "title": "修改依赖包版本号",
+          "title": "test: 修改依赖包版本号",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4362,7 +4362,7 @@
               "full": "1ef1eea49fae70ac2f19739d24e71fd79a094454",
               "hash": "1ef1eea49fa",
               "date": "2026-06-11",
-              "message": "test: 交行二开：修改依赖包版本号",
+              "message": "test: 修改依赖包版本号",
               "type": "custom",
               "label": "定制"
             },
@@ -4370,7 +4370,7 @@
               "full": "4d91d8c4ef352f84cfe2edec29f4e3bf0091f727",
               "hash": "4d91d8c4ef3",
               "date": "2026-06-09",
-              "message": "test: 交行二开：修改依赖包版本号",
+              "message": "test: 修改依赖包版本号",
               "type": "custom",
               "label": "定制"
             }
@@ -4378,7 +4378,7 @@
         },
         {
           "id": "f-22",
-          "title": "企业管理员可以看到组织角色、工作交接、组织权限入口",
+          "title": "test: 企业管理员可以看到组织角色、工作交接、组织权限入口",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4386,7 +4386,7 @@
               "full": "e07c8226b2249cc401d42ad76da9c24be8af56e3",
               "hash": "e07c8226b22",
               "date": "2026-06-11",
-              "message": "test: 交行二开：企业管理员可以看到组织角色、工作交接、组织权限入口",
+              "message": "test: 企业管理员可以看到组织角色、工作交接、组织权限入口",
               "type": "custom",
               "label": "定制"
             }
@@ -4394,7 +4394,7 @@
         },
         {
           "id": "f-23",
-          "title": "信息收集应用-扫码功能移动端兼容",
+          "title": "test: 信息收集应用-扫码功能移动端兼容",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4402,7 +4402,7 @@
               "full": "6ff0976a9521d41d0e9abd37e5ef3e224f3d2010",
               "hash": "6ff0976a952",
               "date": "2026-06-10",
-              "message": "test: 交行二开：信息收集应用-扫码功能移动端兼容",
+              "message": "test: 信息收集应用-扫码功能移动端兼容",
               "type": "custom",
               "label": "定制"
             }
@@ -4426,7 +4426,7 @@
         },
         {
           "id": "f-25",
-          "title": "信息收集应用-扫码功能兼容",
+          "title": "test: 信息收集应用-扫码功能兼容",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4434,7 +4434,7 @@
               "full": "3addaf7b97e50cd224136ae471712793b6bd1b35",
               "hash": "3addaf7b97e",
               "date": "2026-06-10",
-              "message": "test: 交行二开：信息收集应用-扫码功能兼容",
+              "message": "test: 信息收集应用-扫码功能兼容",
               "type": "custom",
               "label": "定制"
             }
@@ -4442,7 +4442,7 @@
         },
         {
           "id": "f-26",
-          "title": "，汇总列修改（张星）",
+          "title": "test: 汇总列修改（张星）",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4450,7 +4450,7 @@
               "full": "41cf604f5533f6deb7a616975c63531aa905b666",
               "hash": "41cf604f553",
               "date": "2026-06-10",
-              "message": "test: 交行二开，汇总列修改（张星）",
+              "message": "test: 汇总列修改（张星）",
               "type": "custom",
               "label": "定制"
             }
@@ -4458,7 +4458,7 @@
         },
         {
           "id": "f-27",
-          "title": "信息收集应用-编辑权限调整",
+          "title": "test: 信息收集应用-编辑权限调整",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4466,7 +4466,7 @@
               "full": "5598a2a548802d25d68dea8b7a8747bcd267b1f4",
               "hash": "5598a2a5488",
               "date": "2026-06-10",
-              "message": "test: 交行二开：信息收集应用-编辑权限调整",
+              "message": "test: 信息收集应用-编辑权限调整",
               "type": "custom",
               "label": "定制"
             }
@@ -4474,7 +4474,7 @@
         },
         {
           "id": "f-28",
-          "title": "信息收集应用-缺陷修复",
+          "title": "test: 信息收集应用-缺陷修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4482,7 +4482,7 @@
               "full": "7b3b21c9520fe53e90b8e8ebfefefcb9efd6e550",
               "hash": "7b3b21c9520",
               "date": "2026-06-09",
-              "message": "test: 交行二开-信息收集应用-缺陷修复",
+              "message": "test: 信息收集应用-缺陷修复",
               "type": "custom",
               "label": "定制"
             }
@@ -4490,7 +4490,7 @@
         },
         {
           "id": "f-29",
-          "title": "模型字段控件中的匹配字段只允许选人员单选或关联了花名册的模型的关联单选字段， 视图显示选中的模型",
+          "title": "test: 模型字段控件中的匹配字段只允许选人员单选或关联了花名册的模型的关联单选字段， 视图显示选中的模型",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4498,7 +4498,7 @@
               "full": "bf79b9bcad01c545954d83e2f6b9a69cd953b257",
               "hash": "bf79b9bcad0",
               "date": "2026-06-09",
-              "message": "test: 交行二开：模型字段控件中的匹配字段只允许选人员单选或关联了花名册的模型的关联单选字段， 视图显示选中的模型",
+              "message": "test: 模型字段控件中的匹配字段只允许选人员单选或关联了花名册的模型的关联单选字段， 视图显示选中的模型",
               "type": "custom",
               "label": "定制"
             }
@@ -4506,7 +4506,7 @@
         },
         {
           "id": "f-30",
-          "title": "打印模板富文本不能双击编辑",
+          "title": "test: 打印模板富文本不能双击编辑",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4514,7 +4514,7 @@
               "full": "5af4f50590c6f6cd0a4283f728393e5a8b7bc43d",
               "hash": "5af4f50590c",
               "date": "2026-06-09",
-              "message": "test: 交行二开：打印模板富文本不能双击编辑",
+              "message": "test: 打印模板富文本不能双击编辑",
               "type": "custom",
               "label": "定制"
             }
@@ -4522,7 +4522,7 @@
         },
         {
           "id": "f-31",
-          "title": "屏蔽系统管理-统一配置-文件存储配置",
+          "title": "test: 屏蔽系统管理-统一配置-文件存储配置",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4530,7 +4530,7 @@
               "full": "0a944453d572bcb282c90879cbf4f4467a277cec",
               "hash": "0a944453d57",
               "date": "2026-06-09",
-              "message": "test: 交行二开： 屏蔽系统管理-统一配置-文件存储配置",
+              "message": "test: 屏蔽系统管理-统一配置-文件存储配置",
               "type": "custom",
               "label": "定制"
             }
@@ -4538,7 +4538,7 @@
         },
         {
           "id": "f-32",
-          "title": "变更版本号",
+          "title": "test: 变更版本号",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4546,7 +4546,7 @@
               "full": "0abb3b8973c75becdf9e2744205a094695de328a",
               "hash": "0abb3b8973c",
               "date": "2026-06-08",
-              "message": "test: 交行二开：变更版本号",
+              "message": "test: 变更版本号",
               "type": "custom",
               "label": "定制"
             }
@@ -4554,7 +4554,7 @@
         },
         {
           "id": "f-33",
-          "title": "预设应用【采集表列表】中的所有表单设计的发布不再需要鉴权",
+          "title": "test: 预设应用【采集表列表】中的所有表单设计的发布不再需要鉴权",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4562,7 +4562,7 @@
               "full": "2a5b8ca7c41bb9c9e0db78cfdc01b7e82eacc8ac",
               "hash": "2a5b8ca7c41",
               "date": "2026-06-08",
-              "message": "test: 交行二开： 预设应用【采集表列表】中的所有表单设计的发布不再需要鉴权",
+              "message": "test: 预设应用【采集表列表】中的所有表单设计的发布不再需要鉴权",
               "type": "custom",
               "label": "定制"
             }
@@ -4570,7 +4570,7 @@
         },
         {
           "id": "f-34",
-          "title": "url跳转当前页重定向问题处理",
+          "title": "test: url跳转当前页重定向问题处理",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4578,7 +4578,7 @@
               "full": "a702bd27b0979b2fce1bdad9352555e8303039f1",
               "hash": "a702bd27b09",
               "date": "2026-06-08",
-              "message": "test: 交行定制-url跳转当前页重定向问题处理",
+              "message": "test: url跳转当前页重定向问题处理",
               "type": "custom",
               "label": "定制"
             }
@@ -4643,7 +4643,7 @@
       "features": [
         {
           "id": "f-1",
-          "title": "依赖包版本修改",
+          "title": "test: 依赖包版本修改",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4651,7 +4651,7 @@
               "full": "50308b8185a75e1a0d4d0d19f84c850c6d9ab66c",
               "hash": "50308b8185a",
               "date": "2026-06-23",
-              "message": "test: 交行二开：依赖包版本修改",
+              "message": "test: 依赖包版本修改",
               "type": "custom",
               "label": "定制"
             }
@@ -4659,7 +4659,7 @@
         },
         {
           "id": "f-2",
-          "title": "子表控件增加行显示条件",
+          "title": "test: 子表控件增加行显示条件",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4667,7 +4667,7 @@
               "full": "c583cc4fb7a0f28915f8414a7bccf50314f151f5",
               "hash": "c583cc4fb7a",
               "date": "2026-06-23",
-              "message": "test: 交行二开： 子表控件增加行显示条件",
+              "message": "test: 子表控件增加行显示条件",
               "type": "custom",
               "label": "定制"
             }
@@ -4675,7 +4675,7 @@
         },
         {
           "id": "f-3",
-          "title": "打印富文本动态数据拿不到问题修复",
+          "title": "test: 打印富文本动态数据拿不到问题修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4683,7 +4683,7 @@
               "full": "1b06a2d73b740aeaf4ab8d4f0adf5c99781f294e",
               "hash": "1b06a2d73b7",
               "date": "2026-06-22",
-              "message": "test: 交行二开：打印富文本动态数据拿不到问题修复",
+              "message": "test: 打印富文本动态数据拿不到问题修复",
               "type": "custom",
               "label": "定制"
             }
@@ -4691,7 +4691,7 @@
         },
         {
           "id": "f-4",
-          "title": "，企业子管理员进入系统，表单设计中，模型选择的侧边栏不见了",
+          "title": "test: 企业子管理员进入系统，表单设计中，模型选择的侧边栏不见了",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4699,7 +4699,7 @@
               "full": "19c8f7e3872c1c1bc19886147ccc2c705a07d778",
               "hash": "19c8f7e3872",
               "date": "2026-06-18",
-              "message": "test: 交行二开，企业子管理员进入系统，表单设计中，模型选择的侧边栏不见了",
+              "message": "test: 企业子管理员进入系统，表单设计中，模型选择的侧边栏不见了",
               "type": "custom",
               "label": "定制"
             }
@@ -4707,7 +4707,7 @@
         },
         {
           "id": "f-5",
-          "title": "视图添加显示条件",
+          "title": "test: 视图添加显示条件",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4715,7 +4715,7 @@
               "full": "38f9029ae5714c8eeb09dade71f129546dbae541",
               "hash": "38f9029ae57",
               "date": "2026-06-18",
-              "message": "test: 交行二开：视图添加显示条件",
+              "message": "test: 视图添加显示条件",
               "type": "custom",
               "label": "定制"
             }
@@ -4755,7 +4755,7 @@
         },
         {
           "id": "f-7",
-          "title": "修改交行免登录参数",
+          "title": "修改免登录参数",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4763,7 +4763,7 @@
               "full": "78f110bad6932cc9a4a14085a6c60baf9570e2a4",
               "hash": "78f110bad69",
               "date": "2026-06-17",
-              "message": "docs: 修改交行免登录参数",
+              "message": "docs: 修改免登录参数",
               "type": "docs-feature",
               "label": "说明"
             }
@@ -4771,7 +4771,7 @@
         },
         {
           "id": "f-8",
-          "title": "修改依赖版本",
+          "title": "test: 修改依赖版本",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4779,7 +4779,7 @@
               "full": "2fb020cb78ccea74a39f6aedb3b4f0d49438e617",
               "hash": "2fb020cb78c",
               "date": "2026-06-17",
-              "message": "test: 交行二开：修改依赖版本",
+              "message": "test: 修改依赖版本",
               "type": "custom",
               "label": "定制"
             }
@@ -4787,7 +4787,7 @@
         },
         {
           "id": "f-9",
-          "title": "视图列表导出，选择表头导出内容时，如果没有历史配置，不默认选中系统字段",
+          "title": "test: 视图列表导出，选择表头导出内容时，如果没有历史配置，不默认选中系统字段",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4795,7 +4795,7 @@
               "full": "ce7ec96e3ead32eae3eae5bdf045edd899fb9468",
               "hash": "ce7ec96e3ea",
               "date": "2026-06-17",
-              "message": "test: 交行二开：视图列表导出，选择表头导出内容时，如果没有历史配置，不默认选中系统字段",
+              "message": "test: 视图列表导出，选择表头导出内容时，如果没有历史配置，不默认选中系统字段",
               "type": "custom",
               "label": "定制"
             }
@@ -4819,7 +4819,7 @@
         },
         {
           "id": "f-11",
-          "title": "打印模板不存在增加提示",
+          "title": "test: 打印模板不存在增加提示",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4827,7 +4827,7 @@
               "full": "f2daac134d01f58ab26c58180f14da684e22cd3a",
               "hash": "f2daac134d0",
               "date": "2026-06-12",
-              "message": "test: 交行二开： 打印模板不存在增加提示",
+              "message": "test: 打印模板不存在增加提示",
               "type": "custom",
               "label": "定制"
             }
@@ -4835,7 +4835,7 @@
         },
         {
           "id": "f-12",
-          "title": "DATA_COLLECTION_FORM_DESIGN用户，没有formDesignPermission配置时，应该是无权限",
+          "title": "test: DATA_COLLECTION_FORM_DESIGN用户，没有formDesignPermission配置时，应该是无权限",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4843,7 +4843,7 @@
               "full": "9e4c7c65c379ae65b933b06e58520cc057da3d16",
               "hash": "9e4c7c65c37",
               "date": "2026-06-24",
-              "message": "test: 交行二开：DATA_COLLECTION_FORM_DESIGN用户，没有formDesignPermission配置时，应该是无权限",
+              "message": "test: DATA_COLLECTION_FORM_DESIGN用户，没有formDesignPermission配置时，应该是无权限",
               "type": "custom",
               "label": "定制"
             }
@@ -4867,7 +4867,7 @@
         },
         {
           "id": "f-14",
-          "title": "屏蔽扩展组件tab，编辑应用信息时，获取应用信息接口报错增加提示，禁止显示新建应用弹窗",
+          "title": "test: 屏蔽扩展组件tab，编辑应用信息时，获取应用信息接口报错增加提示，禁止显示新建应用弹窗",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4875,7 +4875,7 @@
               "full": "7eb3e2b7cd34d4a3ee8b5a8e88021d12080a1517",
               "hash": "7eb3e2b7cd3",
               "date": "2026-06-23",
-              "message": "test: 交行二开：屏蔽扩展组件tab，编辑应用信息时，获取应用信息接口报错增加提示，禁止显示新建应用弹窗",
+              "message": "test: 屏蔽扩展组件tab，编辑应用信息时，获取应用信息接口报错增加提示，禁止显示新建应用弹窗",
               "type": "custom",
               "label": "定制"
             }
@@ -4899,7 +4899,7 @@
         },
         {
           "id": "f-16",
-          "title": "人员单选部门显示问题修复",
+          "title": "test: 人员单选部门显示问题修复",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4907,7 +4907,7 @@
               "full": "fb4d1b121bedc38b0c6e0ad9d740820614f73624",
               "hash": "fb4d1b121be",
               "date": "2026-06-26",
-              "message": "test: 交行定制-人员单选部门显示问题修复",
+              "message": "test: 人员单选部门显示问题修复",
               "type": "custom",
               "label": "定制"
             }
@@ -4915,7 +4915,7 @@
         },
         {
           "id": "f-17",
-          "title": "portal端角色新增角色和角色组",
+          "title": "test: portal端角色新增角色和角色组",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4923,7 +4923,7 @@
               "full": "431dd99a62952232b2f5e15285f15cd58e474e0d",
               "hash": "431dd99a629",
               "date": "2026-06-26",
-              "message": "test: 交行定制-portal端角色新增角色和角色组",
+              "message": "test: portal端角色新增角色和角色组",
               "type": "custom",
               "label": "定制"
             }
@@ -4931,7 +4931,7 @@
         },
         {
           "id": "f-18",
-          "title": "视图显示修改为 根据显示条件调用查询列表接口，判断是否有数据控制显示",
+          "title": "test: 视图显示修改为 根据显示条件调用查询列表接口，判断是否有数据控制显示",
           "type": "custom",
           "tag": "定制",
           "commits": [
@@ -4939,7 +4939,7 @@
               "full": "ea9a9220a9de3b5a8a8b207ffe3571e122e7da84",
               "hash": "ea9a9220a9d",
               "date": "2026-06-26",
-              "message": "test: 交行二开：视图显示修改为 根据显示条件调用查询列表接口，判断是否有数据控制显示",
+              "message": "test: 视图显示修改为 根据显示条件调用查询列表接口，判断是否有数据控制显示",
               "type": "custom",
               "label": "定制"
             }
@@ -4983,7 +4983,7 @@
           "full": "a4ad49f529174447834d57b7777483be9ef8bb2c",
           "hash": "a4ad49f5291",
           "date": "2026-06-08",
-          "message": "fix: #204423 2026-06-11  8.6以后的版本流程节点不支持批量复制粘贴",
+          "message": "fix: #204423 2026-06-11 8.6以后的版本流程节点不支持批量复制粘贴",
           "type": "fix",
           "label": "修复"
         }

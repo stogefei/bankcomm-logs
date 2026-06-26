@@ -1,11 +1,11 @@
-# 交行定制版 · 发版说明站点
+# 定制版 · 发版说明站点
 
-从 [frontend](https://gitlab.authine.cn/cloudpivot/frontend) 仓库 `feature-8.7.x-bankcomm` 分支的 git 提交记录，自动梳理成交行定制版发版说明，交互与视觉风格对齐 [bankcomm.stoa.top](https://bankcomm.stoa.top/)。
+从 [frontend](https://gitlab.authine.cn/cloudpivot/frontend) 仓库 `feature-8.7.x-bankcomm` 分支的 git 提交记录，自动梳理成定制版发版说明，交互与视觉风格对齐 [bankcomm.stoa.top](https://bankcomm.stoa.top/)。
 
 ## 功能
 
 - **发版时间线**：按 `docs: 更新版本` 等版本标记切分提交区间，支持一键切换版本
-- **功能目录**：`test: 交行定制/二开` 提交按功能聚合，展示关联 commit
+- **功能目录**：`test: 定制/二开` 提交按功能聚合，展示关联 commit
 - **修复列表**：`fix:` 提交单独归档
 - **搜索 / 筛选**：按关键词、提交类型快速定位
 - **定制包版本表**：读取 `package.json` 的 `resolutions`

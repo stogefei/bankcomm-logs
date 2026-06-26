@@ -343,7 +343,7 @@
       data.releases[data.releases.length - 1]?.date || '',
     );
     $('#generated-at').textContent = formatGenerated(data.generatedAt);
-    document.title = `云枢企业AI平台 · 交行定制版 ${data.frontendVersion} 发版说明`;
+    document.title = `云枢企业AI平台 · 定制版 ${data.frontendVersion} 发版说明`;
 
     renderTimeline();
     renderContent();

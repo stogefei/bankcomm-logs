@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * 从 frontend 仓库 git 提交记录生成交行定制版发版说明 JSON
+ * 从 frontend 仓库 git 提交记录生成定制版发版说明 JSON
  * 用法: node scripts/generate-changelog.js [frontend仓库路径]
  */
 const { execSync } = require('child_process');
@@ -31,6 +31,18 @@ function getVersionAtCommit(hash) {
   }
 }
 
+function sanitizeDisplay(str) {
+  if (!str) return str;
+  return String(str)
+    .replace(/【交行】/g, '')
+    .replace(/交行定制版/g, '定制版')
+    .replace(/^test:\s*交行(定制|二开)[-：:,，]?\s*/i, 'test: ')
+    .replace(/为交行包/g, '为定制包')
+    .replace(/交行/g, '')
+    .replace(/\s{2,}/g, ' ')
+    .trim();
+}
+
 function classifyCommit(message) {
   if (/^test:\s*交行/.test(message)) return { type: 'custom', label: '定制' };
   if (/^fix:/.test(message)) return { type: 'fix', label: '修复' };
@@ -44,13 +56,19 @@ function classifyCommit(message) {
 }
 
 function featureTitle(message) {
-  const m = message
-    .replace(/^test:\s*交行(定制|二开)[-：:]?\s*/i, '')
-    .replace(/^docs:\s*/i, '')
-    .replace(/^fix:\s*#\d+\s*/, '')
-    .replace(/\s*https?:\/\/\S+/g, '')
-    .trim();
+  const m = sanitizeDisplay(
+    message
+      .replace(/^test:\s*交行(定制|二开)[-：:]?\s*/i, '')
+      .replace(/^docs:\s*/i, '')
+      .replace(/^fix:\s*#\d+\s*/, '')
+      .replace(/\s*https?:\/\/\S+/g, '')
+      .trim(),
+  );
   return m.slice(0, 80) + (m.length > 80 ? '…' : '');
+}
+
+function sanitizeCommit(c) {
+  return { ...c, message: sanitizeDisplay(c.message) };
 }
 
 function groupFeatures(commits) {
@@ -160,7 +178,8 @@ function main() {
   }
 
   merged.forEach((r) => {
-    r.commits = dedupeCommits(r.commits);
+    r.commits = dedupeCommits(r.commits.map(sanitizeCommit));
+    if (r.markerMessage) r.markerMessage = sanitizeDisplay(r.markerMessage);
     const grouped = groupFeatures(r.commits);
     r.stats = {
       total: r.commits.length,
