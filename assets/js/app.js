@@ -72,8 +72,9 @@
 
   function filterCommits(commits) {
     return commits.filter((c) => {
-      if (typeFilter === 'custom' && !['custom', 'docs-feature'].includes(c.type)) return false;
-      if (typeFilter !== 'all' && typeFilter !== 'custom' && c.type !== typeFilter) return false;
+      if (typeFilter === 'custom' && c.type !== 'custom') return false;
+      if (typeFilter === 'mainline' && c.type !== 'mainline') return false;
+      if (typeFilter !== 'all' && typeFilter !== 'custom' && typeFilter !== 'mainline' && c.type !== typeFilter) return false;
       if (!searchQuery) return true;
       const q = searchQuery.toLowerCase();
       return (
@@ -84,24 +85,28 @@
     });
   }
 
-  function renderFeatureCard(feature, index, releaseId) {
+  function renderFeatureCard(feature, index, releaseId, idPrefix) {
     const color = COLORS[index % COLORS.length];
     const commits = filterCommits(feature.commits);
     if (!commits.length && (searchQuery || typeFilter !== 'all')) return '';
 
+    const isCustom = feature.tag === '定制';
+    const badgeClass = isCustom ? 'badge-custom' : 'badge-product';
+    const borderColor = isCustom ? color.border : 'var(--accent)';
+
     return `
-    <div class="feature" id="${releaseId}-feat-${index + 1}" style="border-left: 3px solid ${color.border};">
+    <div class="feature" id="${releaseId}-${idPrefix}-${index + 1}" style="border-left: 3px solid ${borderColor};">
       <div class="feature-header">
         <div class="feature-icon" style="background: ${color.bg}; color: ${color.fg};">${padNum(index + 1)}</div>
         <div class="feature-header-text">
           <h3>${escapeHtml(feature.title)}</h3>
-          <p class="desc">${commits.length} 个相关提交 · ${escapeHtml(feature.tag)}功能</p>
+          <p class="desc">${commits.length} 个相关提交 · ${escapeHtml(feature.tag)}</p>
         </div>
       </div>
       <div class="feature-body">
         <div class="tag-row">
           <span class="tag tag-feat">FEATURE</span>
-          <span class="badge badge-custom">${escapeHtml(feature.tag)} · feature-8.7.x-bankcomm</span>
+          <span class="badge ${badgeClass}">${escapeHtml(feature.tag)}</span>
         </div>
         <div class="detail-section">
           <h4 class="collapse-toggle">关联提交</h4>
@@ -116,18 +121,23 @@
   function renderReleaseBlock(release, globalIndex) {
     const releaseId = `release-${globalIndex}`;
     const features = release.features || [];
+    const mainline = release.mainline || [];
     const fixes = filterCommits(release.fixes || []);
-    const others = filterCommits(release.others || []);
 
     const featureCards = features
-      .map((f, i) => renderFeatureCard(f, i, releaseId))
+      .map((f, i) => renderFeatureCard(f, i, releaseId, 'feat'))
+      .filter(Boolean)
+      .join('');
+
+    const mainlineCards = mainline
+      .map((f, i) => renderFeatureCard(f, i, releaseId, 'ml'))
       .filter(Boolean)
       .join('');
 
     const hasContent =
       featureCards ||
+      mainlineCards ||
       fixes.length ||
-      others.length ||
       (!searchQuery && typeFilter === 'all');
 
     if (!hasContent) return '';
@@ -139,15 +149,31 @@
         <div class="feature-header">
           <div class="feature-icon" style="background: var(--rose-light); color: var(--rose);">FX</div>
           <div class="feature-header-text">
-            <h3>缺陷修复</h3>
+            <h3>缺陷修复（主线）</h3>
             <p class="desc">本版本共 ${fixes.length} 个 fix 提交</p>
           </div>
         </div>
         <div class="feature-body">
-          <div class="tag-row"><span class="tag tag-fix">FIX</span></div>
+          <div class="tag-row"><span class="tag tag-fix">FIX</span><span class="badge badge-product">合并主线</span></div>
           ${renderCommitList(fixes, 30)}
         </div>
       </div>`;
+    }
+
+    let mainlineSection = '';
+    if (mainlineCards) {
+      mainlineSection = `
+      <h3 class="release-subsection-title">合并 8.7.x 主线</h3>
+      ${mainlineCards}`;
+    }
+
+    let customSection = '';
+    if (featureCards) {
+      customSection = `
+      <h3 class="release-subsection-title">定制功能</h3>
+      ${featureCards}`;
+    } else if (!searchQuery && typeFilter === 'all') {
+      customSection = '<p class="empty-state" style="padding:24px;">本版本无定制功能提交</p>';
     }
 
     return `
@@ -156,10 +182,11 @@
         <span class="version-tag">${escapeHtml(release.version)}</span>
         <span style="font-size:14px;font-weight:400;color:var(--text-secondary);">${formatDate(release.date)}</span>
         <span style="font-size:13px;font-weight:400;color:var(--text-secondary);margin-left:auto;">
-          定制 ${release.stats.custom} · 修复 ${release.stats.fix} · 共 ${release.stats.total} 提交
+          定制 ${release.stats.custom} · 主线 ${release.stats.mainline || 0} · 修复 ${release.stats.fix} · 共 ${release.stats.total} 提交
         </span>
       </h2>
-      ${featureCards || '<p class="empty-state">本版本无定制功能提交</p>'}
+      ${customSection}
+      ${mainlineSection}
       ${fixSection}
     </section>`;
   }
@@ -176,12 +203,13 @@
   function updateStats() {
     const releases = getVisibleReleases();
     const custom = releases.reduce((n, r) => n + r.stats.custom, 0);
+    const mainline = releases.reduce((n, r) => n + (r.stats.mainline || 0), 0);
     const fix = releases.reduce((n, r) => n + r.stats.fix, 0);
     const total = releases.reduce((n, r) => n + r.stats.total, 0);
     const features = releases.reduce((n, r) => n + (r.features?.length || 0), 0);
 
     $('#stat-releases').textContent = releases.length;
-    $('#stat-custom').textContent = custom;
+    $('#stat-mainline').textContent = mainline;
     $('#stat-fix').textContent = fix;
     $('#stat-total').textContent = total;
     $('#stat-features').textContent = features;
@@ -190,12 +218,21 @@
   function renderToc() {
     const releases = getVisibleReleases();
     const items = [];
-    releases.forEach((r, ri) => {
+    releases.forEach((r) => {
+      const ri = data.releases.indexOf(r);
       (r.features || []).forEach((f, fi) => {
         const commits = filterCommits(f.commits);
         if (commits.length || (!searchQuery && typeFilter === 'all')) {
           items.push(
-            `<li><a href="#release-${data.releases.indexOf(r)}-feat-${fi + 1}">${escapeHtml(f.title)}</a> <span class="badge badge-custom">定制</span></li>`,
+            `<li><a href="#release-${ri}-feat-${fi + 1}">${escapeHtml(f.title)}</a> <span class="badge badge-custom">定制</span></li>`,
+          );
+        }
+      });
+      (r.mainline || []).forEach((f, fi) => {
+        const commits = filterCommits(f.commits);
+        if (commits.length || (!searchQuery && typeFilter === 'all')) {
+          items.push(
+            `<li><a href="#release-${ri}-ml-${fi + 1}">${escapeHtml(f.title)}</a> <span class="badge badge-product">合并主线</span></li>`,
           );
         }
       });
@@ -259,6 +296,7 @@
           <div class="step-desc">${escapeHtml(r.date)}</div>
           <div class="step-stats">
             <span class="step-stat">定制 ${r.stats.custom}</span>
+            <span class="step-stat">主线 ${r.stats.mainline || 0}</span>
             <span class="step-stat">修复 ${r.stats.fix}</span>
           </div>
         </div>

@@ -708,7 +708,20 @@
 
   .commit-type.custom { background: var(--green-light); color: var(--green); }
   .commit-type.fix { background: var(--rose-light); color: var(--rose); }
-  .commit-type.docs-feature { background: var(--accent-light); color: var(--accent); }
+  .commit-type.mainline { background: var(--accent-light); color: var(--accent); }
+
+  .release-subsection-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin: 28px 0 16px;
+    padding-left: 12px;
+    border-left: 3px solid var(--border);
+  }
+
+  .release-block .release-subsection-title:first-of-type {
+    margin-top: 0;
+  }
   .commit-type.other { background: var(--bg); color: var(--text-secondary); }
 
   .release-section-title {

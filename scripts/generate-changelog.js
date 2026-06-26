@@ -2,6 +2,10 @@
 /**
  * 从 frontend 仓库 git 提交记录生成定制版发版说明 JSON
  * 用法: node scripts/generate-changelog.js [frontend仓库路径]
+ *
+ * 分类规则：
+ * - 定制：仅 test: 交行定制 / test: 交行二开
+ * - 合并主线：fix / feat / docs / merge 8.7.x 等标品与主线合入
  */
 const { execSync } = require('child_process');
 const fs = require('fs');
@@ -43,27 +47,32 @@ function sanitizeDisplay(str) {
     .trim();
 }
 
+/** 仅 test: 交行* 为定制，其余非版本标记提交均视为合并主线/标品 */
 function classifyCommit(message) {
-  if (/^test:\s*交行/.test(message)) return { type: 'custom', label: '定制' };
+  if (/^test:\s*交行(定制|二开)/.test(message)) {
+    return { type: 'custom', label: '定制' };
+  }
   if (/^fix:/.test(message)) return { type: 'fix', label: '修复' };
-  if (/^docs:\s*(更新版本|发布版本|临时发布版本|更新定制依赖包版本)/.test(message))
+  if (/^docs:\s*(更新版本|发布版本|临时发布版本|更新定制依赖包版本)/.test(message)) {
     return { type: 'docs', label: '文档' };
-  if (/^docs:/.test(message)) return { type: 'docs-feature', label: '说明' };
-  if (/^refactor:/.test(message)) return { type: 'refactor', label: '重构' };
+  }
   if (/^build:/.test(message)) return { type: 'build', label: '构建' };
-  if (/^feat:/.test(message)) return { type: 'feature', label: '功能' };
-  return { type: 'other', label: '其他' };
+  return { type: 'mainline', label: '合并主线' };
 }
 
-function featureTitle(message) {
-  const m = sanitizeDisplay(
-    message
-      .replace(/^test:\s*交行(定制|二开)[-：:]?\s*/i, '')
-      .replace(/^docs:\s*/i, '')
-      .replace(/^fix:\s*#\d+\s*/, '')
-      .replace(/\s*https?:\/\/\S+/g, '')
-      .trim(),
-  );
+function featureTitle(message, type) {
+  let m = message
+    .replace(/^test:\s*交行(定制|二开)[-：:,，]?\s*/i, '')
+    .replace(/^test:\s*/i, '')
+    .replace(/^docs:\s*/i, '')
+    .replace(/^fix:\s*#\d+\s*/, '')
+    .replace(/^fix:\s*#\d+\s*【8\.7\.x】\s*/i, '')
+    .replace(/\s*https?:\/\/\S+/g, '')
+    .trim();
+  if (type === 'mainline' && /^合并/.test(m)) {
+    m = m.replace(/^合并项目二开代码$/, '合并 8.7.x 主线代码');
+  }
+  m = sanitizeDisplay(m);
   return m.slice(0, 80) + (m.length > 80 ? '…' : '');
 }
 
@@ -71,33 +80,31 @@ function sanitizeCommit(c) {
   return { ...c, message: sanitizeDisplay(c.message) };
 }
 
-function groupFeatures(commits) {
-  const custom = commits.filter((c) => c.type === 'custom' || c.type === 'docs-feature');
-  const fixes = commits.filter((c) => c.type === 'fix');
-  const others = commits.filter(
-    (c) => !['custom', 'fix', 'docs', 'build', 'docs-feature'].includes(c.type),
-  );
-
+function buildFeatureGroups(commits, type, tag) {
+  const filtered = commits.filter((c) => c.type === type);
   const featureMap = new Map();
-  custom.forEach((c) => {
-    const title = featureTitle(c.message);
+  filtered.forEach((c) => {
+    const title = featureTitle(c.message, type);
     const key = title.slice(0, 36);
     if (!featureMap.has(key)) {
       featureMap.set(key, {
         id: `f-${featureMap.size + 1}`,
         title,
-        type: 'custom',
-        tag: '定制',
+        type,
+        tag,
         commits: [],
       });
     }
     featureMap.get(key).commits.push(c);
   });
+  return Array.from(featureMap.values());
+}
 
+function groupFeatures(commits) {
   return {
-    features: Array.from(featureMap.values()),
-    fixes,
-    others,
+    features: buildFeatureGroups(commits, 'custom', '定制'),
+    mainline: buildFeatureGroups(commits, 'mainline', '合并主线'),
+    fixes: commits.filter((c) => c.type === 'fix'),
   };
 }
 
@@ -151,10 +158,8 @@ function main() {
   });
   if (current && current.commits.length) releases.push(current);
 
-  // 按日期倒序
   releases.reverse();
 
-  // 合并同版本号的多段发版区间
   const merged = [];
   releases.forEach((r) => {
     const last = merged[merged.length - 1];
@@ -183,12 +188,13 @@ function main() {
     const grouped = groupFeatures(r.commits);
     r.stats = {
       total: r.commits.length,
-      custom: r.commits.filter((c) => c.type === 'custom' || c.type === 'docs-feature').length,
+      custom: r.commits.filter((c) => c.type === 'custom').length,
+      mainline: r.commits.filter((c) => c.type === 'mainline').length,
       fix: r.commits.filter((c) => c.type === 'fix').length,
     };
     r.features = grouped.features;
+    r.mainline = grouped.mainline;
     r.fixes = grouped.fixes;
-    r.others = grouped.others;
     delete r.commits;
   });
 
@@ -209,6 +215,7 @@ function main() {
       releaseCount: releasesOut.length,
       totalCommits: releasesOut.reduce((n, r) => n + r.stats.total, 0),
       totalCustom: releasesOut.reduce((n, r) => n + r.stats.custom, 0),
+      totalMainline: releasesOut.reduce((n, r) => n + r.stats.mainline, 0),
       totalFix: releasesOut.reduce((n, r) => n + r.stats.fix, 0),
     },
   };

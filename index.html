@@ -41,8 +41,8 @@
     <div class="label">定制功能</div>
   </div>
   <div class="stat-card">
-    <div class="number" id="stat-custom">—</div>
-    <div class="label">定制提交</div>
+    <div class="number" id="stat-mainline">—</div>
+    <div class="label">合并主线</div>
   </div>
   <div class="stat-card">
     <div class="number" id="stat-fix">—</div>
@@ -64,10 +64,9 @@
   <input type="search" id="search-input" placeholder="搜索提交信息、hash、日期…" autocomplete="off">
   <select id="type-filter" aria-label="提交类型筛选">
     <option value="all">全部类型</option>
-    <option value="custom">定制 (test: 定制 / docs 说明)</option>
+    <option value="custom">定制 (test: 交行定制/二开)</option>
+    <option value="mainline">合并主线 (8.7.x 等)</option>
     <option value="fix">修复 (fix:)</option>
-    <option value="feature">功能 (feat:)</option>
-    <option value="other">其他</option>
   </select>
 </div>
 
