@@ -32,7 +32,7 @@ git commit -m "docs: 更新发版说明"
 git push
 ```
 
-GitHub Actions 会自动部署到 GitHub Pages。
+推送后 GitHub Pages 会自动更新（见下方部署说明）。
 
 ## 配置
 
@@ -46,13 +46,29 @@ GitHub Actions 会自动部署到 GitHub Pages。
 
 修改 GitLab commit 链接：编辑 `index.html` 中 `body` 的 `data-gitlab-base` 属性。
 
-## GitHub Pages 部署
+## GitHub Pages 部署（纯静态，无需构建）
 
-1. 推送本仓库到 GitHub
-2. Settings → Pages → Source 选 **GitHub Actions**
-3. 推送 `main` 分支后，`.github/workflows/pages.yml` 自动构建发布
+本仓库**就是静态文件**（`index.html` + `assets/` + `data/`），不需要 Node 构建或 GitHub Actions。
 
-也可手动在仓库根目录启用 Pages（Deploy from branch → `main` / root）。
+### 推荐：从分支直接部署
+
+1. 打开仓库 **Settings → Pages**
+2. **Build and deployment → Source** 选 **Deploy from a branch**
+3. **Branch** 选 `main`，目录选 **`/ (root)`**，保存
+4. 等待 1～2 分钟，访问：
+
+   **https://stogefei.github.io/bankcomm-logs/**
+
+> 若 Actions 里 `pages-build-deployment` 一直 Queued，通常是 GitHub 排队或首次启用 Pages，稍等或刷新即可。与自定义 workflow 无关——本仓库不依赖 Actions。
+
+### 本地直接打开
+
+也可把仓库目录丢到任意静态服务器（Nginx、OSS、内网文件服务）：
+
+```bash
+npx serve . -p 4173
+# 或直接双击 index.html（fetch 加载 JSON 需通过 http 访问）
+```
 
 ## 版本切分规则
 
